@@ -1,0 +1,3010 @@
+Training Start!
+Generate data: 1.13886
+P and BP: 6.78753
+epoch 0/400: loss: 283.887
+Generate data: 1.13908
+P and BP: 6.7435
+epoch 1/400: loss: 283.615
+Generate data: 1.14422
+P and BP: 6.76234
+epoch 2/400: loss: 283.869
+Generate data: 1.14518
+P and BP: 6.72445
+epoch 3/400: loss: 282.584
+Generate data: 1.14387
+P and BP: 6.71713
+epoch 4/400: loss: 283.657
+Generate data: 1.16225
+P and BP: 7.05876
+epoch 5/400: loss: 282.557
+Generate data: 1.15468
+P and BP: 6.72291
+epoch 6/400: loss: 281.257
+Generate data: 1.14441
+P and BP: 6.73404
+epoch 7/400: loss: 281.351
+Generate data: 1.13955
+P and BP: 6.74225
+epoch 8/400: loss: 281.724
+Generate data: 1.14183
+P and BP: 6.69228
+epoch 9/400: loss: 279.45
+Generate data: 1.14066
+P and BP: 6.72751
+epoch 10/400: loss: 278.645
+Generate data: 1.1411
+P and BP: 6.69453
+epoch 11/400: loss: 278.069
+Generate data: 1.13964
+P and BP: 6.71249
+epoch 12/400: loss: 278.13
+Generate data: 1.14365
+P and BP: 6.73425
+epoch 13/400: loss: 276.946
+Generate data: 1.14102
+P and BP: 6.69844
+epoch 14/400: loss: 277.37
+Generate data: 1.143
+P and BP: 6.69312
+epoch 15/400: loss: 274.686
+Generate data: 1.16319
+P and BP: 6.70517
+epoch 16/400: loss: 275.177
+Generate data: 1.13996
+P and BP: 6.69857
+epoch 17/400: loss: 274.194
+Generate data: 1.13999
+P and BP: 6.70719
+epoch 18/400: loss: 273.142
+Generate data: 1.14285
+P and BP: 6.70697
+epoch 19/400: loss: 272.135
+Generate data: 1.13992
+P and BP: 6.70352
+epoch 20/400: loss: 272.519
+Generate data: 1.14262
+P and BP: 6.70043
+epoch 21/400: loss: 270.653
+Generate data: 1.15067
+P and BP: 6.70734
+epoch 22/400: loss: 270.852
+Generate data: 1.14023
+P and BP: 6.7325
+epoch 23/400: loss: 268.188
+Generate data: 1.13981
+P and BP: 6.72091
+epoch 24/400: loss: 266.791
+Generate data: 1.14382
+P and BP: 6.70505
+epoch 25/400: loss: 265.209
+Generate data: 1.14331
+P and BP: 6.73099
+epoch 26/400: loss: 264.954
+Generate data: 1.14093
+P and BP: 6.73271
+epoch 27/400: loss: 262.49
+Generate data: 1.14047
+P and BP: 6.72301
+epoch 28/400: loss: 262.297
+Generate data: 1.14143
+P and BP: 6.73843
+epoch 29/400: loss: 260.087
+Generate data: 1.14049
+P and BP: 6.69985
+epoch 30/400: loss: 257.673
+Generate data: 1.14062
+P and BP: 6.70027
+epoch 31/400: loss: 255.835
+Generate data: 1.15281
+P and BP: 6.69981
+epoch 32/400: loss: 252.749
+Generate data: 1.14311
+P and BP: 6.71846
+epoch 33/400: loss: 250.269
+Generate data: 1.15705
+P and BP: 6.70258
+epoch 34/400: loss: 246.703
+Generate data: 1.14351
+P and BP: 6.72938
+epoch 35/400: loss: 245.118
+Generate data: 1.14295
+P and BP: 6.7207
+epoch 36/400: loss: 241.729
+Generate data: 1.14366
+P and BP: 6.71614
+epoch 37/400: loss: 239.305
+Generate data: 1.14146
+P and BP: 6.72093
+epoch 38/400: loss: 236.097
+Generate data: 1.1532
+P and BP: 6.73168
+epoch 39/400: loss: 233.505
+Generate data: 1.14057
+P and BP: 6.74092
+epoch 40/400: loss: 229.108
+Generate data: 1.14243
+P and BP: 6.71798
+epoch 41/400: loss: 223.131
+Generate data: 1.13832
+P and BP: 6.71731
+epoch 42/400: loss: 218.717
+Generate data: 1.14213
+P and BP: 6.95427
+epoch 43/400: loss: 212.214
+Generate data: 1.14355
+P and BP: 6.76674
+epoch 44/400: loss: 210.434
+Generate data: 1.14022
+P and BP: 6.71317
+epoch 45/400: loss: 204.505
+Generate data: 1.13985
+P and BP: 6.70544
+epoch 46/400: loss: 199.514
+Generate data: 1.139
+P and BP: 6.69002
+epoch 47/400: loss: 194.433
+Generate data: 1.13936
+P and BP: 6.66857
+epoch 48/400: loss: 187.279
+Generate data: 1.14046
+P and BP: 6.69611
+epoch 49/400: loss: 178.217
+Generate data: 1.15316
+P and BP: 6.69772
+epoch 50/400: loss: 171.361
+Generate data: 1.1406
+P and BP: 6.68717
+epoch 51/400: loss: 167.68
+Generate data: 1.14027
+P and BP: 6.67562
+epoch 52/400: loss: 157.359
+Generate data: 1.15671
+P and BP: 6.66585
+epoch 53/400: loss: 149.812
+Generate data: 1.15629
+P and BP: 6.70193
+epoch 54/400: loss: 145.38
+Generate data: 1.13944
+P and BP: 6.71945
+epoch 55/400: loss: 133.616
+Generate data: 1.14221
+P and BP: 6.6933
+epoch 56/400: loss: 124.537
+Generate data: 1.14033
+P and BP: 6.72604
+epoch 57/400: loss: 119.808
+Generate data: 1.14182
+P and BP: 6.72545
+epoch 58/400: loss: 113.087
+Generate data: 1.1452
+P and BP: 6.72139
+epoch 59/400: loss: 103.748
+Generate data: 1.14286
+P and BP: 6.72987
+epoch 60/400: loss: 94.9752
+Generate data: 1.14173
+P and BP: 6.69574
+epoch 61/400: loss: 93.142
+Generate data: 1.13997
+P and BP: 6.92865
+epoch 62/400: loss: 87.5366
+Generate data: 1.14883
+P and BP: 6.91419
+epoch 63/400: loss: 81.6583
+Generate data: 1.1404
+P and BP: 6.70612
+epoch 64/400: loss: 74.4193
+Generate data: 1.15091
+P and BP: 6.70679
+epoch 65/400: loss: 70.3758
+Generate data: 1.13941
+P and BP: 6.72722
+epoch 66/400: loss: 68.1725
+Generate data: 1.14257
+P and BP: 6.7116
+epoch 67/400: loss: 62.9852
+Generate data: 1.13909
+P and BP: 6.68959
+epoch 68/400: loss: 58.73
+Generate data: 1.14181
+P and BP: 6.73294
+epoch 69/400: loss: 57.9758
+Generate data: 1.14869
+P and BP: 6.7159
+epoch 70/400: loss: 55.6464
+Generate data: 1.14219
+P and BP: 6.69736
+epoch 71/400: loss: 53.8124
+Generate data: 1.13951
+P and BP: 6.74112
+epoch 72/400: loss: 52.9592
+Generate data: 1.14285
+P and BP: 6.69547
+epoch 73/400: loss: 50.7287
+Generate data: 1.14121
+P and BP: 6.74007
+epoch 74/400: loss: 49.4643
+Generate data: 1.14
+P and BP: 6.72165
+epoch 75/400: loss: 48.9402
+Generate data: 1.14004
+P and BP: 6.72288
+epoch 76/400: loss: 48.6027
+Generate data: 1.14189
+P and BP: 6.73265
+epoch 77/400: loss: 47.9558
+Generate data: 1.14013
+P and BP: 6.72895
+epoch 78/400: loss: 46.675
+Generate data: 1.14252
+P and BP: 6.72693
+epoch 79/400: loss: 47.1205
+Generate data: 1.13956
+P and BP: 6.74537
+epoch 80/400: loss: 46.7938
+Generate data: 1.14035
+P and BP: 6.90952
+epoch 81/400: loss: 46.6182
+Generate data: 1.14412
+P and BP: 6.84144
+epoch 82/400: loss: 46.6976
+Generate data: 1.14103
+P and BP: 6.75233
+epoch 83/400: loss: 46.188
+Generate data: 1.1595
+P and BP: 6.79091
+epoch 84/400: loss: 46.1921
+Generate data: 1.14049
+P and BP: 6.71774
+epoch 85/400: loss: 45.8866
+Generate data: 1.13936
+P and BP: 6.72126
+epoch 86/400: loss: 45.5965
+Generate data: 1.14326
+P and BP: 6.73288
+epoch 87/400: loss: 44.881
+Generate data: 1.15201
+P and BP: 6.70825
+epoch 88/400: loss: 44.7495
+Generate data: 1.14131
+P and BP: 6.72489
+epoch 89/400: loss: 44.7073
+Generate data: 1.1407
+P and BP: 6.6859
+epoch 90/400: loss: 45.6414
+Generate data: 1.14167
+P and BP: 6.71237
+epoch 91/400: loss: 43.9024
+Generate data: 1.13927
+P and BP: 6.70428
+epoch 92/400: loss: 43.9439
+Generate data: 1.14083
+P and BP: 6.70725
+epoch 93/400: loss: 43.1202
+Generate data: 1.14083
+P and BP: 6.70331
+epoch 94/400: loss: 42.9444
+Generate data: 1.1427
+P and BP: 6.6946
+epoch 95/400: loss: 41.9725
+Generate data: 1.13845
+P and BP: 6.71529
+epoch 96/400: loss: 41.5514
+Generate data: 1.1431
+P and BP: 6.69717
+epoch 97/400: loss: 40.3396
+Generate data: 1.13924
+P and BP: 6.70699
+epoch 98/400: loss: 40.5915
+Generate data: 1.14123
+P and BP: 6.70809
+epoch 99/400: loss: 40.2986
+Generate data: 1.13858
+P and BP: 6.70063
+epoch 100/400: loss: 39.6599
+Generate data: 1.14226
+P and BP: 6.70223
+epoch 101/400: loss: 39.0631
+Generate data: 1.13904
+P and BP: 6.69755
+epoch 102/400: loss: 38.922
+Generate data: 1.14434
+P and BP: 6.69075
+epoch 103/400: loss: 38.1047
+Generate data: 1.13827
+P and BP: 6.6964
+epoch 104/400: loss: 36.9346
+Generate data: 1.14016
+P and BP: 6.69966
+epoch 105/400: loss: 36.6266
+Generate data: 1.13821
+P and BP: 6.70148
+epoch 106/400: loss: 37.2884
+Generate data: 1.14042
+P and BP: 6.73636
+epoch 107/400: loss: 36.0794
+Generate data: 1.14106
+P and BP: 6.98635
+epoch 108/400: loss: 35.6075
+Generate data: 1.14316
+P and BP: 6.77614
+epoch 109/400: loss: 35.4605
+Generate data: 1.15932
+P and BP: 6.68942
+epoch 110/400: loss: 35.0235
+Generate data: 1.14118
+P and BP: 6.69035
+epoch 111/400: loss: 34.6058
+Generate data: 1.14019
+P and BP: 6.70487
+epoch 112/400: loss: 34.0144
+Generate data: 1.14106
+P and BP: 6.70343
+epoch 113/400: loss: 34.6687
+Generate data: 1.14173
+P and BP: 6.71468
+epoch 114/400: loss: 33.7848
+Generate data: 1.14214
+P and BP: 6.68014
+epoch 115/400: loss: 34.1698
+Generate data: 1.13879
+P and BP: 6.69431
+epoch 116/400: loss: 33.273
+Generate data: 1.14105
+P and BP: 6.68203
+epoch 117/400: loss: 32.8013
+Generate data: 1.13953
+P and BP: 6.67616
+epoch 118/400: loss: 32.6549
+Generate data: 1.14077
+P and BP: 6.68399
+epoch 119/400: loss: 31.9417
+Generate data: 1.1396
+P and BP: 6.70505
+epoch 120/400: loss: 32.381
+Generate data: 1.14621
+P and BP: 6.84117
+epoch 121/400: loss: 32.064
+Generate data: 1.13832
+P and BP: 6.71455
+epoch 122/400: loss: 31.6181
+Generate data: 1.14217
+P and BP: 6.69778
+epoch 123/400: loss: 31.0311
+Generate data: 1.13838
+P and BP: 6.70695
+epoch 124/400: loss: 30.8657
+Generate data: 1.14144
+P and BP: 6.71883
+epoch 125/400: loss: 30.4116
+Generate data: 1.13719
+P and BP: 6.7095
+epoch 126/400: loss: 30.3676
+Generate data: 1.14081
+P and BP: 6.70077
+epoch 127/400: loss: 30.9149
+Generate data: 1.13751
+P and BP: 6.73307
+epoch 128/400: loss: 29.6199
+Generate data: 1.14129
+P and BP: 6.69706
+epoch 129/400: loss: 28.8277
+Generate data: 1.14052
+P and BP: 6.7343
+epoch 130/400: loss: 28.6852
+Generate data: 1.14182
+P and BP: 6.70388
+epoch 131/400: loss: 28.4341
+Generate data: 1.13983
+P and BP: 6.71027
+epoch 132/400: loss: 28.2299
+Generate data: 1.1432
+P and BP: 6.72808
+epoch 133/400: loss: 28.2053
+Generate data: 1.14091
+P and BP: 6.71887
+epoch 134/400: loss: 27.4221
+Generate data: 1.14287
+P and BP: 6.73538
+epoch 135/400: loss: 27.7941
+Generate data: 1.14134
+P and BP: 6.74091
+epoch 136/400: loss: 27.3884
+Generate data: 1.14599
+P and BP: 6.75584
+epoch 137/400: loss: 27.2224
+Generate data: 1.1394
+P and BP: 6.72006
+epoch 138/400: loss: 27.3232
+Generate data: 1.14023
+P and BP: 6.72481
+epoch 139/400: loss: 27.1891
+Generate data: 1.13837
+P and BP: 6.73908
+epoch 140/400: loss: 26.3258
+Generate data: 1.14241
+P and BP: 6.72351
+epoch 141/400: loss: 27.0154
+Generate data: 1.1403
+P and BP: 6.72093
+epoch 142/400: loss: 26.6357
+Generate data: 1.14012
+P and BP: 6.72099
+epoch 143/400: loss: 25.9004
+Generate data: 1.14261
+P and BP: 6.74708
+epoch 144/400: loss: 26.5709
+Generate data: 1.14356
+P and BP: 6.73569
+epoch 145/400: loss: 26.188
+Generate data: 1.1376
+P and BP: 6.77633
+epoch 146/400: loss: 25.7114
+Generate data: 1.16432
+P and BP: 6.73674
+epoch 147/400: loss: 26.0593
+Generate data: 1.13957
+P and BP: 6.73177
+epoch 148/400: loss: 25.8921
+Generate data: 1.14083
+P and BP: 6.72572
+epoch 149/400: loss: 25.5213
+Generate data: 1.14024
+P and BP: 6.73551
+epoch 150/400: loss: 25.5524
+Generate data: 1.1444
+P and BP: 6.72253
+epoch 151/400: loss: 25.4911
+Generate data: 1.14064
+P and BP: 6.73936
+epoch 152/400: loss: 25.7967
+Generate data: 1.14368
+P and BP: 6.7236
+epoch 153/400: loss: 25.8366
+Generate data: 1.14028
+P and BP: 6.73421
+epoch 154/400: loss: 25.9664
+Generate data: 1.1488
+P and BP: 6.7533
+epoch 155/400: loss: 25.437
+Generate data: 1.14213
+P and BP: 6.71611
+epoch 156/400: loss: 25.0531
+Generate data: 1.14434
+P and BP: 6.73683
+epoch 157/400: loss: 24.8385
+Generate data: 1.15574
+P and BP: 6.72796
+epoch 158/400: loss: 25.6802
+Generate data: 1.15224
+P and BP: 6.84693
+epoch 159/400: loss: 24.9004
+Generate data: 1.1423
+P and BP: 6.73292
+epoch 160/400: loss: 24.6684
+Generate data: 1.14155
+P and BP: 6.73243
+epoch 161/400: loss: 24.9974
+Generate data: 1.14043
+P and BP: 6.72042
+epoch 162/400: loss: 24.4531
+Generate data: 1.15821
+P and BP: 6.72575
+epoch 163/400: loss: 24.6555
+Generate data: 1.13955
+P and BP: 6.72878
+epoch 164/400: loss: 25.2721
+Generate data: 1.14138
+P and BP: 6.71746
+epoch 165/400: loss: 24.759
+Generate data: 1.14162
+P and BP: 6.72262
+epoch 166/400: loss: 24.051
+Generate data: 1.13883
+P and BP: 6.72528
+epoch 167/400: loss: 24.8471
+Generate data: 1.14092
+P and BP: 6.73634
+epoch 168/400: loss: 24.4467
+Generate data: 1.14334
+P and BP: 6.72429
+epoch 169/400: loss: 24.6469
+Generate data: 1.15135
+P and BP: 6.71753
+epoch 170/400: loss: 24.6862
+Generate data: 1.14069
+P and BP: 6.72499
+epoch 171/400: loss: 24.2682
+Generate data: 1.141
+P and BP: 6.74569
+epoch 172/400: loss: 23.9928
+Generate data: 1.13979
+P and BP: 6.71754
+epoch 173/400: loss: 24.582
+Generate data: 1.13896
+P and BP: 6.73653
+epoch 174/400: loss: 24.2287
+Generate data: 1.1431
+P and BP: 6.89004
+epoch 175/400: loss: 24.4528
+Generate data: 1.14092
+P and BP: 6.70566
+epoch 176/400: loss: 24.3879
+Generate data: 1.14238
+P and BP: 6.70373
+epoch 177/400: loss: 24.0468
+Generate data: 1.139
+P and BP: 6.72474
+epoch 178/400: loss: 24.8519
+Generate data: 1.1403
+P and BP: 6.73258
+epoch 179/400: loss: 23.6851
+Generate data: 1.13877
+P and BP: 6.70926
+epoch 180/400: loss: 24.0492
+Generate data: 1.14438
+P and BP: 6.71509
+epoch 181/400: loss: 24.1132
+Generate data: 1.1389
+P and BP: 6.74357
+epoch 182/400: loss: 24.0051
+Generate data: 1.14144
+P and BP: 6.72854
+epoch 183/400: loss: 23.6461
+Generate data: 1.13866
+P and BP: 6.84661
+epoch 184/400: loss: 24.7861
+Generate data: 1.14398
+P and BP: 7.06726
+epoch 185/400: loss: 24.1823
+Generate data: 1.1429
+P and BP: 6.715
+epoch 186/400: loss: 23.0914
+Generate data: 1.14201
+P and BP: 6.71965
+epoch 187/400: loss: 23.8554
+Generate data: 1.14155
+P and BP: 6.70893
+epoch 188/400: loss: 23.498
+Generate data: 1.14135
+P and BP: 6.71129
+epoch 189/400: loss: 22.7412
+Generate data: 1.13758
+P and BP: 7.07381
+epoch 190/400: loss: 23.8347
+Generate data: 1.20145
+P and BP: 6.79637
+epoch 191/400: loss: 23.2395
+Generate data: 1.14071
+P and BP: 6.7038
+epoch 192/400: loss: 22.9557
+Generate data: 1.14164
+P and BP: 6.71573
+epoch 193/400: loss: 23.4279
+Generate data: 1.13735
+P and BP: 6.7214
+epoch 194/400: loss: 23.4639
+Generate data: 1.14063
+P and BP: 6.83267
+epoch 195/400: loss: 23.2709
+Generate data: 1.14268
+P and BP: 6.71459
+epoch 196/400: loss: 23.4598
+Generate data: 1.14086
+P and BP: 6.73435
+epoch 197/400: loss: 23.3278
+Generate data: 1.14372
+P and BP: 6.71387
+epoch 198/400: loss: 23.0882
+Generate data: 1.142
+P and BP: 6.8684
+epoch 199/400: loss: 24.7204
+Generate data: 1.13933
+P and BP: 6.71419
+epoch 200/400: loss: 23.1623
+Generate data: 1.14162
+P and BP: 6.72909
+epoch 201/400: loss: 23.9455
+Generate data: 1.13892
+P and BP: 6.70353
+epoch 202/400: loss: 23.5576
+Generate data: 1.14414
+P and BP: 6.70146
+epoch 203/400: loss: 23.1548
+Generate data: 1.14007
+P and BP: 6.7073
+epoch 204/400: loss: 23.3857
+Generate data: 1.14451
+P and BP: 6.70255
+epoch 205/400: loss: 22.8367
+Generate data: 1.13925
+P and BP: 6.72593
+epoch 206/400: loss: 23.8757
+Generate data: 1.14177
+P and BP: 6.71694
+epoch 207/400: loss: 22.7774
+Generate data: 1.14061
+P and BP: 6.71668
+epoch 208/400: loss: 22.9224
+Generate data: 1.1392
+P and BP: 6.71368
+epoch 209/400: loss: 23.4058
+Generate data: 1.14067
+P and BP: 6.69599
+epoch 210/400: loss: 23.4146
+Generate data: 1.14198
+P and BP: 6.71729
+epoch 211/400: loss: 22.1721
+Generate data: 1.13942
+P and BP: 6.7265
+epoch 212/400: loss: 23.8957
+Generate data: 1.1411
+P and BP: 6.70721
+epoch 213/400: loss: 23.3798
+Generate data: 1.14211
+P and BP: 6.92322
+epoch 214/400: loss: 22.7849
+Generate data: 1.14516
+P and BP: 6.69927
+epoch 215/400: loss: 23.0798
+Generate data: 1.1396
+P and BP: 6.68633
+epoch 216/400: loss: 23.2026
+Generate data: 1.14361
+P and BP: 6.71432
+epoch 217/400: loss: 22.5384
+Generate data: 1.13702
+P and BP: 6.70658
+epoch 218/400: loss: 23.5007
+Generate data: 1.15364
+P and BP: 6.72498
+epoch 219/400: loss: 22.7291
+Generate data: 1.15429
+P and BP: 6.68979
+epoch 220/400: loss: 23.6256
+Generate data: 1.14227
+P and BP: 6.71409
+epoch 221/400: loss: 22.0362
+Generate data: 1.14239
+P and BP: 6.7021
+epoch 222/400: loss: 22.016
+Generate data: 1.15375
+P and BP: 6.69994
+epoch 223/400: loss: 23.6172
+Generate data: 1.14007
+P and BP: 6.70141
+epoch 224/400: loss: 22.7857
+Generate data: 1.14218
+P and BP: 6.68796
+epoch 225/400: loss: 22.3731
+Generate data: 1.14983
+P and BP: 6.72713
+epoch 226/400: loss: 21.9708
+Generate data: 1.14373
+P and BP: 6.71508
+epoch 227/400: loss: 22.2041
+Generate data: 1.14023
+P and BP: 6.72176
+epoch 228/400: loss: 23.1885
+Generate data: 1.14055
+P and BP: 6.70359
+epoch 229/400: loss: 23.5006
+Generate data: 1.13949
+P and BP: 6.71411
+epoch 230/400: loss: 22.9172
+Generate data: 1.14394
+P and BP: 6.71949
+epoch 231/400: loss: 23.1249
+Generate data: 1.13956
+P and BP: 6.70198
+epoch 232/400: loss: 22.5779
+Generate data: 1.1418
+P and BP: 6.80841
+epoch 233/400: loss: 22.3486
+Generate data: 1.14186
+P and BP: 6.7393
+epoch 234/400: loss: 22.8801
+Generate data: 1.1409
+P and BP: 6.69704
+epoch 235/400: loss: 22.1034
+Generate data: 1.1387
+P and BP: 6.70691
+epoch 236/400: loss: 22.3245
+Generate data: 1.14356
+P and BP: 6.70794
+epoch 237/400: loss: 21.9695
+Generate data: 1.13753
+P and BP: 6.7131
+epoch 238/400: loss: 22.6273
+Generate data: 1.14023
+P and BP: 6.68499
+epoch 239/400: loss: 22.5869
+Generate data: 1.15602
+P and BP: 6.67653
+epoch 240/400: loss: 22.3133
+Generate data: 1.13925
+P and BP: 6.70332
+epoch 241/400: loss: 22.3721
+Generate data: 1.1392
+P and BP: 6.69919
+epoch 242/400: loss: 21.6756
+Generate data: 1.14323
+P and BP: 6.72615
+epoch 243/400: loss: 22.1377
+Generate data: 1.13878
+P and BP: 6.7003
+epoch 244/400: loss: 22.9018
+Generate data: 1.14
+P and BP: 6.71109
+epoch 245/400: loss: 21.8763
+Generate data: 1.13983
+P and BP: 6.71294
+epoch 246/400: loss: 22.1137
+Generate data: 1.14242
+P and BP: 6.70684
+epoch 247/400: loss: 22.8273
+Generate data: 1.14004
+P and BP: 6.71427
+epoch 248/400: loss: 22.3112
+Generate data: 1.14183
+P and BP: 6.70879
+epoch 249/400: loss: 22.5538
+Generate data: 1.13987
+P and BP: 6.70738
+epoch 250/400: loss: 22.955
+Generate data: 1.14241
+P and BP: 6.70169
+epoch 251/400: loss: 21.4406
+Generate data: 1.14384
+P and BP: 6.72184
+epoch 252/400: loss: 22.0733
+Generate data: 1.15069
+P and BP: 6.71784
+epoch 253/400: loss: 21.4667
+Generate data: 1.13952
+P and BP: 6.69758
+epoch 254/400: loss: 22.5241
+Generate data: 1.1402
+P and BP: 6.70048
+epoch 255/400: loss: 21.7884
+Generate data: 1.1406
+P and BP: 6.71804
+epoch 256/400: loss: 23.4924
+Generate data: 1.13979
+P and BP: 6.69965
+epoch 257/400: loss: 21.7903
+Generate data: 1.14233
+P and BP: 6.72144
+epoch 258/400: loss: 21.8672
+Generate data: 1.14282
+P and BP: 6.69773
+epoch 259/400: loss: 21.1834
+Generate data: 1.14014
+P and BP: 6.72861
+epoch 260/400: loss: 22.4258
+Generate data: 1.16738
+P and BP: 6.71771
+epoch 261/400: loss: 21.6218
+Generate data: 1.13946
+P and BP: 6.71752
+epoch 262/400: loss: 23.0481
+Generate data: 1.14152
+P and BP: 6.70755
+epoch 263/400: loss: 21.3835
+Generate data: 1.13904
+P and BP: 6.73067
+epoch 264/400: loss: 21.3475
+Generate data: 1.14073
+P and BP: 6.72176
+epoch 265/400: loss: 23.3383
+Generate data: 1.13878
+P and BP: 6.71648
+epoch 266/400: loss: 21.7217
+Generate data: 1.1412
+P and BP: 6.73312
+epoch 267/400: loss: 21.1809
+Generate data: 1.1568
+P and BP: 6.75545
+epoch 268/400: loss: 22.1951
+Generate data: 1.13997
+P and BP: 6.71427
+epoch 269/400: loss: 22.2307
+Generate data: 1.14025
+P and BP: 6.73259
+epoch 270/400: loss: 21.2048
+Generate data: 1.14338
+P and BP: 6.72726
+epoch 271/400: loss: 21.0731
+Generate data: 1.1543
+P and BP: 6.74948
+epoch 272/400: loss: 22.9209
+Generate data: 1.1425
+P and BP: 6.72956
+epoch 273/400: loss: 21.8544
+Generate data: 1.1416
+P and BP: 6.73878
+epoch 274/400: loss: 20.9872
+Generate data: 1.15149
+P and BP: 6.7634
+epoch 275/400: loss: 22.8695
+Generate data: 1.14316
+P and BP: 6.72867
+epoch 276/400: loss: 23.0598
+Generate data: 1.14227
+P and BP: 6.73308
+epoch 277/400: loss: 21.2104
+Generate data: 1.15328
+P and BP: 6.73295
+epoch 278/400: loss: 22.4084
+Generate data: 1.1417
+P and BP: 6.71608
+epoch 279/400: loss: 22.1296
+Generate data: 1.13883
+P and BP: 6.75538
+epoch 280/400: loss: 22.0158
+Generate data: 1.14271
+P and BP: 6.72729
+epoch 281/400: loss: 22.1374
+Generate data: 1.13976
+P and BP: 6.73699
+epoch 282/400: loss: 22.0475
+Generate data: 1.14214
+P and BP: 6.74616
+epoch 283/400: loss: 21.6758
+Generate data: 1.13967
+P and BP: 6.73272
+epoch 284/400: loss: 22.5398
+Generate data: 1.14153
+P and BP: 6.71947
+epoch 285/400: loss: 23.2013
+Generate data: 1.15236
+P and BP: 6.72805
+epoch 286/400: loss: 22.1483
+Generate data: 1.14135
+P and BP: 6.73921
+epoch 287/400: loss: 22.2243
+Generate data: 1.14026
+P and BP: 6.75045
+epoch 288/400: loss: 22.4439
+Generate data: 1.1444
+P and BP: 6.75223
+epoch 289/400: loss: 22.4231
+Generate data: 1.14033
+P and BP: 6.73397
+epoch 290/400: loss: 21.1359
+Generate data: 1.14216
+P and BP: 6.74111
+epoch 291/400: loss: 21.7948
+Generate data: 1.13704
+P and BP: 6.73446
+epoch 292/400: loss: 22.0405
+Generate data: 1.1516
+P and BP: 6.72302
+epoch 293/400: loss: 22.3712
+Generate data: 1.16133
+P and BP: 6.72394
+epoch 294/400: loss: 21.5383
+Generate data: 1.14071
+P and BP: 6.71389
+epoch 295/400: loss: 21.773
+Generate data: 1.13919
+P and BP: 6.71705
+epoch 296/400: loss: 21.9933
+Generate data: 1.15166
+P and BP: 6.71121
+epoch 297/400: loss: 22.4947
+Generate data: 1.13862
+P and BP: 6.70289
+epoch 298/400: loss: 20.8798
+Generate data: 1.14073
+P and BP: 6.71711
+epoch 299/400: loss: 21.6951
+Generate data: 1.14102
+P and BP: 6.71878
+epoch 300/400: loss: 21.2366
+Generate data: 1.14318
+P and BP: 6.7073
+epoch 301/400: loss: 22.1853
+Generate data: 1.13854
+P and BP: 6.72088
+epoch 302/400: loss: 21.7482
+Generate data: 1.14192
+P and BP: 6.72493
+epoch 303/400: loss: 21.8044
+Generate data: 1.15562
+P and BP: 6.75453
+epoch 304/400: loss: 21.5308
+Generate data: 1.14054
+P and BP: 6.71071
+epoch 305/400: loss: 21.6969
+Generate data: 1.1425
+P and BP: 6.72943
+epoch 306/400: loss: 22.3757
+Generate data: 1.14387
+P and BP: 6.70949
+epoch 307/400: loss: 20.9129
+Generate data: 1.14033
+P and BP: 6.73498
+epoch 308/400: loss: 20.8949
+Generate data: 1.14297
+P and BP: 6.72772
+epoch 309/400: loss: 22.2101
+Generate data: 1.15738
+P and BP: 6.71327
+epoch 310/400: loss: 22.6839
+Generate data: 1.14211
+P and BP: 6.72561
+epoch 311/400: loss: 22.3598
+Generate data: 1.14292
+P and BP: 6.71781
+epoch 312/400: loss: 21.1477
+Generate data: 1.15443
+P and BP: 6.74983
+epoch 313/400: loss: 21.9478
+Generate data: 1.13908
+P and BP: 6.70841
+epoch 314/400: loss: 22.3556
+Generate data: 1.1389
+P and BP: 6.72498
+epoch 315/400: loss: 21.0985
+Generate data: 1.14084
+P and BP: 6.90075
+epoch 316/400: loss: 21.5546
+Generate data: 1.14233
+P and BP: 6.72971
+epoch 317/400: loss: 21.0822
+Generate data: 1.13961
+P and BP: 6.72303
+epoch 318/400: loss: 21.515
+Generate data: 1.15442
+P and BP: 6.711
+epoch 319/400: loss: 21.2821
+Generate data: 1.15645
+P and BP: 6.72241
+epoch 320/400: loss: 21.3631
+Generate data: 1.14169
+P and BP: 6.71136
+epoch 321/400: loss: 22.2818
+Generate data: 1.13963
+P and BP: 6.70182
+epoch 322/400: loss: 22.4618
+Generate data: 1.1398
+P and BP: 6.71838
+epoch 323/400: loss: 21.5257
+Generate data: 1.15655
+P and BP: 6.69075
+epoch 324/400: loss: 22.0152
+Generate data: 1.14124
+P and BP: 6.80386
+epoch 325/400: loss: 21.4
+Generate data: 1.13981
+P and BP: 6.73348
+epoch 326/400: loss: 20.7603
+Generate data: 1.14265
+P and BP: 6.69092
+epoch 327/400: loss: 21.7704
+Generate data: 1.15097
+P and BP: 6.72299
+epoch 328/400: loss: 20.9827
+Generate data: 1.15838
+P and BP: 6.67586
+epoch 329/400: loss: 21.604
+Generate data: 1.13916
+P and BP: 6.69331
+epoch 330/400: loss: 21.489
+Generate data: 1.13969
+P and BP: 6.68817
+epoch 331/400: loss: 22.5039
+Generate data: 1.13919
+P and BP: 6.69824
+epoch 332/400: loss: 22.006
+Generate data: 1.14047
+P and BP: 6.68931
+epoch 333/400: loss: 21.2872
+Generate data: 1.13998
+P and BP: 6.70219
+epoch 334/400: loss: 21.0589
+Generate data: 1.13938
+P and BP: 6.69852
+epoch 335/400: loss: 21.1274
+Generate data: 1.1421
+P and BP: 6.71132
+epoch 336/400: loss: 20.4409
+Generate data: 1.14058
+P and BP: 6.73192
+epoch 337/400: loss: 22.071
+Generate data: 1.13958
+P and BP: 6.69932
+epoch 338/400: loss: 21.9175
+Generate data: 1.13992
+P and BP: 6.66518
+epoch 339/400: loss: 22.0674
+Generate data: 1.14161
+P and BP: 6.67206
+epoch 340/400: loss: 20.4826
+Generate data: 1.15353
+P and BP: 6.68562
+epoch 341/400: loss: 21.4006
+Generate data: 1.1598
+P and BP: 6.67311
+epoch 342/400: loss: 21.2322
+Generate data: 1.14002
+P and BP: 6.70984
+epoch 343/400: loss: 22.2659
+Generate data: 1.13689
+P and BP: 6.90791
+epoch 344/400: loss: 21.1412
+Generate data: 1.13943
+P and BP: 6.68422
+epoch 345/400: loss: 20.7931
+Generate data: 1.14124
+P and BP: 6.67666
+epoch 346/400: loss: 20.6288
+Generate data: 1.15328
+P and BP: 6.67012
+epoch 347/400: loss: 21.6346
+Generate data: 1.13997
+P and BP: 6.68194
+epoch 348/400: loss: 21.7545
+Generate data: 1.1396
+P and BP: 6.89243
+epoch 349/400: loss: 20.9489
+Generate data: 1.13868
+P and BP: 6.68137
+epoch 350/400: loss: 21.0111
+Generate data: 1.1481
+P and BP: 6.69682
+epoch 351/400: loss: 21.4042
+Generate data: 1.14072
+P and BP: 6.68097
+epoch 352/400: loss: 21.748
+Generate data: 1.13912
+P and BP: 6.686
+epoch 353/400: loss: 22.2115
+Generate data: 1.14479
+P and BP: 6.66287
+epoch 354/400: loss: 22.2392
+Generate data: 1.14192
+P and BP: 6.66164
+epoch 355/400: loss: 21.7597
+Generate data: 1.14011
+P and BP: 6.66815
+epoch 356/400: loss: 20.6338
+Generate data: 1.1428
+P and BP: 6.66999
+epoch 357/400: loss: 21.0411
+Generate data: 1.15379
+P and BP: 6.67899
+epoch 358/400: loss: 21.273
+Generate data: 1.1609
+P and BP: 6.67899
+epoch 359/400: loss: 20.9051
+Generate data: 1.15565
+P and BP: 6.68614
+epoch 360/400: loss: 21.4269
+Generate data: 1.13863
+P and BP: 6.68119
+epoch 361/400: loss: 20.9559
+Generate data: 1.1373
+P and BP: 6.64411
+epoch 362/400: loss: 21.9581
+Generate data: 1.13981
+P and BP: 6.66234
+epoch 363/400: loss: 21.1246
+Generate data: 1.13957
+P and BP: 6.66408
+epoch 364/400: loss: 21.6195
+Generate data: 1.14264
+P and BP: 6.67672
+epoch 365/400: loss: 21.0863
+Generate data: 1.14321
+P and BP: 6.67031
+epoch 366/400: loss: 21.722
+Generate data: 1.15251
+P and BP: 6.83571
+epoch 367/400: loss: 21.4346
+Generate data: 1.15908
+P and BP: 6.66217
+epoch 368/400: loss: 21.2861
+Generate data: 1.14228
+P and BP: 6.67644
+epoch 369/400: loss: 22.0168
+Generate data: 1.14166
+P and BP: 6.67767
+epoch 370/400: loss: 22.8973
+Generate data: 1.13863
+P and BP: 6.8455
+epoch 371/400: loss: 22.2455
+Generate data: 1.14238
+P and BP: 6.64933
+epoch 372/400: loss: 21.4302
+Generate data: 1.13829
+P and BP: 6.70516
+epoch 373/400: loss: 21.2142
+Generate data: 1.13944
+P and BP: 6.70838
+epoch 374/400: loss: 21.2328
+Generate data: 1.13983
+P and BP: 6.67053
+epoch 375/400: loss: 21.0694
+Generate data: 1.14118
+P and BP: 6.666
+epoch 376/400: loss: 21.739
+Generate data: 1.14172
+P and BP: 6.66625
+epoch 377/400: loss: 21.6944
+Generate data: 1.13994
+P and BP: 6.67743
+epoch 378/400: loss: 21.5841
+Generate data: 1.14347
+P and BP: 6.67005
+epoch 379/400: loss: 21.1389
+Generate data: 1.13755
+P and BP: 6.67612
+epoch 380/400: loss: 21.3585
+Generate data: 1.15415
+P and BP: 6.69031
+epoch 381/400: loss: 20.6756
+Generate data: 1.14168
+P and BP: 6.67644
+epoch 382/400: loss: 21.5327
+Generate data: 1.14198
+P and BP: 6.67635
+epoch 383/400: loss: 21.5107
+Generate data: 1.13851
+P and BP: 6.67367
+epoch 384/400: loss: 21.6846
+Generate data: 1.1415
+P and BP: 6.66924
+epoch 385/400: loss: 22.3355
+Generate data: 1.13936
+P and BP: 6.68678
+epoch 386/400: loss: 20.8933
+Generate data: 1.14062
+P and BP: 6.70242
+epoch 387/400: loss: 21.687
+Generate data: 1.1398
+P and BP: 6.6672
+epoch 388/400: loss: 21.3413
+Generate data: 1.14072
+P and BP: 6.69496
+epoch 389/400: loss: 21.8563
+Generate data: 1.13876
+P and BP: 6.7007
+epoch 390/400: loss: 22.4642
+Generate data: 1.15473
+P and BP: 6.68355
+epoch 391/400: loss: 20.7626
+Generate data: 1.14016
+P and BP: 6.68568
+epoch 392/400: loss: 21.3175
+Generate data: 1.14267
+P and BP: 6.6759
+epoch 393/400: loss: 21.6275
+Generate data: 1.13886
+P and BP: 6.70245
+epoch 394/400: loss: 21.0055
+Generate data: 1.14092
+P and BP: 6.70746
+epoch 395/400: loss: 20.923
+Generate data: 1.14021
+P and BP: 6.73214
+epoch 396/400: loss: 21.4459
+Generate data: 1.15405
+P and BP: 6.71495
+epoch 397/400: loss: 21.171
+Generate data: 1.13868
+P and BP: 6.73343
+epoch 398/400: loss: 22.2414
+Generate data: 1.13925
+P and BP: 6.71689
+epoch 399/400: loss: 21.7319
+Training done! Time cost: 3147.02
+Testing!
+Current Acc: 0.953008
+Mission complete!
+Training Start!
+Generate data: 1.14524
+P and BP: 6.72054
+epoch 400/1000: loss: 21.2104
+Generate data: 1.14924
+P and BP: 6.68947
+epoch 401/1000: loss: 21.1769
+Generate data: 1.15023
+P and BP: 6.72091
+epoch 402/1000: loss: 20.4512
+Generate data: 1.15162
+P and BP: 6.68343
+epoch 403/1000: loss: 20.4529
+Generate data: 1.15466
+P and BP: 6.99193
+epoch 404/1000: loss: 20.4843
+Generate data: 1.14932
+P and BP: 6.7137
+epoch 405/1000: loss: 20.8836
+Generate data: 1.14555
+P and BP: 6.88599
+epoch 406/1000: loss: 19.5206
+Generate data: 1.148
+P and BP: 6.70246
+epoch 407/1000: loss: 20.0403
+Generate data: 1.14772
+P and BP: 6.93109
+epoch 408/1000: loss: 19.8838
+Generate data: 1.14574
+P and BP: 6.64869
+epoch 409/1000: loss: 20.5659
+Generate data: 1.14794
+P and BP: 6.66931
+epoch 410/1000: loss: 20.1163
+Generate data: 1.14683
+P and BP: 6.6876
+epoch 411/1000: loss: 19.8936
+Generate data: 1.16956
+P and BP: 6.67815
+epoch 412/1000: loss: 20.6268
+Generate data: 1.14787
+P and BP: 6.70432
+epoch 413/1000: loss: 19.9028
+Generate data: 1.14849
+P and BP: 6.7401
+epoch 414/1000: loss: 19.8923
+Generate data: 1.14479
+P and BP: 6.65094
+epoch 415/1000: loss: 19.8218
+Generate data: 1.14784
+P and BP: 6.65753
+epoch 416/1000: loss: 20.0091
+Generate data: 1.14688
+P and BP: 6.67707
+epoch 417/1000: loss: 19.7093
+Generate data: 1.14877
+P and BP: 6.6755
+epoch 418/1000: loss: 19.4512
+Generate data: 1.14699
+P and BP: 6.65364
+epoch 419/1000: loss: 19.5089
+Generate data: 1.14648
+P and BP: 6.69965
+epoch 420/1000: loss: 20.1304
+Generate data: 1.14563
+P and BP: 6.69534
+epoch 421/1000: loss: 19.4962
+Generate data: 1.16076
+P and BP: 6.69481
+epoch 422/1000: loss: 19.2192
+Generate data: 1.14839
+P and BP: 6.71793
+epoch 423/1000: loss: 19.2642
+Generate data: 1.14707
+P and BP: 6.69508
+epoch 424/1000: loss: 19.4341
+Generate data: 1.14688
+P and BP: 6.68941
+epoch 425/1000: loss: 19.2005
+Generate data: 1.14765
+P and BP: 6.69481
+epoch 426/1000: loss: 19.0372
+Generate data: 1.16293
+P and BP: 6.72466
+epoch 427/1000: loss: 19.0014
+Generate data: 1.14531
+P and BP: 6.71277
+epoch 428/1000: loss: 19.7108
+Generate data: 1.1474
+P and BP: 6.70018
+epoch 429/1000: loss: 19.3131
+Generate data: 1.16735
+P and BP: 6.68175
+epoch 430/1000: loss: 18.796
+Generate data: 1.14786
+P and BP: 6.69404
+epoch 431/1000: loss: 19.4288
+Generate data: 1.14791
+P and BP: 6.71022
+epoch 432/1000: loss: 18.7317
+Generate data: 1.146
+P and BP: 6.68721
+epoch 433/1000: loss: 19.1724
+Generate data: 1.14688
+P and BP: 6.68932
+epoch 434/1000: loss: 19.4378
+Generate data: 1.14781
+P and BP: 6.6819
+epoch 435/1000: loss: 19.5033
+Generate data: 1.14773
+P and BP: 6.69469
+epoch 436/1000: loss: 19.3934
+Generate data: 1.14539
+P and BP: 6.69672
+epoch 437/1000: loss: 18.9344
+Generate data: 1.14986
+P and BP: 6.6868
+epoch 438/1000: loss: 18.5595
+Generate data: 1.14576
+P and BP: 6.68455
+epoch 439/1000: loss: 18.7209
+Generate data: 1.14486
+P and BP: 6.69011
+epoch 440/1000: loss: 19.5232
+Generate data: 1.14879
+P and BP: 6.87883
+epoch 441/1000: loss: 19.7267
+Generate data: 1.15954
+P and BP: 6.71275
+epoch 442/1000: loss: 19.4746
+Generate data: 1.14832
+P and BP: 6.79105
+epoch 443/1000: loss: 19.1674
+Generate data: 1.14594
+P and BP: 6.66155
+epoch 444/1000: loss: 18.6416
+Generate data: 1.14533
+P and BP: 6.67722
+epoch 445/1000: loss: 18.8458
+Generate data: 1.14677
+P and BP: 6.65813
+epoch 446/1000: loss: 19.5059
+Generate data: 1.14913
+P and BP: 6.69299
+epoch 447/1000: loss: 19.083
+Generate data: 1.15134
+P and BP: 6.69849
+epoch 448/1000: loss: 19.8088
+Generate data: 1.16366
+P and BP: 6.68704
+epoch 449/1000: loss: 18.4371
+Generate data: 1.14765
+P and BP: 6.68908
+epoch 450/1000: loss: 19.4741
+Generate data: 1.14746
+P and BP: 6.67004
+epoch 451/1000: loss: 18.8794
+Generate data: 1.14917
+P and BP: 6.67969
+epoch 452/1000: loss: 18.737
+Generate data: 1.16584
+P and BP: 6.66918
+epoch 453/1000: loss: 18.6753
+Generate data: 1.14737
+P and BP: 6.7039
+epoch 454/1000: loss: 18.498
+Generate data: 1.147
+P and BP: 6.7022
+epoch 455/1000: loss: 18.9848
+Generate data: 1.14484
+P and BP: 6.68417
+epoch 456/1000: loss: 18.6871
+Generate data: 1.15841
+P and BP: 6.74573
+epoch 457/1000: loss: 18.6335
+Generate data: 1.14814
+P and BP: 6.91858
+epoch 458/1000: loss: 18.8206
+Generate data: 1.14819
+P and BP: 6.6785
+epoch 459/1000: loss: 19.1668
+Generate data: 1.14448
+P and BP: 6.67978
+epoch 460/1000: loss: 19.9606
+Generate data: 1.14569
+P and BP: 6.68636
+epoch 461/1000: loss: 18.5275
+Generate data: 1.14923
+P and BP: 6.88278
+epoch 462/1000: loss: 19.038
+Generate data: 1.14772
+P and BP: 6.69124
+epoch 463/1000: loss: 18.2986
+Generate data: 1.14687
+P and BP: 6.68219
+epoch 464/1000: loss: 18.8426
+Generate data: 1.14772
+P and BP: 6.69681
+epoch 465/1000: loss: 19.2745
+Generate data: 1.14654
+P and BP: 6.68329
+epoch 466/1000: loss: 18.5485
+Generate data: 1.14741
+P and BP: 6.68792
+epoch 467/1000: loss: 18.6564
+Generate data: 1.1492
+P and BP: 6.70002
+epoch 468/1000: loss: 18.878
+Generate data: 1.1475
+P and BP: 6.70893
+epoch 469/1000: loss: 18.8076
+Generate data: 1.1465
+P and BP: 6.70481
+epoch 470/1000: loss: 18.8538
+Generate data: 1.14927
+P and BP: 6.68227
+epoch 471/1000: loss: 18.796
+Generate data: 1.16439
+P and BP: 6.6724
+epoch 472/1000: loss: 18.9865
+Generate data: 1.14615
+P and BP: 6.69462
+epoch 473/1000: loss: 18.77
+Generate data: 1.14515
+P and BP: 6.67587
+epoch 474/1000: loss: 18.4622
+Generate data: 1.14703
+P and BP: 6.6938
+epoch 475/1000: loss: 18.3936
+Generate data: 1.14736
+P and BP: 6.68664
+epoch 476/1000: loss: 18.5056
+Generate data: 1.14917
+P and BP: 6.67287
+epoch 477/1000: loss: 18.4705
+Generate data: 1.14806
+P and BP: 6.68387
+epoch 478/1000: loss: 19.3035
+Generate data: 1.15267
+P and BP: 6.69155
+epoch 479/1000: loss: 18.4816
+Generate data: 1.14858
+P and BP: 6.68501
+epoch 480/1000: loss: 18.5746
+Generate data: 1.14893
+P and BP: 6.69043
+epoch 481/1000: loss: 19.0422
+Generate data: 1.14827
+P and BP: 6.70297
+epoch 482/1000: loss: 18.6453
+Generate data: 1.14993
+P and BP: 6.68379
+epoch 483/1000: loss: 18.9971
+Generate data: 1.14751
+P and BP: 6.68296
+epoch 484/1000: loss: 18.4924
+Generate data: 1.14875
+P and BP: 6.68484
+epoch 485/1000: loss: 17.5623
+Generate data: 1.14721
+P and BP: 6.72046
+epoch 486/1000: loss: 18.18
+Generate data: 1.14637
+P and BP: 6.67845
+epoch 487/1000: loss: 18.1422
+Generate data: 1.14762
+P and BP: 6.66811
+epoch 488/1000: loss: 18.5945
+Generate data: 1.1466
+P and BP: 6.66884
+epoch 489/1000: loss: 18.1215
+Generate data: 1.16391
+P and BP: 6.6761
+epoch 490/1000: loss: 18.8356
+Generate data: 1.14654
+P and BP: 6.68697
+epoch 491/1000: loss: 18.9651
+Generate data: 1.14794
+P and BP: 6.66764
+epoch 492/1000: loss: 18.5136
+Generate data: 1.14771
+P and BP: 6.6801
+epoch 493/1000: loss: 17.7814
+Generate data: 1.14825
+P and BP: 6.67097
+epoch 494/1000: loss: 17.809
+Generate data: 1.14892
+P and BP: 6.67483
+epoch 495/1000: loss: 19.0783
+Generate data: 1.14863
+P and BP: 6.69096
+epoch 496/1000: loss: 18.1675
+Generate data: 1.14948
+P and BP: 6.67664
+epoch 497/1000: loss: 17.7008
+Generate data: 1.14732
+P and BP: 6.69377
+epoch 498/1000: loss: 18.2189
+Generate data: 1.1452
+P and BP: 6.67373
+epoch 499/1000: loss: 18.485
+Generate data: 1.14704
+P and BP: 6.69877
+epoch 500/1000: loss: 18.5318
+Generate data: 1.14721
+P and BP: 6.85076
+epoch 501/1000: loss: 18.0121
+Generate data: 1.16674
+P and BP: 6.68538
+epoch 502/1000: loss: 18.0047
+Generate data: 1.14668
+P and BP: 6.69502
+epoch 503/1000: loss: 18.7344
+Generate data: 1.14526
+P and BP: 6.68217
+epoch 504/1000: loss: 17.8386
+Generate data: 1.14611
+P and BP: 6.67885
+epoch 505/1000: loss: 18.1414
+Generate data: 1.1481
+P and BP: 6.66653
+epoch 506/1000: loss: 17.8335
+Generate data: 1.14546
+P and BP: 6.69192
+epoch 507/1000: loss: 18.2572
+Generate data: 1.15026
+P and BP: 6.68117
+epoch 508/1000: loss: 17.897
+Generate data: 1.14713
+P and BP: 6.67342
+epoch 509/1000: loss: 18.3562
+Generate data: 1.14688
+P and BP: 6.65276
+epoch 510/1000: loss: 18.1196
+Generate data: 1.14634
+P and BP: 6.86927
+epoch 511/1000: loss: 18.0431
+Generate data: 1.14751
+P and BP: 6.6681
+epoch 512/1000: loss: 17.9476
+Generate data: 1.16866
+P and BP: 6.66046
+epoch 513/1000: loss: 18.0718
+Generate data: 1.14686
+P and BP: 6.64846
+epoch 514/1000: loss: 17.8613
+Generate data: 1.14584
+P and BP: 6.65666
+epoch 515/1000: loss: 17.9904
+Generate data: 1.14778
+P and BP: 6.65542
+epoch 516/1000: loss: 17.6046
+Generate data: 1.14576
+P and BP: 6.67527
+epoch 517/1000: loss: 18.031
+Generate data: 1.14502
+P and BP: 6.67137
+epoch 518/1000: loss: 17.5986
+Generate data: 1.14713
+P and BP: 6.65583
+epoch 519/1000: loss: 18.2741
+Generate data: 1.1737
+P and BP: 6.65145
+epoch 520/1000: loss: 17.8938
+Generate data: 1.1467
+P and BP: 6.65241
+epoch 521/1000: loss: 17.8088
+Generate data: 1.14655
+P and BP: 6.6665
+epoch 522/1000: loss: 17.5697
+Generate data: 1.14804
+P and BP: 6.65394
+epoch 523/1000: loss: 18.2789
+Generate data: 1.14688
+P and BP: 6.68412
+epoch 524/1000: loss: 17.0448
+Generate data: 1.14807
+P and BP: 6.66375
+epoch 525/1000: loss: 17.9609
+Generate data: 1.14529
+P and BP: 6.678
+epoch 526/1000: loss: 17.4365
+Generate data: 1.15128
+P and BP: 6.67671
+epoch 527/1000: loss: 17.7333
+Generate data: 1.14524
+P and BP: 6.70714
+epoch 528/1000: loss: 17.8212
+Generate data: 1.14708
+P and BP: 6.69542
+epoch 529/1000: loss: 17.1801
+Generate data: 1.14699
+P and BP: 6.68198
+epoch 530/1000: loss: 16.8291
+Generate data: 1.14723
+P and BP: 6.69381
+epoch 531/1000: loss: 17.3525
+Generate data: 1.14412
+P and BP: 6.80686
+epoch 532/1000: loss: 16.8011
+Generate data: 1.15101
+P and BP: 6.71476
+epoch 533/1000: loss: 17.421
+Generate data: 1.16423
+P and BP: 6.87789
+epoch 534/1000: loss: 17.5137
+Generate data: 1.14773
+P and BP: 6.91171
+epoch 535/1000: loss: 16.9585
+Generate data: 1.1442
+P and BP: 6.69055
+epoch 536/1000: loss: 18.2471
+Generate data: 1.1722
+P and BP: 6.67718
+epoch 537/1000: loss: 17.6415
+Generate data: 1.14586
+P and BP: 6.67637
+epoch 538/1000: loss: 17.7814
+Generate data: 1.14587
+P and BP: 6.66813
+epoch 539/1000: loss: 17.1612
+Generate data: 1.14571
+P and BP: 6.66847
+epoch 540/1000: loss: 17.8712
+Generate data: 1.14587
+P and BP: 6.66547
+epoch 541/1000: loss: 17.0826
+Generate data: 1.14594
+P and BP: 6.68525
+epoch 542/1000: loss: 17.588
+Generate data: 1.1483
+P and BP: 6.66691
+epoch 543/1000: loss: 17.3163
+Generate data: 1.14755
+P and BP: 6.85517
+epoch 544/1000: loss: 17.515
+Generate data: 1.14908
+P and BP: 6.6577
+epoch 545/1000: loss: 17.4748
+Generate data: 1.17517
+P and BP: 6.98193
+epoch 546/1000: loss: 17.5986
+Generate data: 1.14747
+P and BP: 6.67204
+epoch 547/1000: loss: 17.3518
+Generate data: 1.15743
+P and BP: 6.68249
+epoch 548/1000: loss: 17.2268
+Generate data: 1.14792
+P and BP: 6.75273
+epoch 549/1000: loss: 17.4276
+Generate data: 1.15147
+P and BP: 6.99104
+epoch 550/1000: loss: 17.056
+Generate data: 1.1467
+P and BP: 6.66386
+epoch 551/1000: loss: 17.0908
+Generate data: 1.15242
+P and BP: 6.66007
+epoch 552/1000: loss: 17.3773
+Generate data: 1.14596
+P and BP: 6.67434
+epoch 553/1000: loss: 17.3858
+Generate data: 1.14919
+P and BP: 6.66738
+epoch 554/1000: loss: 16.4221
+Generate data: 1.14765
+P and BP: 6.67301
+epoch 555/1000: loss: 17.5849
+Generate data: 1.14751
+P and BP: 6.6807
+epoch 556/1000: loss: 17.0858
+Generate data: 1.1474
+P and BP: 6.65819
+epoch 557/1000: loss: 17.1665
+Generate data: 1.1466
+P and BP: 6.65078
+epoch 558/1000: loss: 17.0638
+Generate data: 1.16059
+P and BP: 6.65104
+epoch 559/1000: loss: 17.0931
+Generate data: 1.14668
+P and BP: 6.66589
+epoch 560/1000: loss: 17.3883
+Generate data: 1.14652
+P and BP: 6.68701
+epoch 561/1000: loss: 17.4198
+Generate data: 1.1474
+P and BP: 6.654
+epoch 562/1000: loss: 17.4945
+Generate data: 1.14982
+P and BP: 6.65151
+epoch 563/1000: loss: 17.399
+Generate data: 1.14664
+P and BP: 6.67166
+epoch 564/1000: loss: 16.4945
+Generate data: 1.14539
+P and BP: 6.65595
+epoch 565/1000: loss: 16.8953
+Generate data: 1.14922
+P and BP: 6.65469
+epoch 566/1000: loss: 17.0672
+Generate data: 1.14556
+P and BP: 6.65528
+epoch 567/1000: loss: 17.3888
+Generate data: 1.14641
+P and BP: 6.64723
+epoch 568/1000: loss: 16.7311
+Generate data: 1.16103
+P and BP: 6.71076
+epoch 569/1000: loss: 17.1067
+Generate data: 1.1467
+P and BP: 6.73396
+epoch 570/1000: loss: 17.0362
+Generate data: 1.14453
+P and BP: 6.67187
+epoch 571/1000: loss: 16.8352
+Generate data: 1.14727
+P and BP: 6.65009
+epoch 572/1000: loss: 17.2013
+Generate data: 1.14492
+P and BP: 6.75712
+epoch 573/1000: loss: 16.9068
+Generate data: 1.1475
+P and BP: 6.90619
+epoch 574/1000: loss: 16.3815
+Generate data: 1.17437
+P and BP: 6.69582
+epoch 575/1000: loss: 17.317
+Generate data: 1.14558
+P and BP: 6.7044
+epoch 576/1000: loss: 16.7148
+Generate data: 1.1607
+P and BP: 6.70303
+epoch 577/1000: loss: 16.9147
+Generate data: 1.14539
+P and BP: 6.72499
+epoch 578/1000: loss: 16.445
+Generate data: 1.16936
+P and BP: 6.69721
+epoch 579/1000: loss: 17.375
+Generate data: 1.14611
+P and BP: 6.69208
+epoch 580/1000: loss: 16.5957
+Generate data: 1.15193
+P and BP: 6.69498
+epoch 581/1000: loss: 16.5899
+Generate data: 1.1475
+P and BP: 6.70578
+epoch 582/1000: loss: 16.8745
+Generate data: 1.14814
+P and BP: 6.81692
+epoch 583/1000: loss: 17.1305
+Generate data: 1.15018
+P and BP: 6.69491
+epoch 584/1000: loss: 16.9418
+Generate data: 1.14651
+P and BP: 6.70752
+epoch 585/1000: loss: 16.8956
+Generate data: 1.14682
+P and BP: 6.70104
+epoch 586/1000: loss: 17.4256
+Generate data: 1.15033
+P and BP: 6.69901
+epoch 587/1000: loss: 16.819
+Generate data: 1.14602
+P and BP: 6.67372
+epoch 588/1000: loss: 16.7351
+Generate data: 1.1472
+P and BP: 6.66895
+epoch 589/1000: loss: 16.519
+Generate data: 1.14606
+P and BP: 6.67929
+epoch 590/1000: loss: 16.5864
+Generate data: 1.1451
+P and BP: 6.67819
+epoch 591/1000: loss: 16.7801
+Generate data: 1.14769
+P and BP: 6.68128
+epoch 592/1000: loss: 16.7319
+Generate data: 1.1506
+P and BP: 6.67424
+epoch 593/1000: loss: 16.457
+Generate data: 1.14652
+P and BP: 6.69999
+epoch 594/1000: loss: 17.294
+Generate data: 1.15581
+P and BP: 6.7497
+epoch 595/1000: loss: 17.2755
+Generate data: 1.1476
+P and BP: 7.02516
+epoch 596/1000: loss: 17.1026
+Generate data: 1.14941
+P and BP: 6.72451
+epoch 597/1000: loss: 16.3004
+Generate data: 1.14682
+P and BP: 6.66445
+epoch 598/1000: loss: 16.4774
+Generate data: 1.1495
+P and BP: 6.65794
+epoch 599/1000: loss: 17.26
+Generate data: 1.14833
+P and BP: 6.68764
+epoch 600/1000: loss: 16.9345
+Generate data: 1.16158
+P and BP: 6.66592
+epoch 601/1000: loss: 16.5372
+Generate data: 1.1473
+P and BP: 6.68191
+epoch 602/1000: loss: 17.2875
+Generate data: 1.16215
+P and BP: 6.67441
+epoch 603/1000: loss: 16.9924
+Generate data: 1.14873
+P and BP: 6.65781
+epoch 604/1000: loss: 17.0554
+Generate data: 1.14885
+P and BP: 6.66298
+epoch 605/1000: loss: 16.2277
+Generate data: 1.1466
+P and BP: 6.65839
+epoch 606/1000: loss: 16.6015
+Generate data: 1.14651
+P and BP: 6.66325
+epoch 607/1000: loss: 16.4259
+Generate data: 1.14534
+P and BP: 6.68822
+epoch 608/1000: loss: 16.3319
+Generate data: 1.14691
+P and BP: 6.67412
+epoch 609/1000: loss: 16.7065
+Generate data: 1.1482
+P and BP: 6.79622
+epoch 610/1000: loss: 17.031
+Generate data: 1.16925
+P and BP: 7.03993
+epoch 611/1000: loss: 16.7286
+Generate data: 1.1611
+P and BP: 6.83134
+epoch 612/1000: loss: 16.2524
+Generate data: 1.14545
+P and BP: 6.66089
+epoch 613/1000: loss: 16.601
+Generate data: 1.1463
+P and BP: 6.67839
+epoch 614/1000: loss: 16.4956
+Generate data: 1.15048
+P and BP: 6.66207
+epoch 615/1000: loss: 15.8587
+Generate data: 1.14721
+P and BP: 6.71093
+epoch 616/1000: loss: 16.435
+Generate data: 1.15019
+P and BP: 6.69881
+epoch 617/1000: loss: 16.5242
+Generate data: 1.16094
+P and BP: 6.687
+epoch 618/1000: loss: 16.0703
+Generate data: 1.14723
+P and BP: 6.67366
+epoch 619/1000: loss: 16.2651
+Generate data: 1.14735
+P and BP: 6.69277
+epoch 620/1000: loss: 15.9633
+Generate data: 1.16287
+P and BP: 6.68964
+epoch 621/1000: loss: 16.165
+Generate data: 1.14469
+P and BP: 6.69936
+epoch 622/1000: loss: 17.1653
+Generate data: 1.16607
+P and BP: 6.67917
+epoch 623/1000: loss: 16.5814
+Generate data: 1.14752
+P and BP: 6.73683
+epoch 624/1000: loss: 16.2828
+Generate data: 1.148
+P and BP: 6.71544
+epoch 625/1000: loss: 16.2078
+Generate data: 1.14525
+P and BP: 6.68576
+epoch 626/1000: loss: 16.5584
+Generate data: 1.14386
+P and BP: 6.70616
+epoch 627/1000: loss: 16.4384
+Generate data: 1.14511
+P and BP: 6.68565
+epoch 628/1000: loss: 17.0761
+Generate data: 1.1501
+P and BP: 6.71008
+epoch 629/1000: loss: 16.5062
+Generate data: 1.14683
+P and BP: 6.70402
+epoch 630/1000: loss: 16.4102
+Generate data: 1.14925
+P and BP: 6.74151
+epoch 631/1000: loss: 16.4634
+Generate data: 1.14932
+P and BP: 6.71234
+epoch 632/1000: loss: 16.6675
+Generate data: 1.14526
+P and BP: 6.71176
+epoch 633/1000: loss: 16.2439
+Generate data: 1.14739
+P and BP: 6.69397
+epoch 634/1000: loss: 16.8401
+Generate data: 1.15015
+P and BP: 6.70469
+epoch 635/1000: loss: 15.756
+Generate data: 1.16689
+P and BP: 6.70033
+epoch 636/1000: loss: 16.219
+Generate data: 1.14636
+P and BP: 6.69795
+epoch 637/1000: loss: 15.932
+Generate data: 1.16146
+P and BP: 6.71756
+epoch 638/1000: loss: 15.9034
+Generate data: 1.14759
+P and BP: 6.71383
+epoch 639/1000: loss: 16.4049
+Generate data: 1.14539
+P and BP: 6.72776
+epoch 640/1000: loss: 15.8502
+Generate data: 1.15113
+P and BP: 6.71626
+epoch 641/1000: loss: 15.9778
+Generate data: 1.15939
+P and BP: 6.70281
+epoch 642/1000: loss: 16.3919
+Generate data: 1.14832
+P and BP: 6.89335
+epoch 643/1000: loss: 15.8242
+Generate data: 1.14746
+P and BP: 6.75185
+epoch 644/1000: loss: 16.1787
+Generate data: 1.14619
+P and BP: 6.71657
+epoch 645/1000: loss: 15.6576
+Generate data: 1.14636
+P and BP: 6.72893
+epoch 646/1000: loss: 16.4992
+Generate data: 1.14948
+P and BP: 6.68715
+epoch 647/1000: loss: 16.3127
+Generate data: 1.14712
+P and BP: 6.67571
+epoch 648/1000: loss: 15.5849
+Generate data: 1.14444
+P and BP: 6.68097
+epoch 649/1000: loss: 16.3923
+Generate data: 1.14663
+P and BP: 6.7008
+epoch 650/1000: loss: 16.5323
+Generate data: 1.16093
+P and BP: 6.68938
+epoch 651/1000: loss: 16.2919
+Generate data: 1.14851
+P and BP: 6.69045
+epoch 652/1000: loss: 16.5056
+Generate data: 1.16625
+P and BP: 6.69807
+epoch 653/1000: loss: 15.9819
+Generate data: 1.14666
+P and BP: 6.71854
+epoch 654/1000: loss: 15.8537
+Generate data: 1.14534
+P and BP: 6.68981
+epoch 655/1000: loss: 16.3455
+Generate data: 1.14608
+P and BP: 6.70997
+epoch 656/1000: loss: 16.0291
+Generate data: 1.14738
+P and BP: 6.68958
+epoch 657/1000: loss: 16.1072
+Generate data: 1.14817
+P and BP: 6.69383
+epoch 658/1000: loss: 16.8092
+Generate data: 1.15017
+P and BP: 6.70661
+epoch 659/1000: loss: 15.779
+Generate data: 1.14825
+P and BP: 6.77341
+epoch 660/1000: loss: 16.9291
+Generate data: 1.14896
+P and BP: 6.99328
+epoch 661/1000: loss: 15.9953
+Generate data: 1.14861
+P and BP: 6.70441
+epoch 662/1000: loss: 16.325
+Generate data: 1.14783
+P and BP: 6.71991
+epoch 663/1000: loss: 15.9085
+Generate data: 1.17611
+P and BP: 6.713
+epoch 664/1000: loss: 16.0172
+Generate data: 1.16669
+P and BP: 6.68857
+epoch 665/1000: loss: 16.3223
+Generate data: 1.14701
+P and BP: 6.69163
+epoch 666/1000: loss: 15.8962
+Generate data: 1.14806
+P and BP: 6.68529
+epoch 667/1000: loss: 16.0844
+Generate data: 1.1489
+P and BP: 6.69747
+epoch 668/1000: loss: 15.9818
+Generate data: 1.14659
+P and BP: 6.84974
+epoch 669/1000: loss: 15.8333
+Generate data: 1.14831
+P and BP: 6.6763
+epoch 670/1000: loss: 15.8534
+Generate data: 1.16518
+P and BP: 6.68647
+epoch 671/1000: loss: 16.348
+Generate data: 1.14758
+P and BP: 6.67757
+epoch 672/1000: loss: 15.9419
+Generate data: 1.14621
+P and BP: 6.69617
+epoch 673/1000: loss: 15.7039
+Generate data: 1.14904
+P and BP: 6.68317
+epoch 674/1000: loss: 16.1158
+Generate data: 1.14557
+P and BP: 6.67714
+epoch 675/1000: loss: 15.863
+Generate data: 1.1465
+P and BP: 6.67964
+epoch 676/1000: loss: 15.4932
+Generate data: 1.14842
+P and BP: 6.86575
+epoch 677/1000: loss: 16.4821
+Generate data: 1.14551
+P and BP: 6.68501
+epoch 678/1000: loss: 15.6177
+Generate data: 1.14747
+P and BP: 6.88255
+epoch 679/1000: loss: 16.2368
+Generate data: 1.1488
+P and BP: 6.68127
+epoch 680/1000: loss: 15.5763
+Generate data: 1.14805
+P and BP: 6.6931
+epoch 681/1000: loss: 15.705
+Generate data: 1.16177
+P and BP: 6.67472
+epoch 682/1000: loss: 15.8266
+Generate data: 1.14989
+P and BP: 6.6784
+epoch 683/1000: loss: 16.2694
+Generate data: 1.14907
+P and BP: 6.67825
+epoch 684/1000: loss: 15.6521
+Generate data: 1.14839
+P and BP: 6.77024
+epoch 685/1000: loss: 16.6834
+Generate data: 1.14953
+P and BP: 6.71785
+epoch 686/1000: loss: 15.1071
+Generate data: 1.15925
+P and BP: 6.86327
+epoch 687/1000: loss: 15.9145
+Generate data: 1.1486
+P and BP: 6.93575
+epoch 688/1000: loss: 15.7863
+Generate data: 1.14969
+P and BP: 6.70419
+epoch 689/1000: loss: 15.7722
+Generate data: 1.14638
+P and BP: 6.68949
+epoch 690/1000: loss: 15.8848
+Generate data: 1.14686
+P and BP: 6.70676
+epoch 691/1000: loss: 15.7564
+Generate data: 1.16125
+P and BP: 6.73706
+epoch 692/1000: loss: 15.9977
+Generate data: 1.165
+P and BP: 6.71351
+epoch 693/1000: loss: 15.8696
+Generate data: 1.16895
+P and BP: 6.71236
+epoch 694/1000: loss: 15.736
+Generate data: 1.14985
+P and BP: 6.69436
+epoch 695/1000: loss: 15.6033
+Generate data: 1.14574
+P and BP: 6.70737
+epoch 696/1000: loss: 16.2333
+Generate data: 1.14617
+P and BP: 6.72031
+epoch 697/1000: loss: 16.0329
+Generate data: 1.14637
+P and BP: 6.71168
+epoch 698/1000: loss: 15.8396
+Generate data: 1.1741
+P and BP: 6.7226
+epoch 699/1000: loss: 16.465
+Generate data: 1.14845
+P and BP: 6.70886
+epoch 700/1000: loss: 16.1976
+Generate data: 1.15171
+P and BP: 6.70723
+epoch 701/1000: loss: 15.8442
+Generate data: 1.14899
+P and BP: 6.71873
+epoch 702/1000: loss: 16.1419
+Generate data: 1.15033
+P and BP: 6.70716
+epoch 703/1000: loss: 16.0215
+Generate data: 1.14645
+P and BP: 6.70552
+epoch 704/1000: loss: 15.5671
+Generate data: 1.14861
+P and BP: 6.83259
+epoch 705/1000: loss: 15.5221
+Generate data: 1.14852
+P and BP: 6.70409
+epoch 706/1000: loss: 15.727
+Generate data: 1.15029
+P and BP: 6.71018
+epoch 707/1000: loss: 15.1066
+Generate data: 1.14598
+P and BP: 6.7081
+epoch 708/1000: loss: 15.4849
+Generate data: 1.14846
+P and BP: 6.7095
+epoch 709/1000: loss: 15.8806
+Generate data: 1.1468
+P and BP: 6.70403
+epoch 710/1000: loss: 15.0327
+Generate data: 1.14521
+P and BP: 6.71986
+epoch 711/1000: loss: 15.4028
+Generate data: 1.14659
+P and BP: 6.69884
+epoch 712/1000: loss: 15.661
+Generate data: 1.14931
+P and BP: 6.71031
+epoch 713/1000: loss: 15.3224
+Generate data: 1.1459
+P and BP: 6.72281
+epoch 714/1000: loss: 16.1237
+Generate data: 1.14724
+P and BP: 6.69205
+epoch 715/1000: loss: 15.6959
+Generate data: 1.14966
+P and BP: 6.69937
+epoch 716/1000: loss: 15.1893
+Generate data: 1.14841
+P and BP: 6.70833
+epoch 717/1000: loss: 15.5867
+Generate data: 1.15
+P and BP: 6.69913
+epoch 718/1000: loss: 15.5352
+Generate data: 1.16401
+P and BP: 6.69931
+epoch 719/1000: loss: 15.7231
+Generate data: 1.14727
+P and BP: 6.68425
+epoch 720/1000: loss: 15.5446
+Generate data: 1.16567
+P and BP: 6.67871
+epoch 721/1000: loss: 15.2049
+Generate data: 1.15001
+P and BP: 6.69492
+epoch 722/1000: loss: 15.6127
+Generate data: 1.14706
+P and BP: 6.69847
+epoch 723/1000: loss: 15.205
+Generate data: 1.14708
+P and BP: 6.67892
+epoch 724/1000: loss: 15.8094
+Generate data: 1.14952
+P and BP: 6.69257
+epoch 725/1000: loss: 16.0966
+Generate data: 1.15
+P and BP: 6.70558
+epoch 726/1000: loss: 15.2711
+Generate data: 1.15036
+P and BP: 6.81295
+epoch 727/1000: loss: 15.1062
+Generate data: 1.14916
+P and BP: 6.70302
+epoch 728/1000: loss: 16.0401
+Generate data: 1.14475
+P and BP: 6.67284
+epoch 729/1000: loss: 15.4003
+Generate data: 1.14832
+P and BP: 6.71202
+epoch 730/1000: loss: 15.6396
+Generate data: 1.14946
+P and BP: 6.67602
+epoch 731/1000: loss: 15.8236
+Generate data: 1.14501
+P and BP: 6.68958
+epoch 732/1000: loss: 15.3811
+Generate data: 1.14811
+P and BP: 6.68297
+epoch 733/1000: loss: 15.58
+Generate data: 1.14681
+P and BP: 6.66953
+epoch 734/1000: loss: 16.0038
+Generate data: 1.14822
+P and BP: 6.71473
+epoch 735/1000: loss: 15.4741
+Generate data: 1.14657
+P and BP: 6.7128
+epoch 736/1000: loss: 15.3932
+Generate data: 1.14984
+P and BP: 6.68482
+epoch 737/1000: loss: 15.568
+Generate data: 1.16222
+P and BP: 6.70835
+epoch 738/1000: loss: 15.03
+Generate data: 1.15967
+P and BP: 6.68317
+epoch 739/1000: loss: 15.5754
+Generate data: 1.14716
+P and BP: 6.66453
+epoch 740/1000: loss: 15.6221
+Generate data: 1.14764
+P and BP: 6.67962
+epoch 741/1000: loss: 15.0682
+Generate data: 1.14781
+P and BP: 6.68229
+epoch 742/1000: loss: 15.0744
+Generate data: 1.14887
+P and BP: 6.6706
+epoch 743/1000: loss: 15.8049
+Generate data: 1.15021
+P and BP: 6.66966
+epoch 744/1000: loss: 15.7254
+Generate data: 1.16082
+P and BP: 6.67498
+epoch 745/1000: loss: 15.7131
+Generate data: 1.14692
+P and BP: 6.68996
+epoch 746/1000: loss: 15.3997
+Generate data: 1.14806
+P and BP: 6.90763
+epoch 747/1000: loss: 15.8933
+Generate data: 1.14604
+P and BP: 6.68332
+epoch 748/1000: loss: 15.7654
+Generate data: 1.15136
+P and BP: 6.67253
+epoch 749/1000: loss: 15.6721
+Generate data: 1.16542
+P and BP: 6.6647
+epoch 750/1000: loss: 15.9773
+Generate data: 1.14695
+P and BP: 6.67022
+epoch 751/1000: loss: 15.8742
+Generate data: 1.14776
+P and BP: 6.69522
+epoch 752/1000: loss: 16.3021
+Generate data: 1.14768
+P and BP: 6.68025
+epoch 753/1000: loss: 15.7016
+Generate data: 1.14741
+P and BP: 6.64472
+epoch 754/1000: loss: 15.4851
+Generate data: 1.14754
+P and BP: 6.66399
+epoch 755/1000: loss: 15.1971
+Generate data: 1.15004
+P and BP: 6.6496
+epoch 756/1000: loss: 15.3854
+Generate data: 1.1564
+P and BP: 6.67244
+epoch 757/1000: loss: 15.5238
+Generate data: 1.14744
+P and BP: 6.67161
+epoch 758/1000: loss: 15.8453
+Generate data: 1.14812
+P and BP: 6.67624
+epoch 759/1000: loss: 15.79
+Generate data: 1.15717
+P and BP: 6.69111
+epoch 760/1000: loss: 15.6452
+Generate data: 1.14881
+P and BP: 6.66953
+epoch 761/1000: loss: 15.5855
+Generate data: 1.17297
+P and BP: 6.6589
+epoch 762/1000: loss: 15.1677
+Generate data: 1.14689
+P and BP: 6.67101
+epoch 763/1000: loss: 15.9951
+Generate data: 1.16458
+P and BP: 7.13803
+epoch 764/1000: loss: 15.6041
+Generate data: 1.21607
+P and BP: 6.68671
+epoch 765/1000: loss: 15.6749
+Generate data: 1.14698
+P and BP: 6.67682
+epoch 766/1000: loss: 16.1077
+Generate data: 1.1437
+P and BP: 6.69514
+epoch 767/1000: loss: 15.5889
+Generate data: 1.15135
+P and BP: 6.68959
+epoch 768/1000: loss: 15.9313
+Generate data: 1.14692
+P and BP: 6.733
+epoch 769/1000: loss: 15.3286
+Generate data: 1.17011
+P and BP: 6.72003
+epoch 770/1000: loss: 15.647
+Generate data: 1.14538
+P and BP: 6.7098
+epoch 771/1000: loss: 15.657
+Generate data: 1.14935
+P and BP: 6.69807
+epoch 772/1000: loss: 15.7793
+Generate data: 1.14752
+P and BP: 6.70064
+epoch 773/1000: loss: 15.842
+Generate data: 1.14841
+P and BP: 6.70427
+epoch 774/1000: loss: 15.7639
+Generate data: 1.14599
+P and BP: 6.71277
+epoch 775/1000: loss: 15.8586
+Generate data: 1.14628
+P and BP: 6.7169
+epoch 776/1000: loss: 15.7334
+Generate data: 1.14478
+P and BP: 6.70419
+epoch 777/1000: loss: 15.6691
+Generate data: 1.14826
+P and BP: 6.7168
+epoch 778/1000: loss: 15.2699
+Generate data: 1.14608
+P and BP: 6.70971
+epoch 779/1000: loss: 15.7601
+Generate data: 1.14654
+P and BP: 6.70808
+epoch 780/1000: loss: 15.4849
+Generate data: 1.14967
+P and BP: 6.69704
+epoch 781/1000: loss: 15.6604
+Generate data: 1.14602
+P and BP: 6.67944
+epoch 782/1000: loss: 15.7578
+Generate data: 1.1606
+P and BP: 6.68388
+epoch 783/1000: loss: 15.6495
+Generate data: 1.15059
+P and BP: 6.6829
+epoch 784/1000: loss: 15.3249
+Generate data: 1.14935
+P and BP: 6.67549
+epoch 785/1000: loss: 14.9396
+Generate data: 1.17823
+P and BP: 6.70428
+epoch 786/1000: loss: 16.2129
+Generate data: 1.14656
+P and BP: 6.67551
+epoch 787/1000: loss: 15.7874
+Generate data: 1.14814
+P and BP: 6.67083
+epoch 788/1000: loss: 16.2011
+Generate data: 1.1462
+P and BP: 6.66541
+epoch 789/1000: loss: 15.5087
+Generate data: 1.14614
+P and BP: 6.65784
+epoch 790/1000: loss: 15.8379
+Generate data: 1.14703
+P and BP: 6.67695
+epoch 791/1000: loss: 15.5113
+Generate data: 1.1465
+P and BP: 6.69246
+epoch 792/1000: loss: 15.5275
+Generate data: 1.14627
+P and BP: 6.70093
+epoch 793/1000: loss: 15.8394
+Generate data: 1.14922
+P and BP: 6.66513
+epoch 794/1000: loss: 15.5408
+Generate data: 1.16176
+P and BP: 6.65507
+epoch 795/1000: loss: 15.3649
+Generate data: 1.14851
+P and BP: 6.66265
+epoch 796/1000: loss: 15.5722
+Generate data: 1.14622
+P and BP: 6.67261
+epoch 797/1000: loss: 15.1541
+Generate data: 1.14705
+P and BP: 6.66266
+epoch 798/1000: loss: 15.454
+Generate data: 1.1462
+P and BP: 6.68857
+epoch 799/1000: loss: 14.8419
+Generate data: 1.14715
+P and BP: 6.68568
+epoch 800/1000: loss: 15.227
+Generate data: 1.14668
+P and BP: 6.68411
+epoch 801/1000: loss: 15.2648
+Generate data: 1.14965
+P and BP: 6.68146
+epoch 802/1000: loss: 15.5894
+Generate data: 1.14791
+P and BP: 6.67256
+epoch 803/1000: loss: 15.4856
+Generate data: 1.14863
+P and BP: 6.65431
+epoch 804/1000: loss: 15.7848
+Generate data: 1.14931
+P and BP: 6.65189
+epoch 805/1000: loss: 15.329
+Generate data: 1.1484
+P and BP: 6.6665
+epoch 806/1000: loss: 15.7331
+Generate data: 1.14792
+P and BP: 6.67598
+epoch 807/1000: loss: 15.1821
+Generate data: 1.14593
+P and BP: 6.68309
+epoch 808/1000: loss: 15.2634
+Generate data: 1.15416
+P and BP: 6.70328
+epoch 809/1000: loss: 14.9277
+Generate data: 1.14837
+P and BP: 6.69011
+epoch 810/1000: loss: 15.0934
+Generate data: 1.14955
+P and BP: 6.69778
+epoch 811/1000: loss: 15.0536
+Generate data: 1.1474
+P and BP: 6.82226
+epoch 812/1000: loss: 14.9894
+Generate data: 1.14904
+P and BP: 6.70947
+epoch 813/1000: loss: 15.4775
+Generate data: 1.14513
+P and BP: 6.7036
+epoch 814/1000: loss: 15.2855
+Generate data: 1.1456
+P and BP: 6.71873
+epoch 815/1000: loss: 15.2095
+Generate data: 1.1474
+P and BP: 6.7111
+epoch 816/1000: loss: 15.1297
+Generate data: 1.14983
+P and BP: 6.71091
+epoch 817/1000: loss: 15.071
+Generate data: 1.14817
+P and BP: 6.69358
+epoch 818/1000: loss: 15.5693
+Generate data: 1.15498
+P and BP: 6.70995
+epoch 819/1000: loss: 15.1163
+Generate data: 1.16399
+P and BP: 6.726
+epoch 820/1000: loss: 15.8722
+Generate data: 1.14691
+P and BP: 6.70839
+epoch 821/1000: loss: 15.2524
+Generate data: 1.14933
+P and BP: 6.7134
+epoch 822/1000: loss: 15.529
+Generate data: 1.16083
+P and BP: 6.69417
+epoch 823/1000: loss: 15.2596
+Generate data: 1.16996
+P and BP: 6.70305
+epoch 824/1000: loss: 15.0993
+Generate data: 1.1548
+P and BP: 6.69914
+epoch 825/1000: loss: 15.331
+Generate data: 1.14793
+P and BP: 6.68895
+epoch 826/1000: loss: 15.4285
+Generate data: 1.1493
+P and BP: 6.70216
+epoch 827/1000: loss: 15.4715
+Generate data: 1.14505
+P and BP: 6.69412
+epoch 828/1000: loss: 15.1348
+Generate data: 1.14813
+P and BP: 6.7281
+epoch 829/1000: loss: 15.6582
+Generate data: 1.14666
+P and BP: 6.68806
+epoch 830/1000: loss: 15.2481
+Generate data: 1.14612
+P and BP: 6.89512
+epoch 831/1000: loss: 15.4182
+Generate data: 1.14901
+P and BP: 6.68262
+epoch 832/1000: loss: 15.5571
+Generate data: 1.16536
+P and BP: 6.81061
+epoch 833/1000: loss: 15.3928
+Generate data: 1.14625
+P and BP: 6.69539
+epoch 834/1000: loss: 15.26
+Generate data: 1.15014
+P and BP: 6.68485
+epoch 835/1000: loss: 15.4466
+Generate data: 1.16516
+P and BP: 6.68109
+epoch 836/1000: loss: 15.2774
+Generate data: 1.14719
+P and BP: 6.68704
+epoch 837/1000: loss: 15.641
+Generate data: 1.16586
+P and BP: 6.68808
+epoch 838/1000: loss: 15.5498
+Generate data: 1.14783
+P and BP: 6.80986
+epoch 839/1000: loss: 15.7484
+Generate data: 1.14715
+P and BP: 6.67978
+epoch 840/1000: loss: 14.7365
+Generate data: 1.14898
+P and BP: 6.69649
+epoch 841/1000: loss: 15.1708
+Generate data: 1.14762
+P and BP: 6.6662
+epoch 842/1000: loss: 15.6783
+Generate data: 1.161
+P and BP: 6.70726
+epoch 843/1000: loss: 15.2745
+Generate data: 1.15198
+P and BP: 6.87383
+epoch 844/1000: loss: 15.0901
+Generate data: 1.15048
+P and BP: 6.68315
+epoch 845/1000: loss: 15.2561
+Generate data: 1.14681
+P and BP: 6.67682
+epoch 846/1000: loss: 15.3584
+Generate data: 1.15156
+P and BP: 6.69935
+epoch 847/1000: loss: 15.2907
+Generate data: 1.14715
+P and BP: 6.67664
+epoch 848/1000: loss: 15.5967
+Generate data: 1.14745
+P and BP: 6.70512
+epoch 849/1000: loss: 15.7904
+Generate data: 1.14649
+P and BP: 6.71356
+epoch 850/1000: loss: 15.226
+Generate data: 1.14924
+P and BP: 6.69583
+epoch 851/1000: loss: 15.3141
+Generate data: 1.14642
+P and BP: 6.69933
+epoch 852/1000: loss: 14.9171
+Generate data: 1.15065
+P and BP: 6.72647
+epoch 853/1000: loss: 15.7863
+Generate data: 1.14829
+P and BP: 6.72981
+epoch 854/1000: loss: 14.9617
+Generate data: 1.14629
+P and BP: 6.72985
+epoch 855/1000: loss: 14.957
+Generate data: 1.16638
+P and BP: 6.7056
+epoch 856/1000: loss: 15.3864
+Generate data: 1.1472
+P and BP: 6.69359
+epoch 857/1000: loss: 15.6061
+Generate data: 1.14532
+P and BP: 6.76759
+epoch 858/1000: loss: 15.3507
+Generate data: 1.14936
+P and BP: 6.77056
+epoch 859/1000: loss: 15.1
+Generate data: 1.14472
+P and BP: 6.73199
+epoch 860/1000: loss: 15.3844
+Generate data: 1.14642
+P and BP: 6.73349
+epoch 861/1000: loss: 14.9856
+Generate data: 1.14824
+P and BP: 6.73279
+epoch 862/1000: loss: 15.5463
+Generate data: 1.14783
+P and BP: 6.85401
+epoch 863/1000: loss: 15.9083
+Generate data: 1.16413
+P and BP: 6.67977
+epoch 864/1000: loss: 14.8913
+Generate data: 1.15003
+P and BP: 6.66933
+epoch 865/1000: loss: 15.4265
+Generate data: 1.14833
+P and BP: 6.67325
+epoch 866/1000: loss: 15.1129
+Generate data: 1.16118
+P and BP: 6.72342
+epoch 867/1000: loss: 15.0764
+Generate data: 1.14764
+P and BP: 6.67707
+epoch 868/1000: loss: 14.996
+Generate data: 1.14516
+P and BP: 6.69378
+epoch 869/1000: loss: 15.7951
+Generate data: 1.14762
+P and BP: 6.68236
+epoch 870/1000: loss: 15.664
+Generate data: 1.16038
+P and BP: 6.79022
+epoch 871/1000: loss: 15.0804
+Generate data: 1.14791
+P and BP: 6.65915
+epoch 872/1000: loss: 15.0802
+Generate data: 1.16332
+P and BP: 6.71261
+epoch 873/1000: loss: 15.2881
+Generate data: 1.15943
+P and BP: 6.66427
+epoch 874/1000: loss: 14.8538
+Generate data: 1.1479
+P and BP: 6.87095
+epoch 875/1000: loss: 14.9118
+Generate data: 1.14779
+P and BP: 6.6662
+epoch 876/1000: loss: 15.2701
+Generate data: 1.14948
+P and BP: 6.64967
+epoch 877/1000: loss: 14.8365
+Generate data: 1.14805
+P and BP: 6.65016
+epoch 878/1000: loss: 15.4769
+Generate data: 1.1464
+P and BP: 6.66585
+epoch 879/1000: loss: 15.1749
+Generate data: 1.14692
+P and BP: 6.66197
+epoch 880/1000: loss: 15.2953
+Generate data: 1.14679
+P and BP: 6.67889
+epoch 881/1000: loss: 15.555
+Generate data: 1.14935
+P and BP: 6.65957
+epoch 882/1000: loss: 15.7888
+Generate data: 1.14731
+P and BP: 6.6445
+epoch 883/1000: loss: 14.9555
+Generate data: 1.14998
+P and BP: 6.65991
+epoch 884/1000: loss: 15.5954
+Generate data: 1.1478
+P and BP: 6.65906
+epoch 885/1000: loss: 15.5678
+Generate data: 1.14928
+P and BP: 6.67905
+epoch 886/1000: loss: 15.1974
+Generate data: 1.14709
+P and BP: 6.6827
+epoch 887/1000: loss: 14.9042
+Generate data: 1.1452
+P and BP: 6.64648
+epoch 888/1000: loss: 14.9911
+Generate data: 1.16146
+P and BP: 6.67735
+epoch 889/1000: loss: 15.1928
+Generate data: 1.16182
+P and BP: 6.87684
+epoch 890/1000: loss: 15.0134
+Generate data: 1.15965
+P and BP: 6.68224
+epoch 891/1000: loss: 14.9479
+Generate data: 1.16423
+P and BP: 6.6704
+epoch 892/1000: loss: 15.3624
+Generate data: 1.14772
+P and BP: 6.66954
+epoch 893/1000: loss: 15.5079
+Generate data: 1.14721
+P and BP: 6.6697
+epoch 894/1000: loss: 15.6947
+Generate data: 1.15029
+P and BP: 6.6815
+epoch 895/1000: loss: 15.2223
+Generate data: 1.14555
+P and BP: 6.6862
+epoch 896/1000: loss: 15.114
+Generate data: 1.14615
+P and BP: 6.6984
+epoch 897/1000: loss: 15.5857
+Generate data: 1.15481
+P and BP: 6.69604
+epoch 898/1000: loss: 15.3779
+Generate data: 1.14723
+P and BP: 6.71398
+epoch 899/1000: loss: 15.1304
+Generate data: 1.14998
+P and BP: 6.7022
+epoch 900/1000: loss: 15.2172
+Generate data: 1.1615
+P and BP: 6.72098
+epoch 901/1000: loss: 15.4026
+Generate data: 1.15013
+P and BP: 7.05363
+epoch 902/1000: loss: 15.2164
+Generate data: 1.14998
+P and BP: 6.70533
+epoch 903/1000: loss: 14.8094
+Generate data: 1.14681
+P and BP: 6.70562
+epoch 904/1000: loss: 15.2845
+Generate data: 1.14668
+P and BP: 6.68535
+epoch 905/1000: loss: 15.5984
+Generate data: 1.14641
+P and BP: 6.72892
+epoch 906/1000: loss: 15.5288
+Generate data: 1.14985
+P and BP: 6.6924
+epoch 907/1000: loss: 15.0488
+Generate data: 1.16362
+P and BP: 6.69598
+epoch 908/1000: loss: 15.3887
+Generate data: 1.15902
+P and BP: 6.71491
+epoch 909/1000: loss: 15.2903
+Generate data: 1.14704
+P and BP: 6.71194
+epoch 910/1000: loss: 14.9077
+Generate data: 1.1638
+P and BP: 6.699
+epoch 911/1000: loss: 15.5277
+Generate data: 1.14501
+P and BP: 6.6986
+epoch 912/1000: loss: 15.1227
+Generate data: 1.15081
+P and BP: 6.68423
+epoch 913/1000: loss: 15.341
+Generate data: 1.16101
+P and BP: 6.7204
+epoch 914/1000: loss: 15.3977
+Generate data: 1.14633
+P and BP: 6.69902
+epoch 915/1000: loss: 15.0101
+Generate data: 1.14782
+P and BP: 6.6851
+epoch 916/1000: loss: 15.2808
+Generate data: 1.14615
+P and BP: 7.02471
+epoch 917/1000: loss: 14.8684
+Generate data: 1.16552
+P and BP: 6.76038
+epoch 918/1000: loss: 15.3579
+Generate data: 1.1505
+P and BP: 6.73223
+epoch 919/1000: loss: 14.9886
+Generate data: 1.14687
+P and BP: 6.69142
+epoch 920/1000: loss: 15.5219
+Generate data: 1.14808
+P and BP: 6.71926
+epoch 921/1000: loss: 15.5327
+Generate data: 1.16531
+P and BP: 6.65593
+epoch 922/1000: loss: 14.5771
+Generate data: 1.14924
+P and BP: 6.67059
+epoch 923/1000: loss: 15.5448
+Generate data: 1.14738
+P and BP: 6.66945
+epoch 924/1000: loss: 15.1299
+Generate data: 1.14949
+P and BP: 6.68915
+epoch 925/1000: loss: 15.4736
+Generate data: 1.1458
+P and BP: 6.70472
+epoch 926/1000: loss: 15.77
+Generate data: 1.14681
+P and BP: 7.00137
+epoch 927/1000: loss: 15.3699
+Generate data: 1.14587
+P and BP: 6.67246
+epoch 928/1000: loss: 15.8773
+Generate data: 1.1603
+P and BP: 6.69561
+epoch 929/1000: loss: 15.354
+Generate data: 1.14576
+P and BP: 6.6958
+epoch 930/1000: loss: 15.1777
+Generate data: 1.14787
+P and BP: 6.70332
+epoch 931/1000: loss: 15.4691
+Generate data: 1.14687
+P and BP: 6.67269
+epoch 932/1000: loss: 15.2171
+Generate data: 1.166
+P and BP: 6.70196
+epoch 933/1000: loss: 15.1975
+Generate data: 1.14581
+P and BP: 6.6707
+epoch 934/1000: loss: 15.2599
+Generate data: 1.1474
+P and BP: 7.6986
+epoch 935/1000: loss: 14.8932
+Generate data: 1.14814
+P and BP: 6.6923
+epoch 936/1000: loss: 15.1843
+Generate data: 1.14722
+P and BP: 6.66306
+epoch 937/1000: loss: 14.6952
+Generate data: 1.14693
+P and BP: 6.69522
+epoch 938/1000: loss: 15.7
+Generate data: 1.14642
+P and BP: 6.69411
+epoch 939/1000: loss: 15.2938
+Generate data: 1.14683
+P and BP: 6.68386
+epoch 940/1000: loss: 14.6332
+Generate data: 1.14733
+P and BP: 6.67445
+epoch 941/1000: loss: 15.2017
+Generate data: 1.14856
+P and BP: 6.67191
+epoch 942/1000: loss: 15.1767
+Generate data: 1.16097
+P and BP: 6.68974
+epoch 943/1000: loss: 15.1101
+Generate data: 1.14765
+P and BP: 6.72711
+epoch 944/1000: loss: 15.5527
+Generate data: 1.14869
+P and BP: 6.74277
+epoch 945/1000: loss: 15.0662
+Generate data: 1.17104
+P and BP: 6.71268
+epoch 946/1000: loss: 15.1297
+Generate data: 1.14812
+P and BP: 6.7049
+epoch 947/1000: loss: 14.865
+Generate data: 1.15137
+P and BP: 6.71393
+epoch 948/1000: loss: 15.1015
+Generate data: 1.14691
+P and BP: 6.70277
+epoch 949/1000: loss: 15.1893
+Generate data: 1.1507
+P and BP: 6.7127
+epoch 950/1000: loss: 14.9922
+Generate data: 1.14782
+P and BP: 6.70689
+epoch 951/1000: loss: 14.6164
+Generate data: 1.1497
+P and BP: 6.70748
+epoch 952/1000: loss: 14.7802
+Generate data: 1.14667
+P and BP: 6.68601
+epoch 953/1000: loss: 14.8622
+Generate data: 1.14679
+P and BP: 6.71782
+epoch 954/1000: loss: 15.1413
+Generate data: 1.14783
+P and BP: 6.70833
+epoch 955/1000: loss: 15.1222
+Generate data: 1.17157
+P and BP: 6.69594
+epoch 956/1000: loss: 15.2813
+Generate data: 1.15003
+P and BP: 6.70583
+epoch 957/1000: loss: 15.395
+Generate data: 1.15029
+P and BP: 6.70509
+epoch 958/1000: loss: 15.2085
+Generate data: 1.14745
+P and BP: 6.80042
+epoch 959/1000: loss: 15.0241
+Generate data: 1.16111
+P and BP: 6.70106
+epoch 960/1000: loss: 14.9108
+Generate data: 1.1465
+P and BP: 6.69771
+epoch 961/1000: loss: 14.9163
+Generate data: 1.14777
+P and BP: 6.70666
+epoch 962/1000: loss: 15.0683
+Generate data: 1.14847
+P and BP: 6.70541
+epoch 963/1000: loss: 15.0477
+Generate data: 1.16012
+P and BP: 6.73885
+epoch 964/1000: loss: 15.5529
+Generate data: 1.14701
+P and BP: 6.72693
+epoch 965/1000: loss: 15.1124
+Generate data: 1.15018
+P and BP: 6.68396
+epoch 966/1000: loss: 15.4516
+Generate data: 1.15901
+P and BP: 6.71073
+epoch 967/1000: loss: 15.047
+Generate data: 1.14777
+P and BP: 6.69082
+epoch 968/1000: loss: 14.6378
+Generate data: 1.1483
+P and BP: 6.6781
+epoch 969/1000: loss: 15.5473
+Generate data: 1.14686
+P and BP: 6.88735
+epoch 970/1000: loss: 14.9235
+Generate data: 1.14729
+P and BP: 6.69908
+epoch 971/1000: loss: 15.0867
+Generate data: 1.1484
+P and BP: 6.68609
+epoch 972/1000: loss: 15.2367
+Generate data: 1.1489
+P and BP: 6.69277
+epoch 973/1000: loss: 14.852
+Generate data: 1.14822
+P and BP: 6.69746
+epoch 974/1000: loss: 14.9496
+Generate data: 1.14847
+P and BP: 6.70992
+epoch 975/1000: loss: 15.1827
+Generate data: 1.14842
+P and BP: 6.68522
+epoch 976/1000: loss: 15.6425
+Generate data: 1.14724
+P and BP: 6.67735
+epoch 977/1000: loss: 15.2443
+Generate data: 1.14697
+P and BP: 6.7068
+epoch 978/1000: loss: 14.9071
+Generate data: 1.15071
+P and BP: 6.70087
+epoch 979/1000: loss: 14.9409
+Generate data: 1.15992
+P and BP: 6.68201
+epoch 980/1000: loss: 15.1404
+Generate data: 1.149
+P and BP: 6.67092
+epoch 981/1000: loss: 14.6537
+Generate data: 1.14807
+P and BP: 6.73908
+epoch 982/1000: loss: 14.8952
+Generate data: 1.14696
+P and BP: 6.69133
+epoch 983/1000: loss: 15.4139
+Generate data: 1.14755
+P and BP: 6.69285
+epoch 984/1000: loss: 15.2673
+Generate data: 1.14824
+P and BP: 6.68008
+epoch 985/1000: loss: 14.8592
+Generate data: 1.14868
+P and BP: 6.70257
+epoch 986/1000: loss: 15.378
+Generate data: 1.16555
+P and BP: 6.79891
+epoch 987/1000: loss: 15.1717
+Generate data: 1.14791
+P and BP: 6.66906
+epoch 988/1000: loss: 15.3705
+Generate data: 1.14532
+P and BP: 6.68718
+epoch 989/1000: loss: 15.0017
+Generate data: 1.14433
+P and BP: 6.72582
+epoch 990/1000: loss: 14.743
+Generate data: 1.17599
+P and BP: 6.91043
+epoch 991/1000: loss: 14.9753
+Generate data: 1.14729
+P and BP: 6.68999
+epoch 992/1000: loss: 14.8775
+Generate data: 1.14866
+P and BP: 6.86548
+epoch 993/1000: loss: 14.7395
+Generate data: 1.15103
+P and BP: 6.84731
+epoch 994/1000: loss: 15.128
+Generate data: 1.14721
+P and BP: 6.66793
+epoch 995/1000: loss: 14.9017
+Generate data: 1.1512
+P and BP: 6.86323
+epoch 996/1000: loss: 14.4733
+Generate data: 1.14703
+P and BP: 6.70749
+epoch 997/1000: loss: 14.7886
+Generate data: 1.14643
+P and BP: 6.67671
+epoch 998/1000: loss: 14.6207
+Generate data: 1.14729
+P and BP: 6.6758
+epoch 999/1000: loss: 15.0229
+Training done! Time cost: 4716.81
+Testing!
+Current Acc: 0.976562
+Mission complete!

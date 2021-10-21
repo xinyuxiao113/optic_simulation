@@ -1,0 +1,3005 @@
+Training Start!
+Generate data: 1.14826
+P and BP: 7.14684
+epoch 1000/2000: loss: 20.9176
+Generate data: 1.23807
+P and BP: 7.24281
+epoch 1001/2000: loss: 21.0601
+Generate data: 1.24653
+P and BP: 7.18126
+epoch 1002/2000: loss: 20.6768
+Generate data: 1.2491
+P and BP: 7.23076
+epoch 1003/2000: loss: 20.7962
+Generate data: 1.23954
+P and BP: 7.23751
+epoch 1004/2000: loss: 20.4654
+Generate data: 1.24544
+P and BP: 7.24342
+epoch 1005/2000: loss: 20.7675
+Generate data: 1.25136
+P and BP: 7.2297
+epoch 1006/2000: loss: 20.7299
+Generate data: 1.2507
+P and BP: 7.26991
+epoch 1007/2000: loss: 20.9487
+Generate data: 1.24367
+P and BP: 7.1991
+epoch 1008/2000: loss: 20.5628
+Generate data: 1.24932
+P and BP: 7.17572
+epoch 1009/2000: loss: 20.7719
+Generate data: 1.25235
+P and BP: 7.17762
+epoch 1010/2000: loss: 20.4547
+Generate data: 1.24548
+P and BP: 7.18029
+epoch 1011/2000: loss: 20.5893
+Generate data: 1.24861
+P and BP: 7.20818
+epoch 1012/2000: loss: 20.5812
+Generate data: 1.23931
+P and BP: 7.23513
+epoch 1013/2000: loss: 20.4451
+Generate data: 1.2248
+P and BP: 7.22303
+epoch 1014/2000: loss: 20.8065
+Generate data: 1.25204
+P and BP: 7.24053
+epoch 1015/2000: loss: 20.7378
+Generate data: 1.22271
+P and BP: 7.20175
+epoch 1016/2000: loss: 20.5232
+Generate data: 1.25042
+P and BP: 7.21197
+epoch 1017/2000: loss: 20.2014
+Generate data: 1.25628
+P and BP: 7.20653
+epoch 1018/2000: loss: 20.6997
+Generate data: 1.26947
+P and BP: 7.24075
+epoch 1019/2000: loss: 20.6921
+Generate data: 1.24551
+P and BP: 7.24415
+epoch 1020/2000: loss: 20.4208
+Generate data: 1.24752
+P and BP: 7.21556
+epoch 1021/2000: loss: 20.6917
+Generate data: 1.24777
+P and BP: 7.20908
+epoch 1022/2000: loss: 20.4075
+Generate data: 1.22357
+P and BP: 7.26484
+epoch 1023/2000: loss: 20.7137
+Generate data: 1.25133
+P and BP: 7.21035
+epoch 1024/2000: loss: 20.4103
+Generate data: 1.24016
+P and BP: 7.18948
+epoch 1025/2000: loss: 20.8115
+Generate data: 1.21612
+P and BP: 7.18589
+epoch 1026/2000: loss: 20.3827
+Generate data: 1.2346
+P and BP: 7.16
+epoch 1027/2000: loss: 20.9553
+Generate data: 1.20516
+P and BP: 7.18605
+epoch 1028/2000: loss: 20.6316
+Generate data: 1.23038
+P and BP: 7.22753
+epoch 1029/2000: loss: 20.4411
+Generate data: 1.20013
+P and BP: 7.21306
+epoch 1030/2000: loss: 20.906
+Generate data: 1.19704
+P and BP: 7.22474
+epoch 1031/2000: loss: 20.4534
+Generate data: 1.19534
+P and BP: 7.18545
+epoch 1032/2000: loss: 20.51
+Generate data: 1.19023
+P and BP: 7.20616
+epoch 1033/2000: loss: 20.2412
+Generate data: 1.18773
+P and BP: 7.22283
+epoch 1034/2000: loss: 20.3083
+Generate data: 1.2127
+P and BP: 7.28294
+epoch 1035/2000: loss: 20.4041
+Generate data: 1.21522
+P and BP: 7.39042
+epoch 1036/2000: loss: 20.4684
+Generate data: 1.18239
+P and BP: 7.2648
+epoch 1037/2000: loss: 20.2107
+Generate data: 1.18154
+P and BP: 7.27309
+epoch 1038/2000: loss: 20.8886
+Generate data: 1.18143
+P and BP: 7.23827
+epoch 1039/2000: loss: 20.5202
+Generate data: 1.20666
+P and BP: 7.24719
+epoch 1040/2000: loss: 20.5114
+Generate data: 1.21673
+P and BP: 7.28514
+epoch 1041/2000: loss: 20.7068
+Generate data: 1.2116
+P and BP: 7.26856
+epoch 1042/2000: loss: 20.5924
+Generate data: 1.24087
+P and BP: 7.52011
+epoch 1043/2000: loss: 20.3984
+Generate data: 1.24115
+P and BP: 7.37356
+epoch 1044/2000: loss: 20.6722
+Generate data: 1.20654
+P and BP: 7.28818
+epoch 1045/2000: loss: 20.414
+Generate data: 1.19793
+P and BP: 7.29269
+epoch 1046/2000: loss: 20.6977
+Generate data: 1.15737
+P and BP: 7.26419
+epoch 1047/2000: loss: 20.3606
+Generate data: 1.1953
+P and BP: 7.23284
+epoch 1048/2000: loss: 20.4805
+Generate data: 1.1537
+P and BP: 7.24879
+epoch 1049/2000: loss: 20.6927
+Generate data: 1.19587
+P and BP: 7.24139
+epoch 1050/2000: loss: 20.1267
+Generate data: 1.15331
+P and BP: 7.3506
+epoch 1051/2000: loss: 20.3204
+Generate data: 1.22616
+P and BP: 7.22479
+epoch 1052/2000: loss: 20.3774
+Generate data: 1.15803
+P and BP: 7.23432
+epoch 1053/2000: loss: 19.7421
+Generate data: 1.15761
+P and BP: 7.23627
+epoch 1054/2000: loss: 19.9526
+Generate data: 1.16128
+P and BP: 7.23889
+epoch 1055/2000: loss: 20.206
+Generate data: 1.20184
+P and BP: 7.27197
+epoch 1056/2000: loss: 20.334
+Generate data: 1.16694
+P and BP: 7.25129
+epoch 1057/2000: loss: 20.5582
+Generate data: 1.20874
+P and BP: 7.26708
+epoch 1058/2000: loss: 20.5515
+Generate data: 1.19783
+P and BP: 7.28864
+epoch 1059/2000: loss: 20.2901
+Generate data: 1.21819
+P and BP: 7.25639
+epoch 1060/2000: loss: 20.3285
+Generate data: 1.17466
+P and BP: 7.22249
+epoch 1061/2000: loss: 20.2282
+Generate data: 1.22161
+P and BP: 7.23572
+epoch 1062/2000: loss: 20.3235
+Generate data: 1.24796
+P and BP: 7.30364
+epoch 1063/2000: loss: 20.1778
+Generate data: 1.19087
+P and BP: 7.21841
+epoch 1064/2000: loss: 20.8901
+Generate data: 1.22046
+P and BP: 7.20872
+epoch 1065/2000: loss: 20.0828
+Generate data: 1.21853
+P and BP: 7.21265
+epoch 1066/2000: loss: 20.3326
+Generate data: 1.24032
+P and BP: 7.267
+epoch 1067/2000: loss: 20.4659
+Generate data: 1.2267
+P and BP: 7.25028
+epoch 1068/2000: loss: 20.4143
+Generate data: 1.22462
+P and BP: 7.25062
+epoch 1069/2000: loss: 20.2342
+Generate data: 1.23936
+P and BP: 7.24437
+epoch 1070/2000: loss: 20.3134
+Generate data: 1.23386
+P and BP: 7.24933
+epoch 1071/2000: loss: 20.3737
+Generate data: 1.23777
+P and BP: 7.22947
+epoch 1072/2000: loss: 20.1486
+Generate data: 1.20659
+P and BP: 7.20799
+epoch 1073/2000: loss: 20.2305
+Generate data: 1.23843
+P and BP: 7.2055
+epoch 1074/2000: loss: 20.0175
+Generate data: 1.21306
+P and BP: 7.19198
+epoch 1075/2000: loss: 20.3247
+Generate data: 1.25033
+P and BP: 7.19393
+epoch 1076/2000: loss: 20.2851
+Generate data: 1.21876
+P and BP: 7.18782
+epoch 1077/2000: loss: 20.6301
+Generate data: 1.22518
+P and BP: 7.18152
+epoch 1078/2000: loss: 20.5935
+Generate data: 1.22426
+P and BP: 7.21463
+epoch 1079/2000: loss: 20.6986
+Generate data: 1.23093
+P and BP: 7.22875
+epoch 1080/2000: loss: 20.52
+Generate data: 1.22367
+P and BP: 7.23054
+epoch 1081/2000: loss: 20.2439
+Generate data: 1.24712
+P and BP: 7.24029
+epoch 1082/2000: loss: 20.2398
+Generate data: 1.2406
+P and BP: 7.22944
+epoch 1083/2000: loss: 20.593
+Generate data: 1.21898
+P and BP: 7.23894
+epoch 1084/2000: loss: 20.126
+Generate data: 1.22152
+P and BP: 7.20372
+epoch 1085/2000: loss: 20.2641
+Generate data: 1.22482
+P and BP: 7.19648
+epoch 1086/2000: loss: 20.1163
+Generate data: 1.25334
+P and BP: 7.25775
+epoch 1087/2000: loss: 20.3723
+Generate data: 1.24989
+P and BP: 7.25397
+epoch 1088/2000: loss: 20.1688
+Generate data: 1.24855
+P and BP: 7.27976
+epoch 1089/2000: loss: 20.1491
+Generate data: 1.2931
+P and BP: 7.25231
+epoch 1090/2000: loss: 20.1253
+Generate data: 1.24599
+P and BP: 7.19853
+epoch 1091/2000: loss: 20.1136
+Generate data: 1.246
+P and BP: 7.20435
+epoch 1092/2000: loss: 20.6246
+Generate data: 1.24446
+P and BP: 7.21988
+epoch 1093/2000: loss: 19.9758
+Generate data: 1.24244
+P and BP: 7.16145
+epoch 1094/2000: loss: 19.9299
+Generate data: 1.29051
+P and BP: 7.23383
+epoch 1095/2000: loss: 20.5664
+Generate data: 1.24616
+P and BP: 7.35556
+epoch 1096/2000: loss: 19.9814
+Generate data: 1.22495
+P and BP: 7.19757
+epoch 1097/2000: loss: 20.1823
+Generate data: 1.22287
+P and BP: 7.25064
+epoch 1098/2000: loss: 20.3118
+Generate data: 1.27368
+P and BP: 7.29266
+epoch 1099/2000: loss: 20.3949
+Generate data: 1.24381
+P and BP: 7.20274
+epoch 1100/2000: loss: 20.329
+Generate data: 1.24466
+P and BP: 7.20879
+epoch 1101/2000: loss: 20.0039
+Generate data: 1.22096
+P and BP: 7.17278
+epoch 1102/2000: loss: 20.5035
+Generate data: 1.22511
+P and BP: 7.18466
+epoch 1103/2000: loss: 20.599
+Generate data: 1.22453
+P and BP: 7.15112
+epoch 1104/2000: loss: 20.6911
+Generate data: 1.24616
+P and BP: 7.19421
+epoch 1105/2000: loss: 19.9694
+Generate data: 1.24595
+P and BP: 7.1615
+epoch 1106/2000: loss: 20.296
+Generate data: 1.25007
+P and BP: 7.20298
+epoch 1107/2000: loss: 20.2125
+Generate data: 1.24459
+P and BP: 7.1991
+epoch 1108/2000: loss: 20.1937
+Generate data: 1.22352
+P and BP: 7.22396
+epoch 1109/2000: loss: 19.9578
+Generate data: 1.2224
+P and BP: 7.23693
+epoch 1110/2000: loss: 20.0976
+Generate data: 1.24569
+P and BP: 7.21205
+epoch 1111/2000: loss: 20.3119
+Generate data: 1.23982
+P and BP: 7.21523
+epoch 1112/2000: loss: 20.2965
+Generate data: 1.26409
+P and BP: 7.35459
+epoch 1113/2000: loss: 20.3365
+Generate data: 1.24798
+P and BP: 7.22166
+epoch 1114/2000: loss: 20.3691
+Generate data: 1.24873
+P and BP: 7.20659
+epoch 1115/2000: loss: 20.4812
+Generate data: 1.24487
+P and BP: 7.21137
+epoch 1116/2000: loss: 20.4205
+Generate data: 1.2238
+P and BP: 7.2308
+epoch 1117/2000: loss: 20.2633
+Generate data: 1.2505
+P and BP: 7.22227
+epoch 1118/2000: loss: 20.0495
+Generate data: 1.22101
+P and BP: 7.20431
+epoch 1119/2000: loss: 20.3411
+Generate data: 1.24715
+P and BP: 7.23667
+epoch 1120/2000: loss: 19.9186
+Generate data: 1.24837
+P and BP: 7.20941
+epoch 1121/2000: loss: 20.0128
+Generate data: 1.24723
+P and BP: 7.18409
+epoch 1122/2000: loss: 20.5158
+Generate data: 1.24458
+P and BP: 7.19901
+epoch 1123/2000: loss: 20.0918
+Generate data: 1.24043
+P and BP: 7.18081
+epoch 1124/2000: loss: 20.3958
+Generate data: 1.23892
+P and BP: 7.16965
+epoch 1125/2000: loss: 20.2426
+Generate data: 1.25272
+P and BP: 7.23454
+epoch 1126/2000: loss: 20.1979
+Generate data: 1.24768
+P and BP: 7.20887
+epoch 1127/2000: loss: 20.4148
+Generate data: 1.24796
+P and BP: 7.24226
+epoch 1128/2000: loss: 20.0992
+Generate data: 1.23567
+P and BP: 7.22297
+epoch 1129/2000: loss: 20.2989
+Generate data: 1.24712
+P and BP: 7.38169
+epoch 1130/2000: loss: 20.5166
+Generate data: 1.25904
+P and BP: 7.22686
+epoch 1131/2000: loss: 20.0981
+Generate data: 1.24234
+P and BP: 7.22548
+epoch 1132/2000: loss: 20.2927
+Generate data: 1.23656
+P and BP: 7.22382
+epoch 1133/2000: loss: 20.3536
+Generate data: 1.24351
+P and BP: 7.24256
+epoch 1134/2000: loss: 20.2171
+Generate data: 1.24238
+P and BP: 7.20089
+epoch 1135/2000: loss: 20.1238
+Generate data: 1.23975
+P and BP: 7.20301
+epoch 1136/2000: loss: 20.7989
+Generate data: 1.24105
+P and BP: 7.19621
+epoch 1137/2000: loss: 20.3803
+Generate data: 1.24756
+P and BP: 7.17729
+epoch 1138/2000: loss: 20.3808
+Generate data: 1.2524
+P and BP: 7.19624
+epoch 1139/2000: loss: 20.0952
+Generate data: 1.25315
+P and BP: 7.38535
+epoch 1140/2000: loss: 20.3357
+Generate data: 1.25096
+P and BP: 7.20928
+epoch 1141/2000: loss: 20.3512
+Generate data: 1.2446
+P and BP: 7.19468
+epoch 1142/2000: loss: 20.7336
+Generate data: 1.22361
+P and BP: 7.20767
+epoch 1143/2000: loss: 20.4601
+Generate data: 1.2222
+P and BP: 7.16091
+epoch 1144/2000: loss: 19.8759
+Generate data: 1.24318
+P and BP: 7.17765
+epoch 1145/2000: loss: 20.4545
+Generate data: 1.24433
+P and BP: 7.19362
+epoch 1146/2000: loss: 20.5583
+Generate data: 1.25257
+P and BP: 7.19529
+epoch 1147/2000: loss: 20.3839
+Generate data: 1.25018
+P and BP: 7.21721
+epoch 1148/2000: loss: 19.9251
+Generate data: 1.22749
+P and BP: 7.18968
+epoch 1149/2000: loss: 20.3081
+Generate data: 1.24151
+P and BP: 7.19692
+epoch 1150/2000: loss: 20.2539
+Generate data: 1.24336
+P and BP: 7.20525
+epoch 1151/2000: loss: 20.4013
+Generate data: 1.24918
+P and BP: 7.20445
+epoch 1152/2000: loss: 20.2588
+Generate data: 1.24485
+P and BP: 7.21215
+epoch 1153/2000: loss: 20.0658
+Generate data: 1.24755
+P and BP: 7.18286
+epoch 1154/2000: loss: 20.2776
+Generate data: 1.24455
+P and BP: 7.18154
+epoch 1155/2000: loss: 20.0346
+Generate data: 1.24161
+P and BP: 7.21599
+epoch 1156/2000: loss: 20.6445
+Generate data: 1.24676
+P and BP: 7.22616
+epoch 1157/2000: loss: 20.4044
+Generate data: 1.25546
+P and BP: 7.2301
+epoch 1158/2000: loss: 20.4905
+Generate data: 1.24033
+P and BP: 7.22223
+epoch 1159/2000: loss: 20.2316
+Generate data: 1.22134
+P and BP: 7.19784
+epoch 1160/2000: loss: 20.5066
+Generate data: 1.22303
+P and BP: 7.20589
+epoch 1161/2000: loss: 20.2437
+Generate data: 1.24275
+P and BP: 7.21073
+epoch 1162/2000: loss: 20.2796
+Generate data: 1.22307
+P and BP: 7.18925
+epoch 1163/2000: loss: 20.1675
+Generate data: 1.22438
+P and BP: 7.22654
+epoch 1164/2000: loss: 20.2805
+Generate data: 1.24064
+P and BP: 7.2124
+epoch 1165/2000: loss: 20.2067
+Generate data: 1.245
+P and BP: 7.3459
+epoch 1166/2000: loss: 20.2982
+Generate data: 1.25764
+P and BP: 7.21779
+epoch 1167/2000: loss: 20.18
+Generate data: 1.24462
+P and BP: 7.20623
+epoch 1168/2000: loss: 20.0905
+Generate data: 1.24395
+P and BP: 7.18932
+epoch 1169/2000: loss: 20.2211
+Generate data: 1.22167
+P and BP: 7.17605
+epoch 1170/2000: loss: 20.5016
+Generate data: 1.22279
+P and BP: 7.19945
+epoch 1171/2000: loss: 20.2212
+Generate data: 1.25044
+P and BP: 7.17796
+epoch 1172/2000: loss: 20.4862
+Generate data: 1.23976
+P and BP: 7.23184
+epoch 1173/2000: loss: 20.425
+Generate data: 1.24978
+P and BP: 7.20136
+epoch 1174/2000: loss: 20.2836
+Generate data: 1.22485
+P and BP: 7.20527
+epoch 1175/2000: loss: 20.517
+Generate data: 1.24586
+P and BP: 7.22681
+epoch 1176/2000: loss: 20.5276
+Generate data: 1.22415
+P and BP: 7.19151
+epoch 1177/2000: loss: 20.6238
+Generate data: 1.24551
+P and BP: 7.19676
+epoch 1178/2000: loss: 20.0273
+Generate data: 1.25069
+P and BP: 7.15547
+epoch 1179/2000: loss: 20.4623
+Generate data: 1.22368
+P and BP: 7.18263
+epoch 1180/2000: loss: 20.04
+Generate data: 1.2611
+P and BP: 7.14912
+epoch 1181/2000: loss: 20.52
+Generate data: 1.25168
+P and BP: 7.30398
+epoch 1182/2000: loss: 20.2332
+Generate data: 1.24828
+P and BP: 7.19991
+epoch 1183/2000: loss: 20.5754
+Generate data: 1.24768
+P and BP: 7.21431
+epoch 1184/2000: loss: 20.857
+Generate data: 1.21983
+P and BP: 7.20808
+epoch 1185/2000: loss: 20.478
+Generate data: 1.22243
+P and BP: 7.21705
+epoch 1186/2000: loss: 20.0586
+Generate data: 1.22352
+P and BP: 7.21694
+epoch 1187/2000: loss: 20.6712
+Generate data: 1.22459
+P and BP: 7.22097
+epoch 1188/2000: loss: 20.4535
+Generate data: 1.22168
+P and BP: 7.23127
+epoch 1189/2000: loss: 20.3157
+Generate data: 1.22243
+P and BP: 7.21125
+epoch 1190/2000: loss: 20.0667
+Generate data: 1.24277
+P and BP: 7.22025
+epoch 1191/2000: loss: 20.2551
+Generate data: 1.2483
+P and BP: 7.22597
+epoch 1192/2000: loss: 19.8543
+Generate data: 1.23801
+P and BP: 7.19981
+epoch 1193/2000: loss: 20.2729
+Generate data: 1.23965
+P and BP: 7.21249
+epoch 1194/2000: loss: 20.5662
+Generate data: 1.25778
+P and BP: 7.21162
+epoch 1195/2000: loss: 19.9847
+Generate data: 1.2247
+P and BP: 7.17967
+epoch 1196/2000: loss: 20.2721
+Generate data: 1.22501
+P and BP: 7.16831
+epoch 1197/2000: loss: 20.3467
+Generate data: 1.22475
+P and BP: 7.16028
+epoch 1198/2000: loss: 20.4778
+Generate data: 1.2399
+P and BP: 7.14483
+epoch 1199/2000: loss: 20.5779
+Generate data: 1.22726
+P and BP: 7.20124
+epoch 1200/2000: loss: 20.3958
+Generate data: 1.25245
+P and BP: 7.17517
+epoch 1201/2000: loss: 20.2818
+Generate data: 1.23677
+P and BP: 7.17352
+epoch 1202/2000: loss: 20.3958
+Generate data: 1.22102
+P and BP: 7.16616
+epoch 1203/2000: loss: 20.3984
+Generate data: 1.21784
+P and BP: 7.19391
+epoch 1204/2000: loss: 20.6414
+Generate data: 1.2378
+P and BP: 7.15762
+epoch 1205/2000: loss: 20.3182
+Generate data: 1.20988
+P and BP: 7.18337
+epoch 1206/2000: loss: 20.3722
+Generate data: 1.20528
+P and BP: 7.19664
+epoch 1207/2000: loss: 20.2675
+Generate data: 1.24047
+P and BP: 7.27176
+epoch 1208/2000: loss: 20.8518
+Generate data: 1.2377
+P and BP: 7.21479
+epoch 1209/2000: loss: 20.602
+Generate data: 1.22911
+P and BP: 7.18824
+epoch 1210/2000: loss: 20.5476
+Generate data: 1.23016
+P and BP: 7.23434
+epoch 1211/2000: loss: 20.6207
+Generate data: 1.23224
+P and BP: 7.23218
+epoch 1212/2000: loss: 20.5784
+Generate data: 1.2404
+P and BP: 7.2148
+epoch 1213/2000: loss: 20.5903
+Generate data: 1.21727
+P and BP: 7.26792
+epoch 1214/2000: loss: 20.2406
+Generate data: 1.21818
+P and BP: 7.32005
+epoch 1215/2000: loss: 20.4372
+Generate data: 1.25811
+P and BP: 7.28357
+epoch 1216/2000: loss: 20.3848
+Generate data: 1.22722
+P and BP: 7.2482
+epoch 1217/2000: loss: 19.7556
+Generate data: 1.21532
+P and BP: 7.27405
+epoch 1218/2000: loss: 20.2584
+Generate data: 1.20325
+P and BP: 7.26929
+epoch 1219/2000: loss: 20.6445
+Generate data: 1.20368
+P and BP: 7.25908
+epoch 1220/2000: loss: 20.7125
+Generate data: 1.20264
+P and BP: 7.26104
+epoch 1221/2000: loss: 20.324
+Generate data: 1.19463
+P and BP: 7.28965
+epoch 1222/2000: loss: 20.4915
+Generate data: 1.1912
+P and BP: 7.26443
+epoch 1223/2000: loss: 20.6236
+Generate data: 1.20116
+P and BP: 7.24853
+epoch 1224/2000: loss: 20.5159
+Generate data: 1.19146
+P and BP: 7.27103
+epoch 1225/2000: loss: 20.6428
+Generate data: 1.20059
+P and BP: 7.28448
+epoch 1226/2000: loss: 20.7463
+Generate data: 1.19267
+P and BP: 7.26624
+epoch 1227/2000: loss: 20.5104
+Generate data: 1.20452
+P and BP: 7.28548
+epoch 1228/2000: loss: 20.7851
+Generate data: 1.20255
+P and BP: 7.25601
+epoch 1229/2000: loss: 20.2922
+Generate data: 1.19029
+P and BP: 7.26423
+epoch 1230/2000: loss: 20.6459
+Generate data: 1.18033
+P and BP: 7.26886
+epoch 1231/2000: loss: 20.6938
+Generate data: 1.19138
+P and BP: 7.28361
+epoch 1232/2000: loss: 20.4076
+Generate data: 1.20556
+P and BP: 7.35713
+epoch 1233/2000: loss: 20.4848
+Generate data: 1.26019
+P and BP: 7.29394
+epoch 1234/2000: loss: 20.3209
+Generate data: 1.20059
+P and BP: 7.26988
+epoch 1235/2000: loss: 20.9504
+Generate data: 1.21027
+P and BP: 7.26068
+epoch 1236/2000: loss: 20.5401
+Generate data: 1.20947
+P and BP: 7.26525
+epoch 1237/2000: loss: 20.4082
+Generate data: 1.21146
+P and BP: 7.27462
+epoch 1238/2000: loss: 20.4353
+Generate data: 1.21096
+P and BP: 7.27709
+epoch 1239/2000: loss: 20.5407
+Generate data: 1.20969
+P and BP: 7.25382
+epoch 1240/2000: loss: 20.585
+Generate data: 1.21819
+P and BP: 7.23653
+epoch 1241/2000: loss: 20.3621
+Generate data: 1.21865
+P and BP: 7.21187
+epoch 1242/2000: loss: 20.716
+Generate data: 1.21792
+P and BP: 7.22539
+epoch 1243/2000: loss: 20.5632
+Generate data: 1.21952
+P and BP: 7.24147
+epoch 1244/2000: loss: 20.7737
+Generate data: 1.22412
+P and BP: 7.22209
+epoch 1245/2000: loss: 20.6442
+Generate data: 1.22552
+P and BP: 7.22947
+epoch 1246/2000: loss: 20.3783
+Generate data: 1.22367
+P and BP: 7.21248
+epoch 1247/2000: loss: 20.75
+Generate data: 1.22208
+P and BP: 7.18241
+epoch 1248/2000: loss: 20.8433
+Generate data: 1.22508
+P and BP: 7.1888
+epoch 1249/2000: loss: 20.8849
+Generate data: 1.23484
+P and BP: 7.22511
+epoch 1250/2000: loss: 20.5262
+Generate data: 1.24231
+P and BP: 7.23354
+epoch 1251/2000: loss: 20.6149
+Generate data: 1.24588
+P and BP: 7.24057
+epoch 1252/2000: loss: 20.6044
+Generate data: 1.24572
+P and BP: 7.22586
+epoch 1253/2000: loss: 20.5086
+Generate data: 1.25941
+P and BP: 7.2338
+epoch 1254/2000: loss: 20.2721
+Generate data: 1.24429
+P and BP: 7.24221
+epoch 1255/2000: loss: 20.6495
+Generate data: 1.2586
+P and BP: 7.27682
+epoch 1256/2000: loss: 20.673
+Generate data: 1.29391
+P and BP: 7.34471
+epoch 1257/2000: loss: 20.6365
+Generate data: 1.30777
+P and BP: 7.22175
+epoch 1258/2000: loss: 20.8344
+Generate data: 1.25704
+P and BP: 7.17653
+epoch 1259/2000: loss: 20.7805
+Generate data: 1.2494
+P and BP: 7.23823
+epoch 1260/2000: loss: 20.4359
+Generate data: 1.23889
+P and BP: 7.23186
+epoch 1261/2000: loss: 20.2079
+Generate data: 1.25745
+P and BP: 7.2229
+epoch 1262/2000: loss: 19.8908
+Generate data: 1.24878
+P and BP: 7.22524
+epoch 1263/2000: loss: 20.8236
+Generate data: 1.23624
+P and BP: 7.17791
+epoch 1264/2000: loss: 20.613
+Generate data: 1.25511
+P and BP: 7.18785
+epoch 1265/2000: loss: 20.1406
+Generate data: 1.25275
+P and BP: 7.2912
+epoch 1266/2000: loss: 20.5336
+Generate data: 1.30303
+P and BP: 7.40553
+epoch 1267/2000: loss: 20.4673
+Generate data: 1.30057
+P and BP: 7.48851
+epoch 1268/2000: loss: 20.7793
+Generate data: 1.24574
+P and BP: 7.24088
+epoch 1269/2000: loss: 20.2221
+Generate data: 1.24594
+P and BP: 7.24402
+epoch 1270/2000: loss: 20.6013
+Generate data: 1.24709
+P and BP: 7.235
+epoch 1271/2000: loss: 20.6682
+Generate data: 1.25375
+P and BP: 7.21893
+epoch 1272/2000: loss: 20.3524
+Generate data: 1.23907
+P and BP: 7.22859
+epoch 1273/2000: loss: 20.7134
+Generate data: 1.23964
+P and BP: 7.20855
+epoch 1274/2000: loss: 20.4707
+Generate data: 1.25472
+P and BP: 7.21128
+epoch 1275/2000: loss: 20.3664
+Generate data: 1.24722
+P and BP: 7.24036
+epoch 1276/2000: loss: 20.5725
+Generate data: 1.24912
+P and BP: 7.20441
+epoch 1277/2000: loss: 20.4369
+Generate data: 1.26066
+P and BP: 7.22405
+epoch 1278/2000: loss: 20.4901
+Generate data: 1.24869
+P and BP: 7.23335
+epoch 1279/2000: loss: 20.555
+Generate data: 1.25042
+P and BP: 7.20795
+epoch 1280/2000: loss: 20.716
+Generate data: 1.23936
+P and BP: 7.20089
+epoch 1281/2000: loss: 20.2053
+Generate data: 1.25328
+P and BP: 7.23313
+epoch 1282/2000: loss: 20.4562
+Generate data: 1.24903
+P and BP: 7.21742
+epoch 1283/2000: loss: 20.4683
+Generate data: 1.24139
+P and BP: 7.22404
+epoch 1284/2000: loss: 20.4701
+Generate data: 1.24444
+P and BP: 7.22225
+epoch 1285/2000: loss: 20.9654
+Generate data: 1.25091
+P and BP: 7.23357
+epoch 1286/2000: loss: 20.2989
+Generate data: 1.26002
+P and BP: 7.22085
+epoch 1287/2000: loss: 20.4241
+Generate data: 1.23907
+P and BP: 7.22523
+epoch 1288/2000: loss: 20.3388
+Generate data: 1.24006
+P and BP: 7.23115
+epoch 1289/2000: loss: 20.3442
+Generate data: 1.24422
+P and BP: 7.20091
+epoch 1290/2000: loss: 20.4416
+Generate data: 1.2426
+P and BP: 7.21165
+epoch 1291/2000: loss: 20.5788
+Generate data: 1.23662
+P and BP: 7.20581
+epoch 1292/2000: loss: 20.6772
+Generate data: 1.25499
+P and BP: 7.23123
+epoch 1293/2000: loss: 20.2098
+Generate data: 1.24467
+P and BP: 7.19793
+epoch 1294/2000: loss: 20.2423
+Generate data: 1.24919
+P and BP: 7.21321
+epoch 1295/2000: loss: 20.5947
+Generate data: 1.24202
+P and BP: 7.20375
+epoch 1296/2000: loss: 20.4939
+Generate data: 1.25246
+P and BP: 7.22334
+epoch 1297/2000: loss: 20.4639
+Generate data: 1.24271
+P and BP: 7.21799
+epoch 1298/2000: loss: 20.3378
+Generate data: 1.24897
+P and BP: 7.21565
+epoch 1299/2000: loss: 20.2648
+Generate data: 1.24666
+P and BP: 7.22861
+epoch 1300/2000: loss: 20.6358
+Generate data: 1.24697
+P and BP: 7.23318
+epoch 1301/2000: loss: 20.3803
+Generate data: 1.24968
+P and BP: 7.20597
+epoch 1302/2000: loss: 19.8871
+Generate data: 1.24969
+P and BP: 7.23135
+epoch 1303/2000: loss: 20.4419
+Generate data: 1.24792
+P and BP: 7.22289
+epoch 1304/2000: loss: 20.2295
+Generate data: 1.24423
+P and BP: 7.23662
+epoch 1305/2000: loss: 20.461
+Generate data: 1.24706
+P and BP: 7.22528
+epoch 1306/2000: loss: 20.8163
+Generate data: 1.25129
+P and BP: 7.23583
+epoch 1307/2000: loss: 20.3769
+Generate data: 1.24748
+P and BP: 7.24589
+epoch 1308/2000: loss: 20.4708
+Generate data: 1.24238
+P and BP: 7.2199
+epoch 1309/2000: loss: 20.4125
+Generate data: 1.24573
+P and BP: 7.22138
+epoch 1310/2000: loss: 20.5582
+Generate data: 1.2511
+P and BP: 7.25238
+epoch 1311/2000: loss: 20.2885
+Generate data: 1.29415
+P and BP: 7.17074
+epoch 1312/2000: loss: 20.4387
+Generate data: 1.22366
+P and BP: 7.16932
+epoch 1313/2000: loss: 20.6475
+Generate data: 1.24516
+P and BP: 7.1664
+epoch 1314/2000: loss: 20.4729
+Generate data: 1.24418
+P and BP: 7.24321
+epoch 1315/2000: loss: 20.2166
+Generate data: 1.27465
+P and BP: 7.25105
+epoch 1316/2000: loss: 20.1281
+Generate data: 1.25061
+P and BP: 7.23878
+epoch 1317/2000: loss: 20.6184
+Generate data: 1.25235
+P and BP: 7.20997
+epoch 1318/2000: loss: 20.2526
+Generate data: 1.25041
+P and BP: 7.20977
+epoch 1319/2000: loss: 20.6701
+Generate data: 1.25051
+P and BP: 7.19413
+epoch 1320/2000: loss: 19.8595
+Generate data: 1.25046
+P and BP: 7.17733
+epoch 1321/2000: loss: 19.9075
+Generate data: 1.24452
+P and BP: 7.21565
+epoch 1322/2000: loss: 20.9366
+Generate data: 1.2559
+P and BP: 7.23009
+epoch 1323/2000: loss: 20.4954
+Generate data: 1.23956
+P and BP: 7.20948
+epoch 1324/2000: loss: 20.3271
+Generate data: 1.24027
+P and BP: 7.19633
+epoch 1325/2000: loss: 20.2901
+Generate data: 1.2527
+P and BP: 7.19895
+epoch 1326/2000: loss: 20.4722
+Generate data: 1.25352
+P and BP: 7.27601
+epoch 1327/2000: loss: 20.117
+Generate data: 1.2951
+P and BP: 7.44183
+epoch 1328/2000: loss: 20.5597
+Generate data: 1.24975
+P and BP: 7.20483
+epoch 1329/2000: loss: 20.3717
+Generate data: 1.24232
+P and BP: 7.19614
+epoch 1330/2000: loss: 20.5601
+Generate data: 1.2527
+P and BP: 7.23314
+epoch 1331/2000: loss: 20.4328
+Generate data: 1.24887
+P and BP: 7.23815
+epoch 1332/2000: loss: 20.1166
+Generate data: 1.24397
+P and BP: 7.25354
+epoch 1333/2000: loss: 20.3489
+Generate data: 1.25034
+P and BP: 7.22696
+epoch 1334/2000: loss: 20.3062
+Generate data: 1.24385
+P and BP: 7.23844
+epoch 1335/2000: loss: 20.3733
+Generate data: 1.24617
+P and BP: 7.19395
+epoch 1336/2000: loss: 20.7402
+Generate data: 1.2433
+P and BP: 7.34354
+epoch 1337/2000: loss: 20.6457
+Generate data: 1.24665
+P and BP: 7.24378
+epoch 1338/2000: loss: 20.2242
+Generate data: 1.25219
+P and BP: 7.2118
+epoch 1339/2000: loss: 20.6655
+Generate data: 1.23732
+P and BP: 7.22812
+epoch 1340/2000: loss: 20.9619
+Generate data: 1.25477
+P and BP: 7.23263
+epoch 1341/2000: loss: 20.4145
+Generate data: 1.24556
+P and BP: 7.20229
+epoch 1342/2000: loss: 20.7229
+Generate data: 1.25198
+P and BP: 7.29187
+epoch 1343/2000: loss: 20.3006
+Generate data: 1.22609
+P and BP: 7.21055
+epoch 1344/2000: loss: 20.2073
+Generate data: 1.2242
+P and BP: 7.2226
+epoch 1345/2000: loss: 20.3791
+Generate data: 1.25224
+P and BP: 7.20241
+epoch 1346/2000: loss: 20.2689
+Generate data: 1.24146
+P and BP: 7.22613
+epoch 1347/2000: loss: 20.3349
+Generate data: 1.22465
+P and BP: 7.19871
+epoch 1348/2000: loss: 20.7262
+Generate data: 1.25073
+P and BP: 7.20533
+epoch 1349/2000: loss: 20.3063
+Generate data: 1.22392
+P and BP: 7.17059
+epoch 1350/2000: loss: 20.4736
+Generate data: 1.24945
+P and BP: 7.18185
+epoch 1351/2000: loss: 20.4469
+Generate data: 1.25256
+P and BP: 7.16219
+epoch 1352/2000: loss: 20.5245
+Generate data: 1.25095
+P and BP: 7.18447
+epoch 1353/2000: loss: 20.2423
+Generate data: 1.24701
+P and BP: 7.21853
+epoch 1354/2000: loss: 20.5558
+Generate data: 1.22216
+P and BP: 7.20637
+epoch 1355/2000: loss: 20.6759
+Generate data: 1.25052
+P and BP: 7.22923
+epoch 1356/2000: loss: 20.0257
+Generate data: 1.24314
+P and BP: 7.23595
+epoch 1357/2000: loss: 20.5908
+Generate data: 1.24133
+P and BP: 7.23439
+epoch 1358/2000: loss: 20.628
+Generate data: 1.23454
+P and BP: 7.23467
+epoch 1359/2000: loss: 20.5588
+Generate data: 1.24583
+P and BP: 7.214
+epoch 1360/2000: loss: 20.1163
+Generate data: 1.22222
+P and BP: 7.21626
+epoch 1361/2000: loss: 20.5881
+Generate data: 1.24977
+P and BP: 7.36414
+epoch 1362/2000: loss: 20.704
+Generate data: 1.2481
+P and BP: 7.1679
+epoch 1363/2000: loss: 20.5332
+Generate data: 1.22454
+P and BP: 7.19101
+epoch 1364/2000: loss: 20.4883
+Generate data: 1.25079
+P and BP: 7.19317
+epoch 1365/2000: loss: 20.5331
+Generate data: 1.24183
+P and BP: 7.19162
+epoch 1366/2000: loss: 20.3701
+Generate data: 1.24414
+P and BP: 7.22796
+epoch 1367/2000: loss: 20.8688
+Generate data: 1.25354
+P and BP: 7.22142
+epoch 1368/2000: loss: 20.3879
+Generate data: 1.22396
+P and BP: 7.2176
+epoch 1369/2000: loss: 20.8042
+Generate data: 1.22502
+P and BP: 7.21243
+epoch 1370/2000: loss: 20.6231
+Generate data: 1.25148
+P and BP: 7.21023
+epoch 1371/2000: loss: 20.7902
+Generate data: 1.25891
+P and BP: 7.22087
+epoch 1372/2000: loss: 20.1381
+Generate data: 1.25065
+P and BP: 7.20808
+epoch 1373/2000: loss: 20.5313
+Generate data: 1.24799
+P and BP: 7.20442
+epoch 1374/2000: loss: 20.3177
+Generate data: 1.24045
+P and BP: 7.21598
+epoch 1375/2000: loss: 20.2342
+Generate data: 1.22111
+P and BP: 7.23456
+epoch 1376/2000: loss: 20.5715
+Generate data: 1.2235
+P and BP: 7.22691
+epoch 1377/2000: loss: 20.4291
+Generate data: 1.22389
+P and BP: 7.22956
+epoch 1378/2000: loss: 20.4457
+Generate data: 1.24788
+P and BP: 7.24433
+epoch 1379/2000: loss: 20.4914
+Generate data: 1.25139
+P and BP: 7.25946
+epoch 1380/2000: loss: 20.1804
+Generate data: 1.25096
+P and BP: 7.22853
+epoch 1381/2000: loss: 20.2788
+Generate data: 1.24871
+P and BP: 7.24935
+epoch 1382/2000: loss: 20.3124
+Generate data: 1.2268
+P and BP: 7.24176
+epoch 1383/2000: loss: 20.1792
+Generate data: 1.25514
+P and BP: 7.1839
+epoch 1384/2000: loss: 21.3608
+Generate data: 1.22169
+P and BP: 7.18899
+epoch 1385/2000: loss: 21.0269
+Generate data: 1.21909
+P and BP: 7.35636
+epoch 1386/2000: loss: 20.7072
+Generate data: 1.21495
+P and BP: 7.19201
+epoch 1387/2000: loss: 20.4157
+Generate data: 1.20909
+P and BP: 7.19799
+epoch 1388/2000: loss: 20.7628
+Generate data: 1.24234
+P and BP: 7.18934
+epoch 1389/2000: loss: 20.845
+Generate data: 1.23273
+P and BP: 7.18913
+epoch 1390/2000: loss: 20.5932
+Generate data: 1.19633
+P and BP: 7.20978
+epoch 1391/2000: loss: 20.6311
+Generate data: 1.22986
+P and BP: 7.20595
+epoch 1392/2000: loss: 20.6718
+Generate data: 1.20203
+P and BP: 7.24073
+epoch 1393/2000: loss: 20.7127
+Generate data: 1.21548
+P and BP: 7.2288
+epoch 1394/2000: loss: 21.0375
+Generate data: 1.17895
+P and BP: 7.19053
+epoch 1395/2000: loss: 20.3845
+Generate data: 1.17726
+P and BP: 7.2038
+epoch 1396/2000: loss: 20.7135
+Generate data: 1.17279
+P and BP: 7.20584
+epoch 1397/2000: loss: 20.7272
+Generate data: 1.20606
+P and BP: 7.19782
+epoch 1398/2000: loss: 20.8109
+Generate data: 1.1616
+P and BP: 7.2089
+epoch 1399/2000: loss: 20.7594
+Generate data: 1.15854
+P and BP: 7.23336
+epoch 1400/2000: loss: 20.4718
+Generate data: 1.18939
+P and BP: 7.21635
+epoch 1401/2000: loss: 19.9736
+Generate data: 1.1528
+P and BP: 7.21102
+epoch 1402/2000: loss: 20.1797
+Generate data: 1.15342
+P and BP: 7.21447
+epoch 1403/2000: loss: 20.5277
+Generate data: 1.19009
+P and BP: 7.20582
+epoch 1404/2000: loss: 20.6809
+Generate data: 1.16143
+P and BP: 7.20723
+epoch 1405/2000: loss: 20.22
+Generate data: 1.20794
+P and BP: 7.373
+epoch 1406/2000: loss: 20.4904
+Generate data: 1.2029
+P and BP: 7.19952
+epoch 1407/2000: loss: 20.0996
+Generate data: 1.17767
+P and BP: 7.23611
+epoch 1408/2000: loss: 20.3523
+Generate data: 1.17703
+P and BP: 7.27617
+epoch 1409/2000: loss: 20.6143
+Generate data: 1.21051
+P and BP: 7.22781
+epoch 1410/2000: loss: 20.5678
+Generate data: 1.1784
+P and BP: 7.25878
+epoch 1411/2000: loss: 20.5156
+Generate data: 1.18649
+P and BP: 7.24618
+epoch 1412/2000: loss: 20.487
+Generate data: 1.21574
+P and BP: 7.25552
+epoch 1413/2000: loss: 20.7942
+Generate data: 1.21481
+P and BP: 7.25693
+epoch 1414/2000: loss: 20.5632
+Generate data: 1.19315
+P and BP: 7.23374
+epoch 1415/2000: loss: 20.5674
+Generate data: 1.22842
+P and BP: 7.23391
+epoch 1416/2000: loss: 20.7391
+Generate data: 1.23188
+P and BP: 7.23831
+epoch 1417/2000: loss: 21.1103
+Generate data: 1.22338
+P and BP: 7.22987
+epoch 1418/2000: loss: 20.8008
+Generate data: 1.20052
+P and BP: 7.24253
+epoch 1419/2000: loss: 20.4778
+Generate data: 1.24186
+P and BP: 7.23996
+epoch 1420/2000: loss: 20.6959
+Generate data: 1.22944
+P and BP: 7.2258
+epoch 1421/2000: loss: 20.6221
+Generate data: 1.23516
+P and BP: 7.3188
+epoch 1422/2000: loss: 20.7337
+Generate data: 1.26654
+P and BP: 7.25519
+epoch 1423/2000: loss: 20.7735
+Generate data: 1.20765
+P and BP: 7.36626
+epoch 1424/2000: loss: 20.238
+Generate data: 1.24632
+P and BP: 7.21846
+epoch 1425/2000: loss: 20.6776
+Generate data: 1.21216
+P and BP: 7.22541
+epoch 1426/2000: loss: 20.5285
+Generate data: 1.21322
+P and BP: 7.22466
+epoch 1427/2000: loss: 20.4853
+Generate data: 1.21471
+P and BP: 7.2285
+epoch 1428/2000: loss: 20.9433
+Generate data: 1.23965
+P and BP: 7.22874
+epoch 1429/2000: loss: 20.7372
+Generate data: 1.24354
+P and BP: 7.34433
+epoch 1430/2000: loss: 20.8623
+Generate data: 1.29795
+P and BP: 7.23208
+epoch 1431/2000: loss: 20.7716
+Generate data: 1.24916
+P and BP: 7.26628
+epoch 1432/2000: loss: 20.4425
+Generate data: 1.29562
+P and BP: 7.36844
+epoch 1433/2000: loss: 21.1351
+Generate data: 1.25544
+P and BP: 7.21785
+epoch 1434/2000: loss: 20.74
+Generate data: 1.25694
+P and BP: 7.21131
+epoch 1435/2000: loss: 20.7399
+Generate data: 1.25658
+P and BP: 7.20157
+epoch 1436/2000: loss: 20.9155
+Generate data: 1.2234
+P and BP: 7.18596
+epoch 1437/2000: loss: 20.7683
+Generate data: 1.22062
+P and BP: 7.19691
+epoch 1438/2000: loss: 20.8936
+Generate data: 1.22231
+P and BP: 7.16741
+epoch 1439/2000: loss: 20.5245
+Generate data: 1.24869
+P and BP: 7.17219
+epoch 1440/2000: loss: 20.4342
+Generate data: 1.22252
+P and BP: 7.17233
+epoch 1441/2000: loss: 20.0974
+Generate data: 1.25542
+P and BP: 7.19683
+epoch 1442/2000: loss: 20.54
+Generate data: 1.2535
+P and BP: 7.16425
+epoch 1443/2000: loss: 21.2346
+Generate data: 1.24951
+P and BP: 7.15811
+epoch 1444/2000: loss: 20.8913
+Generate data: 1.24174
+P and BP: 7.16438
+epoch 1445/2000: loss: 20.6125
+Generate data: 1.22422
+P and BP: 7.17972
+epoch 1446/2000: loss: 21.0362
+Generate data: 1.22149
+P and BP: 7.15586
+epoch 1447/2000: loss: 20.9135
+Generate data: 1.24603
+P and BP: 7.19043
+epoch 1448/2000: loss: 20.7458
+Generate data: 1.245
+P and BP: 7.18831
+epoch 1449/2000: loss: 20.6978
+Generate data: 1.224
+P and BP: 7.1707
+epoch 1450/2000: loss: 20.9177
+Generate data: 1.2516
+P and BP: 7.16776
+epoch 1451/2000: loss: 20.8695
+Generate data: 1.22438
+P and BP: 7.21716
+epoch 1452/2000: loss: 20.6542
+Generate data: 1.24508
+P and BP: 7.25065
+epoch 1453/2000: loss: 20.8384
+Generate data: 1.30064
+P and BP: 7.29259
+epoch 1454/2000: loss: 20.7393
+Generate data: 1.24781
+P and BP: 7.22202
+epoch 1455/2000: loss: 20.8163
+Generate data: 1.22235
+P and BP: 7.20656
+epoch 1456/2000: loss: 20.8785
+Generate data: 1.24902
+P and BP: 7.28289
+epoch 1457/2000: loss: 20.7253
+Generate data: 1.26562
+P and BP: 7.16324
+epoch 1458/2000: loss: 21.1336
+Generate data: 1.2246
+P and BP: 7.19371
+epoch 1459/2000: loss: 20.6562
+Generate data: 1.25604
+P and BP: 7.23492
+epoch 1460/2000: loss: 20.7209
+Generate data: 1.22389
+P and BP: 7.21967
+epoch 1461/2000: loss: 20.8227
+Generate data: 1.2423
+P and BP: 7.20873
+epoch 1462/2000: loss: 20.8069
+Generate data: 1.24903
+P and BP: 7.21077
+epoch 1463/2000: loss: 20.5242
+Generate data: 1.25007
+P and BP: 7.23257
+epoch 1464/2000: loss: 20.5001
+Generate data: 1.22002
+P and BP: 7.22166
+epoch 1465/2000: loss: 20.6499
+Generate data: 1.24267
+P and BP: 7.20732
+epoch 1466/2000: loss: 21.1118
+Generate data: 1.2437
+P and BP: 7.22513
+epoch 1467/2000: loss: 20.8229
+Generate data: 1.24856
+P and BP: 7.34493
+epoch 1468/2000: loss: 20.9023
+Generate data: 1.29498
+P and BP: 7.32784
+epoch 1469/2000: loss: 20.6292
+Generate data: 1.30528
+P and BP: 7.41869
+epoch 1470/2000: loss: 20.9956
+Generate data: 1.25186
+P and BP: 7.23004
+epoch 1471/2000: loss: 21.2822
+Generate data: 1.24345
+P and BP: 7.20484
+epoch 1472/2000: loss: 21.0104
+Generate data: 1.25952
+P and BP: 7.23493
+epoch 1473/2000: loss: 20.9356
+Generate data: 1.24963
+P and BP: 7.22404
+epoch 1474/2000: loss: 20.6464
+Generate data: 1.26779
+P and BP: 7.18684
+epoch 1475/2000: loss: 21.177
+Generate data: 1.24302
+P and BP: 7.19235
+epoch 1476/2000: loss: 21.2976
+Generate data: 1.27713
+P and BP: 7.21361
+epoch 1477/2000: loss: 20.8128
+Generate data: 1.24733
+P and BP: 7.22036
+epoch 1478/2000: loss: 21.0778
+Generate data: 1.23686
+P and BP: 7.22529
+epoch 1479/2000: loss: 21.079
+Generate data: 1.23499
+P and BP: 7.32001
+epoch 1480/2000: loss: 20.8339
+Generate data: 1.29787
+P and BP: 7.44625
+epoch 1481/2000: loss: 20.4118
+Generate data: 1.28438
+P and BP: 7.19675
+epoch 1482/2000: loss: 20.9934
+Generate data: 1.25339
+P and BP: 7.15372
+epoch 1483/2000: loss: 20.7274
+Generate data: 1.24293
+P and BP: 7.18618
+epoch 1484/2000: loss: 20.4124
+Generate data: 1.25021
+P and BP: 7.17964
+epoch 1485/2000: loss: 20.7426
+Generate data: 1.25007
+P and BP: 7.16177
+epoch 1486/2000: loss: 20.328
+Generate data: 1.24834
+P and BP: 7.23168
+epoch 1487/2000: loss: 20.5906
+Generate data: 1.25313
+P and BP: 7.21056
+epoch 1488/2000: loss: 20.8847
+Generate data: 1.25651
+P and BP: 7.22562
+epoch 1489/2000: loss: 20.6358
+Generate data: 1.25304
+P and BP: 7.24152
+epoch 1490/2000: loss: 20.7329
+Generate data: 1.24665
+P and BP: 7.20755
+epoch 1491/2000: loss: 20.9549
+Generate data: 1.24441
+P and BP: 7.1755
+epoch 1492/2000: loss: 20.6478
+Generate data: 1.23757
+P and BP: 7.19499
+epoch 1493/2000: loss: 20.8489
+Generate data: 1.24253
+P and BP: 7.19592
+epoch 1494/2000: loss: 21.1959
+Generate data: 1.25448
+P and BP: 7.17785
+epoch 1495/2000: loss: 21.2414
+Generate data: 1.22487
+P and BP: 7.22618
+epoch 1496/2000: loss: 21.0278
+Generate data: 1.22253
+P and BP: 7.22857
+epoch 1497/2000: loss: 20.7805
+Generate data: 1.24819
+P and BP: 7.23285
+epoch 1498/2000: loss: 21.1264
+Generate data: 1.24383
+P and BP: 7.23885
+epoch 1499/2000: loss: 21.138
+Generate data: 1.24605
+P and BP: 7.21346
+epoch 1500/2000: loss: 20.8567
+Generate data: 1.22498
+P and BP: 7.21581
+epoch 1501/2000: loss: 20.8079
+Generate data: 1.27149
+P and BP: 7.28717
+epoch 1502/2000: loss: 20.4228
+Generate data: 1.24242
+P and BP: 7.21672
+epoch 1503/2000: loss: 20.6968
+Generate data: 1.24418
+P and BP: 7.35049
+epoch 1504/2000: loss: 20.7487
+Generate data: 1.24488
+P and BP: 7.20973
+epoch 1505/2000: loss: 21.1804
+Generate data: 1.25145
+P and BP: 7.20765
+epoch 1506/2000: loss: 20.5605
+Generate data: 1.22423
+P and BP: 7.20924
+epoch 1507/2000: loss: 20.6264
+Generate data: 1.24851
+P and BP: 7.21224
+epoch 1508/2000: loss: 20.8441
+Generate data: 1.2464
+P and BP: 7.19779
+epoch 1509/2000: loss: 20.854
+Generate data: 1.25727
+P and BP: 7.187
+epoch 1510/2000: loss: 20.962
+Generate data: 1.24025
+P and BP: 7.18743
+epoch 1511/2000: loss: 20.8374
+Generate data: 1.24329
+P and BP: 7.18538
+epoch 1512/2000: loss: 20.988
+Generate data: 1.25898
+P and BP: 7.19107
+epoch 1513/2000: loss: 20.9403
+Generate data: 1.28769
+P and BP: 7.23161
+epoch 1514/2000: loss: 20.8168
+Generate data: 1.22051
+P and BP: 7.19626
+epoch 1515/2000: loss: 20.6856
+Generate data: 1.22277
+P and BP: 7.24117
+epoch 1516/2000: loss: 21.1138
+Generate data: 1.25114
+P and BP: 7.25667
+epoch 1517/2000: loss: 20.7014
+Generate data: 1.24627
+P and BP: 7.22347
+epoch 1518/2000: loss: 21
+Generate data: 1.24371
+P and BP: 7.1959
+epoch 1519/2000: loss: 20.9189
+Generate data: 1.22242
+P and BP: 7.18986
+epoch 1520/2000: loss: 20.8782
+Generate data: 1.25209
+P and BP: 7.23564
+epoch 1521/2000: loss: 21.3128
+Generate data: 1.24391
+P and BP: 7.22229
+epoch 1522/2000: loss: 20.701
+Generate data: 1.22451
+P and BP: 7.23554
+epoch 1523/2000: loss: 21.1536
+Generate data: 1.22416
+P and BP: 7.21427
+epoch 1524/2000: loss: 20.997
+Generate data: 1.23342
+P and BP: 7.22533
+epoch 1525/2000: loss: 20.7462
+Generate data: 1.22268
+P and BP: 7.22662
+epoch 1526/2000: loss: 20.3879
+Generate data: 1.25619
+P and BP: 7.23419
+epoch 1527/2000: loss: 20.9633
+Generate data: 1.25196
+P and BP: 7.23056
+epoch 1528/2000: loss: 21.0302
+Generate data: 1.22243
+P and BP: 7.22492
+epoch 1529/2000: loss: 20.8721
+Generate data: 1.22276
+P and BP: 7.22489
+epoch 1530/2000: loss: 21.3181
+Generate data: 1.22575
+P and BP: 7.22712
+epoch 1531/2000: loss: 20.6006
+Generate data: 1.24891
+P and BP: 7.2364
+epoch 1532/2000: loss: 20.8485
+Generate data: 1.22289
+P and BP: 7.23918
+epoch 1533/2000: loss: 20.7308
+Generate data: 1.22366
+P and BP: 7.23398
+epoch 1534/2000: loss: 21.1301
+Generate data: 1.2247
+P and BP: 7.22954
+epoch 1535/2000: loss: 20.658
+Generate data: 1.30364
+P and BP: 7.32583
+epoch 1536/2000: loss: 20.9301
+Generate data: 1.21921
+P and BP: 7.17751
+epoch 1537/2000: loss: 21.1531
+Generate data: 1.25507
+P and BP: 7.19947
+epoch 1538/2000: loss: 21.0124
+Generate data: 1.25057
+P and BP: 7.17325
+epoch 1539/2000: loss: 21.2833
+Generate data: 1.22401
+P and BP: 7.21012
+epoch 1540/2000: loss: 20.7794
+Generate data: 1.28909
+P and BP: 7.34547
+epoch 1541/2000: loss: 20.9851
+Generate data: 1.22376
+P and BP: 7.23662
+epoch 1542/2000: loss: 21.0258
+Generate data: 1.23093
+P and BP: 7.21155
+epoch 1543/2000: loss: 20.7594
+Generate data: 1.25057
+P and BP: 7.19998
+epoch 1544/2000: loss: 21.014
+Generate data: 1.22257
+P and BP: 7.21175
+epoch 1545/2000: loss: 21.122
+Generate data: 1.25336
+P and BP: 7.22566
+epoch 1546/2000: loss: 20.7836
+Generate data: 1.24232
+P and BP: 7.21921
+epoch 1547/2000: loss: 20.5066
+Generate data: 1.24764
+P and BP: 7.20767
+epoch 1548/2000: loss: 20.9303
+Generate data: 1.22567
+P and BP: 7.22112
+epoch 1549/2000: loss: 20.976
+Generate data: 1.22732
+P and BP: 7.2182
+epoch 1550/2000: loss: 21.0859
+Generate data: 1.22415
+P and BP: 7.19862
+epoch 1551/2000: loss: 21.0539
+Generate data: 1.22344
+P and BP: 7.20521
+epoch 1552/2000: loss: 20.648
+Generate data: 1.25864
+P and BP: 7.20022
+epoch 1553/2000: loss: 20.6585
+Generate data: 1.26301
+P and BP: 7.16983
+epoch 1554/2000: loss: 20.6485
+Generate data: 1.26202
+P and BP: 7.22414
+epoch 1555/2000: loss: 20.6674
+Generate data: 1.2495
+P and BP: 7.38425
+epoch 1556/2000: loss: 21.3297
+Generate data: 1.25566
+P and BP: 7.19679
+epoch 1557/2000: loss: 20.7726
+Generate data: 1.24385
+P and BP: 7.18608
+epoch 1558/2000: loss: 21.052
+Generate data: 1.27988
+P and BP: 7.22188
+epoch 1559/2000: loss: 21.0322
+Generate data: 1.21817
+P and BP: 7.23333
+epoch 1560/2000: loss: 21.0905
+Generate data: 1.23724
+P and BP: 7.22472
+epoch 1561/2000: loss: 20.9538
+Generate data: 1.21375
+P and BP: 7.37857
+epoch 1562/2000: loss: 21.0317
+Generate data: 1.2362
+P and BP: 7.25497
+epoch 1563/2000: loss: 20.4553
+Generate data: 1.20907
+P and BP: 7.24315
+epoch 1564/2000: loss: 20.5381
+Generate data: 1.22709
+P and BP: 7.23046
+epoch 1565/2000: loss: 20.7373
+Generate data: 1.24475
+P and BP: 7.22086
+epoch 1566/2000: loss: 21.0172
+Generate data: 1.21718
+P and BP: 7.25713
+epoch 1567/2000: loss: 21.2011
+Generate data: 1.22581
+P and BP: 7.23704
+epoch 1568/2000: loss: 21.3153
+Generate data: 1.23308
+P and BP: 7.24607
+epoch 1569/2000: loss: 21.0244
+Generate data: 1.19688
+P and BP: 7.23278
+epoch 1570/2000: loss: 20.9002
+Generate data: 1.2243
+P and BP: 7.26423
+epoch 1571/2000: loss: 20.8377
+Generate data: 1.21962
+P and BP: 7.25313
+epoch 1572/2000: loss: 20.9022
+Generate data: 1.225
+P and BP: 7.24466
+epoch 1573/2000: loss: 20.9871
+Generate data: 1.22753
+P and BP: 7.25616
+epoch 1574/2000: loss: 21.1502
+Generate data: 1.22758
+P and BP: 7.25311
+epoch 1575/2000: loss: 21.0501
+Generate data: 1.2237
+P and BP: 7.25929
+epoch 1576/2000: loss: 20.7956
+Generate data: 1.2256
+P and BP: 7.26982
+epoch 1577/2000: loss: 20.9251
+Generate data: 1.23786
+P and BP: 7.27617
+epoch 1578/2000: loss: 21.1499
+Generate data: 1.22089
+P and BP: 7.27291
+epoch 1579/2000: loss: 20.8022
+Generate data: 1.28041
+P and BP: 7.50609
+epoch 1580/2000: loss: 21.1601
+Generate data: 1.25959
+P and BP: 7.30052
+epoch 1581/2000: loss: 20.804
+Generate data: 1.21266
+P and BP: 7.2541
+epoch 1582/2000: loss: 21.0477
+Generate data: 1.21351
+P and BP: 7.24802
+epoch 1583/2000: loss: 21.2181
+Generate data: 1.2238
+P and BP: 7.39213
+epoch 1584/2000: loss: 20.8601
+Generate data: 1.19675
+P and BP: 7.25626
+epoch 1585/2000: loss: 20.9528
+Generate data: 1.19187
+P and BP: 7.25542
+epoch 1586/2000: loss: 20.8858
+Generate data: 1.19491
+P and BP: 7.28669
+epoch 1587/2000: loss: 20.887
+Generate data: 1.19927
+P and BP: 7.29692
+epoch 1588/2000: loss: 20.8092
+Generate data: 1.21068
+P and BP: 7.29409
+epoch 1589/2000: loss: 20.4643
+Generate data: 1.19604
+P and BP: 7.2978
+epoch 1590/2000: loss: 20.7738
+Generate data: 1.1966
+P and BP: 7.27237
+epoch 1591/2000: loss: 21.1709
+Generate data: 1.1925
+P and BP: 7.27905
+epoch 1592/2000: loss: 20.7554
+Generate data: 1.20276
+P and BP: 7.25764
+epoch 1593/2000: loss: 21.0671
+Generate data: 1.18865
+P and BP: 7.28732
+epoch 1594/2000: loss: 20.8784
+Generate data: 1.18994
+P and BP: 7.24786
+epoch 1595/2000: loss: 20.7943
+Generate data: 1.19804
+P and BP: 7.27538
+epoch 1596/2000: loss: 21.5606
+Generate data: 1.19608
+P and BP: 7.26864
+epoch 1597/2000: loss: 20.9619
+Generate data: 1.19011
+P and BP: 7.2767
+epoch 1598/2000: loss: 20.5495
+Generate data: 1.21909
+P and BP: 7.29343
+epoch 1599/2000: loss: 20.8017
+Generate data: 1.21229
+P and BP: 7.30592
+epoch 1600/2000: loss: 21.177
+Generate data: 1.20636
+P and BP: 7.27941
+epoch 1601/2000: loss: 20.8386
+Generate data: 1.19883
+P and BP: 7.29582
+epoch 1602/2000: loss: 20.7373
+Generate data: 1.21152
+P and BP: 7.27535
+epoch 1603/2000: loss: 21.1964
+Generate data: 1.20489
+P and BP: 7.28146
+epoch 1604/2000: loss: 21.0369
+Generate data: 1.19773
+P and BP: 7.28893
+epoch 1605/2000: loss: 20.9075
+Generate data: 1.21988
+P and BP: 7.29162
+epoch 1606/2000: loss: 20.896
+Generate data: 1.21179
+P and BP: 7.24533
+epoch 1607/2000: loss: 21.0351
+Generate data: 1.21475
+P and BP: 7.24824
+epoch 1608/2000: loss: 21.0353
+Generate data: 1.22436
+P and BP: 7.37456
+epoch 1609/2000: loss: 21.017
+Generate data: 1.23656
+P and BP: 7.27427
+epoch 1610/2000: loss: 21.2665
+Generate data: 1.21376
+P and BP: 7.29076
+epoch 1611/2000: loss: 20.7497
+Generate data: 1.28584
+P and BP: 7.3181
+epoch 1612/2000: loss: 21.272
+Generate data: 1.24026
+P and BP: 7.25936
+epoch 1613/2000: loss: 21.2371
+Generate data: 1.21574
+P and BP: 7.21408
+epoch 1614/2000: loss: 21.4161
+Generate data: 1.23039
+P and BP: 7.25668
+epoch 1615/2000: loss: 21.2905
+Generate data: 1.23063
+P and BP: 7.24886
+epoch 1616/2000: loss: 21.1858
+Generate data: 1.22809
+P and BP: 7.38991
+epoch 1617/2000: loss: 21.177
+Generate data: 1.23274
+P and BP: 7.2722
+epoch 1618/2000: loss: 20.7715
+Generate data: 1.24787
+P and BP: 7.25266
+epoch 1619/2000: loss: 21.2883
+Generate data: 1.23751
+P and BP: 7.23457
+epoch 1620/2000: loss: 21.3315
+Generate data: 1.23103
+P and BP: 7.21736
+epoch 1621/2000: loss: 21.0542
+Generate data: 1.23346
+P and BP: 7.21707
+epoch 1622/2000: loss: 21.2714
+Generate data: 1.24364
+P and BP: 7.19355
+epoch 1623/2000: loss: 21.1794
+Generate data: 1.24613
+P and BP: 7.20401
+epoch 1624/2000: loss: 21.3619
+Generate data: 1.2483
+P and BP: 7.20705
+epoch 1625/2000: loss: 21.3088
+Generate data: 1.24291
+P and BP: 7.20041
+epoch 1626/2000: loss: 21.4098
+Generate data: 1.26366
+P and BP: 7.24478
+epoch 1627/2000: loss: 21.1645
+Generate data: 1.2482
+P and BP: 7.21509
+epoch 1628/2000: loss: 21.2491
+Generate data: 1.25542
+P and BP: 7.23006
+epoch 1629/2000: loss: 21.4252
+Generate data: 1.24726
+P and BP: 7.24545
+epoch 1630/2000: loss: 21.1152
+Generate data: 1.25825
+P and BP: 7.34633
+epoch 1631/2000: loss: 21.2427
+Generate data: 1.30114
+P and BP: 7.23576
+epoch 1632/2000: loss: 21.2532
+Generate data: 1.2551
+P and BP: 7.20882
+epoch 1633/2000: loss: 21.2145
+Generate data: 1.25631
+P and BP: 7.17474
+epoch 1634/2000: loss: 20.9383
+Generate data: 1.24216
+P and BP: 7.17259
+epoch 1635/2000: loss: 21.0314
+Generate data: 1.2518
+P and BP: 7.20085
+epoch 1636/2000: loss: 21.1407
+Generate data: 1.24661
+P and BP: 7.22179
+epoch 1637/2000: loss: 21.0836
+Generate data: 1.25257
+P and BP: 7.22055
+epoch 1638/2000: loss: 21.1835
+Generate data: 1.25548
+P and BP: 7.22543
+epoch 1639/2000: loss: 21.2243
+Generate data: 1.25186
+P and BP: 7.24762
+epoch 1640/2000: loss: 21.0698
+Generate data: 1.24598
+P and BP: 7.24795
+epoch 1641/2000: loss: 21.2597
+Generate data: 1.24023
+P and BP: 7.20824
+epoch 1642/2000: loss: 21.0695
+Generate data: 1.24886
+P and BP: 7.34808
+epoch 1643/2000: loss: 21.2637
+Generate data: 1.24858
+P and BP: 7.20164
+epoch 1644/2000: loss: 21.1093
+Generate data: 1.26082
+P and BP: 7.18672
+epoch 1645/2000: loss: 21.2456
+Generate data: 1.24404
+P and BP: 7.18058
+epoch 1646/2000: loss: 20.9607
+Generate data: 1.24885
+P and BP: 7.32603
+epoch 1647/2000: loss: 21.0001
+Generate data: 1.24327
+P and BP: 7.18349
+epoch 1648/2000: loss: 20.8237
+Generate data: 1.23758
+P and BP: 7.16853
+epoch 1649/2000: loss: 21.0246
+Generate data: 1.2478
+P and BP: 7.19218
+epoch 1650/2000: loss: 21.3888
+Generate data: 1.23826
+P and BP: 7.16847
+epoch 1651/2000: loss: 21.1058
+Generate data: 1.24827
+P and BP: 7.18293
+epoch 1652/2000: loss: 21.5473
+Generate data: 1.24393
+P and BP: 7.19679
+epoch 1653/2000: loss: 21.4648
+Generate data: 1.24654
+P and BP: 7.20237
+epoch 1654/2000: loss: 20.8672
+Generate data: 1.24972
+P and BP: 7.23084
+epoch 1655/2000: loss: 21.1893
+Generate data: 1.22417
+P and BP: 7.24379
+epoch 1656/2000: loss: 21.1095
+Generate data: 1.24877
+P and BP: 7.23982
+epoch 1657/2000: loss: 20.9341
+Generate data: 1.22488
+P and BP: 7.21922
+epoch 1658/2000: loss: 20.632
+Generate data: 1.2549
+P and BP: 7.21506
+epoch 1659/2000: loss: 20.8698
+Generate data: 1.2233
+P and BP: 7.22526
+epoch 1660/2000: loss: 20.8999
+Generate data: 1.23837
+P and BP: 7.22758
+epoch 1661/2000: loss: 20.9376
+Generate data: 1.26063
+P and BP: 7.21368
+epoch 1662/2000: loss: 21.3151
+Generate data: 1.24308
+P and BP: 7.22706
+epoch 1663/2000: loss: 20.8593
+Generate data: 1.24495
+P and BP: 7.20889
+epoch 1664/2000: loss: 21.1297
+Generate data: 1.25143
+P and BP: 7.19673
+epoch 1665/2000: loss: 21.2876
+Generate data: 1.23917
+P and BP: 7.19701
+epoch 1666/2000: loss: 21.0721
+Generate data: 1.24109
+P and BP: 7.35584
+epoch 1667/2000: loss: 21.0014
+Generate data: 1.26963
+P and BP: 7.22389
+epoch 1668/2000: loss: 20.9892
+Generate data: 1.25389
+P and BP: 7.21389
+epoch 1669/2000: loss: 20.8095
+Generate data: 1.24108
+P and BP: 7.22008
+epoch 1670/2000: loss: 21.3473
+Generate data: 1.30068
+P and BP: 7.23844
+epoch 1671/2000: loss: 21.4578
+Generate data: 1.22127
+P and BP: 7.21077
+epoch 1672/2000: loss: 21.101
+Generate data: 1.22096
+P and BP: 7.22083
+epoch 1673/2000: loss: 21.6178
+Generate data: 1.24882
+P and BP: 7.2185
+epoch 1674/2000: loss: 21.2978
+Generate data: 1.22259
+P and BP: 7.22966
+epoch 1675/2000: loss: 21.0946
+Generate data: 1.22593
+P and BP: 7.23428
+epoch 1676/2000: loss: 21.2722
+Generate data: 1.24925
+P and BP: 7.22368
+epoch 1677/2000: loss: 21.5115
+Generate data: 1.25264
+P and BP: 7.20779
+epoch 1678/2000: loss: 20.9711
+Generate data: 1.24383
+P and BP: 7.22452
+epoch 1679/2000: loss: 20.9074
+Generate data: 1.24584
+P and BP: 7.19005
+epoch 1680/2000: loss: 21.5477
+Generate data: 1.24036
+P and BP: 7.22838
+epoch 1681/2000: loss: 20.8092
+Generate data: 1.24358
+P and BP: 7.28402
+epoch 1682/2000: loss: 21.271
+Generate data: 1.30124
+P and BP: 7.3499
+epoch 1683/2000: loss: 21.2979
+Generate data: 1.24976
+P and BP: 7.20356
+epoch 1684/2000: loss: 21.0436
+Generate data: 1.2436
+P and BP: 7.20024
+epoch 1685/2000: loss: 21.1826
+Generate data: 1.25739
+P and BP: 7.20018
+epoch 1686/2000: loss: 21.5163
+Generate data: 1.25741
+P and BP: 7.19104
+epoch 1687/2000: loss: 21.4334
+Generate data: 1.24851
+P and BP: 7.17829
+epoch 1688/2000: loss: 21.4588
+Generate data: 1.24649
+P and BP: 7.18114
+epoch 1689/2000: loss: 21.3561
+Generate data: 1.24419
+P and BP: 7.1977
+epoch 1690/2000: loss: 21.5858
+Generate data: 1.24955
+P and BP: 7.18779
+epoch 1691/2000: loss: 21.2553
+Generate data: 1.25751
+P and BP: 7.21803
+epoch 1692/2000: loss: 21.3111
+Generate data: 1.25977
+P and BP: 7.21563
+epoch 1693/2000: loss: 21.1828
+Generate data: 1.24991
+P and BP: 7.1942
+epoch 1694/2000: loss: 20.9731
+Generate data: 1.24104
+P and BP: 7.19806
+epoch 1695/2000: loss: 21.3027
+Generate data: 1.25991
+P and BP: 7.17821
+epoch 1696/2000: loss: 21.2608
+Generate data: 1.24516
+P and BP: 7.22836
+epoch 1697/2000: loss: 21.3178
+Generate data: 1.24744
+P and BP: 7.21875
+epoch 1698/2000: loss: 21.3192
+Generate data: 1.245
+P and BP: 7.34298
+epoch 1699/2000: loss: 21.8732
+Generate data: 1.29469
+P and BP: 7.23534
+epoch 1700/2000: loss: 21.517
+Generate data: 1.24766
+P and BP: 7.22413
+epoch 1701/2000: loss: 21.5765
+Generate data: 1.24054
+P and BP: 7.23569
+epoch 1702/2000: loss: 21.6128
+Generate data: 1.24514
+P and BP: 7.21781
+epoch 1703/2000: loss: 21.3262
+Generate data: 1.25009
+P and BP: 7.22753
+epoch 1704/2000: loss: 21.6561
+Generate data: 1.25082
+P and BP: 7.22397
+epoch 1705/2000: loss: 21.5298
+Generate data: 1.25105
+P and BP: 7.21522
+epoch 1706/2000: loss: 21.3685
+Generate data: 1.25382
+P and BP: 7.33166
+epoch 1707/2000: loss: 21.5948
+Generate data: 1.30736
+P and BP: 7.34525
+epoch 1708/2000: loss: 21.6741
+Generate data: 1.23969
+P and BP: 7.22763
+epoch 1709/2000: loss: 21.2487
+Generate data: 1.25035
+P and BP: 7.23094
+epoch 1710/2000: loss: 21.1649
+Generate data: 1.25192
+P and BP: 7.20063
+epoch 1711/2000: loss: 21.45
+Generate data: 1.25933
+P and BP: 7.20816
+epoch 1712/2000: loss: 21.597
+Generate data: 1.25523
+P and BP: 7.22576
+epoch 1713/2000: loss: 21.4261
+Generate data: 1.24391
+P and BP: 7.23364
+epoch 1714/2000: loss: 21.5169
+Generate data: 1.24638
+P and BP: 7.19124
+epoch 1715/2000: loss: 21.3122
+Generate data: 1.24258
+P and BP: 7.23211
+epoch 1716/2000: loss: 21.5965
+Generate data: 1.25139
+P and BP: 7.22262
+epoch 1717/2000: loss: 21.2188
+Generate data: 1.252
+P and BP: 7.23881
+epoch 1718/2000: loss: 21.199
+Generate data: 1.24682
+P and BP: 7.18634
+epoch 1719/2000: loss: 21.1651
+Generate data: 1.24471
+P and BP: 7.19392
+epoch 1720/2000: loss: 21.1115
+Generate data: 1.24996
+P and BP: 7.19191
+epoch 1721/2000: loss: 21.2107
+Generate data: 1.25599
+P and BP: 7.17779
+epoch 1722/2000: loss: 21.2863
+Generate data: 1.25275
+P and BP: 7.20294
+epoch 1723/2000: loss: 21.7677
+Generate data: 1.24813
+P and BP: 7.20261
+epoch 1724/2000: loss: 21.832
+Generate data: 1.25623
+P and BP: 7.23353
+epoch 1725/2000: loss: 21.3598
+Generate data: 1.26396
+P and BP: 7.24085
+epoch 1726/2000: loss: 21.5842
+Generate data: 1.25402
+P and BP: 7.34991
+epoch 1727/2000: loss: 21.1521
+Generate data: 1.2501
+P and BP: 7.23458
+epoch 1728/2000: loss: 21.4576
+Generate data: 1.2272
+P and BP: 7.20411
+epoch 1729/2000: loss: 21.856
+Generate data: 1.22365
+P and BP: 7.23108
+epoch 1730/2000: loss: 21.9852
+Generate data: 1.22463
+P and BP: 7.20215
+epoch 1731/2000: loss: 21.6711
+Generate data: 1.222
+P and BP: 7.29353
+epoch 1732/2000: loss: 21.464
+Generate data: 1.22055
+P and BP: 7.18541
+epoch 1733/2000: loss: 21.6685
+Generate data: 1.24003
+P and BP: 7.18475
+epoch 1734/2000: loss: 21.1773
+Generate data: 1.24875
+P and BP: 7.22389
+epoch 1735/2000: loss: 21.4888
+Generate data: 1.25701
+P and BP: 7.22693
+epoch 1736/2000: loss: 21.5126
+Generate data: 1.24188
+P and BP: 7.23107
+epoch 1737/2000: loss: 21.8452
+Generate data: 1.24465
+P and BP: 7.21005
+epoch 1738/2000: loss: 21.4249
+Generate data: 1.22456
+P and BP: 7.22818
+epoch 1739/2000: loss: 21.7236
+Generate data: 1.22609
+P and BP: 7.23639
+epoch 1740/2000: loss: 21.239
+Generate data: 1.24416
+P and BP: 7.20155
+epoch 1741/2000: loss: 21.4949
+Generate data: 1.22549
+P and BP: 7.21012
+epoch 1742/2000: loss: 21.117
+Generate data: 1.2223
+P and BP: 7.23546
+epoch 1743/2000: loss: 21.7873
+Generate data: 1.22243
+P and BP: 7.21863
+epoch 1744/2000: loss: 21.5492
+Generate data: 1.29582
+P and BP: 7.31891
+epoch 1745/2000: loss: 21.5653
+Generate data: 1.21546
+P and BP: 7.21753
+epoch 1746/2000: loss: 21.3038
+Generate data: 1.23657
+P and BP: 7.23093
+epoch 1747/2000: loss: 21.7014
+Generate data: 1.23694
+P and BP: 7.23149
+epoch 1748/2000: loss: 21.461
+Generate data: 1.2348
+P and BP: 7.18619
+epoch 1749/2000: loss: 21.3173
+Generate data: 1.20048
+P and BP: 7.17723
+epoch 1750/2000: loss: 21.6236
+Generate data: 1.19506
+P and BP: 7.20486
+epoch 1751/2000: loss: 21.6267
+Generate data: 1.22852
+P and BP: 7.19435
+epoch 1752/2000: loss: 21.5405
+Generate data: 1.18683
+P and BP: 7.25077
+epoch 1753/2000: loss: 21.5244
+Generate data: 1.27613
+P and BP: 7.2999
+epoch 1754/2000: loss: 21.7413
+Generate data: 1.17935
+P and BP: 7.2031
+epoch 1755/2000: loss: 21.7682
+Generate data: 1.17249
+P and BP: 7.21726
+epoch 1756/2000: loss: 21.4327
+Generate data: 1.19901
+P and BP: 7.21789
+epoch 1757/2000: loss: 21.5199
+Generate data: 1.1644
+P and BP: 7.20269
+epoch 1758/2000: loss: 21.5798
+Generate data: 1.15768
+P and BP: 7.33178
+epoch 1759/2000: loss: 21.668
+Generate data: 1.23027
+P and BP: 7.23491
+epoch 1760/2000: loss: 21.407
+Generate data: 1.18635
+P and BP: 7.26646
+epoch 1761/2000: loss: 21.8628
+Generate data: 1.16673
+P and BP: 7.2614
+epoch 1762/2000: loss: 21.381
+Generate data: 1.18726
+P and BP: 7.265
+epoch 1763/2000: loss: 21.1046
+Generate data: 1.18739
+P and BP: 7.39395
+epoch 1764/2000: loss: 21.5808
+Generate data: 1.23493
+P and BP: 7.31416
+epoch 1765/2000: loss: 21.278
+Generate data: 1.20213
+P and BP: 7.254
+epoch 1766/2000: loss: 21.8104
+Generate data: 1.1618
+P and BP: 7.25854
+epoch 1767/2000: loss: 21.5863
+Generate data: 1.20542
+P and BP: 7.27989
+epoch 1768/2000: loss: 21.3962
+Generate data: 1.20099
+P and BP: 7.25078
+epoch 1769/2000: loss: 21.4353
+Generate data: 1.20251
+P and BP: 7.25115
+epoch 1770/2000: loss: 21.7322
+Generate data: 1.19203
+P and BP: 7.27745
+epoch 1771/2000: loss: 21.39
+Generate data: 1.20374
+P and BP: 7.26504
+epoch 1772/2000: loss: 21.7656
+Generate data: 1.21237
+P and BP: 7.24127
+epoch 1773/2000: loss: 21.2824
+Generate data: 1.19413
+P and BP: 7.24147
+epoch 1774/2000: loss: 21.7543
+Generate data: 1.19387
+P and BP: 7.24581
+epoch 1775/2000: loss: 21.4857
+Generate data: 1.20828
+P and BP: 7.26733
+epoch 1776/2000: loss: 20.9928
+Generate data: 1.17873
+P and BP: 7.26166
+epoch 1777/2000: loss: 21.5308
+Generate data: 1.17882
+P and BP: 7.2619
+epoch 1778/2000: loss: 21.5246
+Generate data: 1.17795
+P and BP: 7.26624
+epoch 1779/2000: loss: 21.4379
+Generate data: 1.20352
+P and BP: 7.23386
+epoch 1780/2000: loss: 21.5304
+Generate data: 1.17972
+P and BP: 7.21823
+epoch 1781/2000: loss: 21.6214
+Generate data: 1.22777
+P and BP: 7.21958
+epoch 1782/2000: loss: 21.5673
+Generate data: 1.21531
+P and BP: 7.2463
+epoch 1783/2000: loss: 21.4455
+Generate data: 1.19137
+P and BP: 7.22892
+epoch 1784/2000: loss: 21.3982
+Generate data: 1.19294
+P and BP: 7.18632
+epoch 1785/2000: loss: 21.5751
+Generate data: 1.19778
+P and BP: 7.18855
+epoch 1786/2000: loss: 21.5433
+Generate data: 1.22109
+P and BP: 7.18465
+epoch 1787/2000: loss: 21.642
+Generate data: 1.20627
+P and BP: 7.19013
+epoch 1788/2000: loss: 21.8209
+Generate data: 1.20608
+P and BP: 7.18401
+epoch 1789/2000: loss: 21.6736
+Generate data: 1.20972
+P and BP: 7.20037
+epoch 1790/2000: loss: 21.7439
+Generate data: 1.24601
+P and BP: 7.19462
+epoch 1791/2000: loss: 21.498
+Generate data: 1.21797
+P and BP: 7.19517
+epoch 1792/2000: loss: 21.61
+Generate data: 1.23458
+P and BP: 7.19987
+epoch 1793/2000: loss: 21.5483
+Generate data: 1.25591
+P and BP: 7.21891
+epoch 1794/2000: loss: 21.9623
+Generate data: 1.2216
+P and BP: 7.20362
+epoch 1795/2000: loss: 21.5662
+Generate data: 1.25878
+P and BP: 7.18985
+epoch 1796/2000: loss: 21.0824
+Generate data: 1.22325
+P and BP: 7.29473
+epoch 1797/2000: loss: 21.1532
+Generate data: 1.24986
+P and BP: 7.21604
+epoch 1798/2000: loss: 21.3824
+Generate data: 1.24906
+P and BP: 7.37257
+epoch 1799/2000: loss: 21.8164
+Generate data: 1.22755
+P and BP: 7.19961
+epoch 1800/2000: loss: 21.5515
+Generate data: 1.22407
+P and BP: 7.20534
+epoch 1801/2000: loss: 21.7919
+Generate data: 1.25549
+P and BP: 7.19276
+epoch 1802/2000: loss: 21.4688
+Generate data: 1.22474
+P and BP: 7.21292
+epoch 1803/2000: loss: 20.9642
+Generate data: 1.22267
+P and BP: 7.33855
+epoch 1804/2000: loss: 21.8942
+Generate data: 1.25541
+P and BP: 7.20759
+epoch 1805/2000: loss: 20.9611
+Generate data: 1.22548
+P and BP: 7.20039
+epoch 1806/2000: loss: 21.8024
+Generate data: 1.22139
+P and BP: 7.2048
+epoch 1807/2000: loss: 21.7335
+Generate data: 1.24452
+P and BP: 7.23926
+epoch 1808/2000: loss: 21.5259
+Generate data: 1.22455
+P and BP: 7.21465
+epoch 1809/2000: loss: 21.4455
+Generate data: 1.23685
+P and BP: 7.21404
+epoch 1810/2000: loss: 21.4746
+Generate data: 1.22126
+P and BP: 7.23089
+epoch 1811/2000: loss: 21.3814
+Generate data: 1.2495
+P and BP: 7.36992
+epoch 1812/2000: loss: 21.7153
+Generate data: 1.24694
+P and BP: 7.19065
+epoch 1813/2000: loss: 21.5325
+Generate data: 1.22266
+P and BP: 7.20507
+epoch 1814/2000: loss: 21.6397
+Generate data: 1.2476
+P and BP: 7.19617
+epoch 1815/2000: loss: 21.5258
+Generate data: 1.24049
+P and BP: 7.21265
+epoch 1816/2000: loss: 21.3806
+Generate data: 1.24253
+P and BP: 7.20044
+epoch 1817/2000: loss: 21.6389
+Generate data: 1.22141
+P and BP: 7.21337
+epoch 1818/2000: loss: 21.7294
+Generate data: 1.2218
+P and BP: 7.21451
+epoch 1819/2000: loss: 21.3135
+Generate data: 1.22334
+P and BP: 7.22275
+epoch 1820/2000: loss: 21.6443
+Generate data: 1.24503
+P and BP: 7.21369
+epoch 1821/2000: loss: 21.5823
+Generate data: 1.22279
+P and BP: 7.19348
+epoch 1822/2000: loss: 21.5899
+Generate data: 1.22371
+P and BP: 7.20144
+epoch 1823/2000: loss: 21.8649
+Generate data: 1.28446
+P and BP: 7.33951
+epoch 1824/2000: loss: 21.1162
+Generate data: 1.27416
+P and BP: 7.34582
+epoch 1825/2000: loss: 21.4254
+Generate data: 1.24704
+P and BP: 7.21176
+epoch 1826/2000: loss: 21.5458
+Generate data: 1.22457
+P and BP: 7.2086
+epoch 1827/2000: loss: 21.6341
+Generate data: 1.22178
+P and BP: 7.3425
+epoch 1828/2000: loss: 21.9291
+Generate data: 1.26972
+P and BP: 7.21731
+epoch 1829/2000: loss: 21.2735
+Generate data: 1.24748
+P and BP: 7.22565
+epoch 1830/2000: loss: 21.9612
+Generate data: 1.22172
+P and BP: 7.20244
+epoch 1831/2000: loss: 21.3275
+Generate data: 1.22651
+P and BP: 7.22017
+epoch 1832/2000: loss: 21.3981
+Generate data: 1.25998
+P and BP: 7.22745
+epoch 1833/2000: loss: 22.0314
+Generate data: 1.22303
+P and BP: 7.16386
+epoch 1834/2000: loss: 22.0221
+Generate data: 1.22246
+P and BP: 7.15779
+epoch 1835/2000: loss: 21.6681
+Generate data: 1.22506
+P and BP: 7.18878
+epoch 1836/2000: loss: 21.2299
+Generate data: 1.2201
+P and BP: 7.20751
+epoch 1837/2000: loss: 21.5465
+Generate data: 1.2223
+P and BP: 7.17318
+epoch 1838/2000: loss: 21.6327
+Generate data: 1.22587
+P and BP: 7.1923
+epoch 1839/2000: loss: 21.7288
+Generate data: 1.25825
+P and BP: 7.23506
+epoch 1840/2000: loss: 21.2173
+Generate data: 1.24965
+P and BP: 7.20751
+epoch 1841/2000: loss: 21.9778
+Generate data: 1.22174
+P and BP: 7.22202
+epoch 1842/2000: loss: 21.515
+Generate data: 1.25755
+P and BP: 7.21052
+epoch 1843/2000: loss: 21.7433
+Generate data: 1.25308
+P and BP: 7.20863
+epoch 1844/2000: loss: 21.2733
+Generate data: 1.24044
+P and BP: 7.19342
+epoch 1845/2000: loss: 21.7385
+Generate data: 1.24266
+P and BP: 7.22328
+epoch 1846/2000: loss: 21.6431
+Generate data: 1.25971
+P and BP: 7.18095
+epoch 1847/2000: loss: 21.8262
+Generate data: 1.24045
+P and BP: 7.19273
+epoch 1848/2000: loss: 21.6284
+Generate data: 1.24449
+P and BP: 7.22418
+epoch 1849/2000: loss: 21.7767
+Generate data: 1.24124
+P and BP: 7.20755
+epoch 1850/2000: loss: 21.4769
+Generate data: 1.23684
+P and BP: 7.19868
+epoch 1851/2000: loss: 21.713
+Generate data: 1.24381
+P and BP: 7.18704
+epoch 1852/2000: loss: 21.7407
+Generate data: 1.252
+P and BP: 7.22598
+epoch 1853/2000: loss: 21.5464
+Generate data: 1.23741
+P and BP: 7.19974
+epoch 1854/2000: loss: 21.4526
+Generate data: 1.2425
+P and BP: 7.16782
+epoch 1855/2000: loss: 21.0634
+Generate data: 1.24636
+P and BP: 7.1695
+epoch 1856/2000: loss: 21.6803
+Generate data: 1.23939
+P and BP: 7.17403
+epoch 1857/2000: loss: 21.9598
+Generate data: 1.25031
+P and BP: 7.18267
+epoch 1858/2000: loss: 21.2511
+Generate data: 1.24773
+P and BP: 7.19473
+epoch 1859/2000: loss: 21.6047
+Generate data: 1.23959
+P and BP: 7.15814
+epoch 1860/2000: loss: 21.2946
+Generate data: 1.24729
+P and BP: 7.15325
+epoch 1861/2000: loss: 21.4619
+Generate data: 1.2434
+P and BP: 7.15806
+epoch 1862/2000: loss: 21.8789
+Generate data: 1.24344
+P and BP: 7.20251
+epoch 1863/2000: loss: 21.5042
+Generate data: 1.24783
+P and BP: 7.21464
+epoch 1864/2000: loss: 21.8563
+Generate data: 1.23589
+P and BP: 7.22401
+epoch 1865/2000: loss: 22.0788
+Generate data: 1.25144
+P and BP: 7.21899
+epoch 1866/2000: loss: 21.5928
+Generate data: 1.23665
+P and BP: 7.26309
+epoch 1867/2000: loss: 21.7471
+Generate data: 1.26256
+P and BP: 7.22229
+epoch 1868/2000: loss: 21.5571
+Generate data: 1.24274
+P and BP: 7.21995
+epoch 1869/2000: loss: 21.8154
+Generate data: 1.24712
+P and BP: 7.3615
+epoch 1870/2000: loss: 21.3436
+Generate data: 1.2547
+P and BP: 7.22077
+epoch 1871/2000: loss: 21.6345
+Generate data: 1.25055
+P and BP: 7.22636
+epoch 1872/2000: loss: 21.5745
+Generate data: 1.2562
+P and BP: 7.2379
+epoch 1873/2000: loss: 21.546
+Generate data: 1.24715
+P and BP: 7.22633
+epoch 1874/2000: loss: 21.3091
+Generate data: 1.2484
+P and BP: 7.22683
+epoch 1875/2000: loss: 21.7097
+Generate data: 1.24979
+P and BP: 7.23064
+epoch 1876/2000: loss: 21.9118
+Generate data: 1.26028
+P and BP: 7.23771
+epoch 1877/2000: loss: 21.5262
+Generate data: 1.25034
+P and BP: 7.22658
+epoch 1878/2000: loss: 22.2268
+Generate data: 1.25319
+P and BP: 7.23248
+epoch 1879/2000: loss: 21.6409
+Generate data: 1.24611
+P and BP: 7.20433
+epoch 1880/2000: loss: 21.9979
+Generate data: 1.24267
+P and BP: 7.17965
+epoch 1881/2000: loss: 21.3647
+Generate data: 1.25348
+P and BP: 7.18962
+epoch 1882/2000: loss: 21.7814
+Generate data: 1.25049
+P and BP: 7.18625
+epoch 1883/2000: loss: 21.895
+Generate data: 1.24402
+P and BP: 7.21535
+epoch 1884/2000: loss: 21.7965
+Generate data: 1.28861
+P and BP: 7.28995
+epoch 1885/2000: loss: 21.7443
+Generate data: 1.25805
+P and BP: 7.23651
+epoch 1886/2000: loss: 22.0747
+Generate data: 1.23941
+P and BP: 7.22383
+epoch 1887/2000: loss: 21.9707
+Generate data: 1.25387
+P and BP: 7.18633
+epoch 1888/2000: loss: 21.8264
+Generate data: 1.25689
+P and BP: 7.24252
+epoch 1889/2000: loss: 21.5434
+Generate data: 1.223
+P and BP: 7.21503
+epoch 1890/2000: loss: 21.9114
+Generate data: 1.223
+P and BP: 7.20007
+epoch 1891/2000: loss: 21.8748
+Generate data: 1.25019
+P and BP: 7.22607
+epoch 1892/2000: loss: 21.92
+Generate data: 1.22816
+P and BP: 7.33478
+epoch 1893/2000: loss: 22.0001
+Generate data: 1.22564
+P and BP: 7.21127
+epoch 1894/2000: loss: 22.1366
+Generate data: 1.22222
+P and BP: 7.20232
+epoch 1895/2000: loss: 21.8945
+Generate data: 1.27902
+P and BP: 7.27776
+epoch 1896/2000: loss: 22.0338
+Generate data: 1.25215
+P and BP: 7.19531
+epoch 1897/2000: loss: 22.3602
+Generate data: 1.22456
+P and BP: 7.1971
+epoch 1898/2000: loss: 22.1818
+Generate data: 1.24842
+P and BP: 7.33408
+epoch 1899/2000: loss: 21.6942
+Generate data: 1.24797
+P and BP: 7.20378
+epoch 1900/2000: loss: 22.2261
+Generate data: 1.24824
+P and BP: 7.22232
+epoch 1901/2000: loss: 22.0994
+Generate data: 1.22384
+P and BP: 7.22052
+epoch 1902/2000: loss: 22.0478
+Generate data: 1.23742
+P and BP: 7.40716
+epoch 1903/2000: loss: 21.9936
+Generate data: 1.22252
+P and BP: 7.2107
+epoch 1904/2000: loss: 22.2986
+Generate data: 1.2204
+P and BP: 7.23669
+epoch 1905/2000: loss: 22.1778
+Generate data: 1.28604
+P and BP: 7.19021
+epoch 1906/2000: loss: 21.8874
+Generate data: 1.23833
+P and BP: 7.14992
+epoch 1907/2000: loss: 21.8177
+Generate data: 1.24714
+P and BP: 7.16757
+epoch 1908/2000: loss: 21.8324
+Generate data: 1.24265
+P and BP: 7.17498
+epoch 1909/2000: loss: 21.6461
+Generate data: 1.22812
+P and BP: 7.19867
+epoch 1910/2000: loss: 22.1385
+Generate data: 1.24417
+P and BP: 7.20789
+epoch 1911/2000: loss: 22.1712
+Generate data: 1.2538
+P and BP: 7.23129
+epoch 1912/2000: loss: 21.741
+Generate data: 1.24316
+P and BP: 7.20509
+epoch 1913/2000: loss: 22.378
+Generate data: 1.24423
+P and BP: 7.22003
+epoch 1914/2000: loss: 22.1467
+Generate data: 1.22436
+P and BP: 7.21666
+epoch 1915/2000: loss: 22.2595
+Generate data: 1.25324
+P and BP: 7.23229
+epoch 1916/2000: loss: 21.9781
+Generate data: 1.25664
+P and BP: 7.19712
+epoch 1917/2000: loss: 21.9205
+Generate data: 1.22934
+P and BP: 7.20381
+epoch 1918/2000: loss: 22.206
+Generate data: 1.22689
+P and BP: 7.16527
+epoch 1919/2000: loss: 22.2082
+Generate data: 1.22443
+P and BP: 7.19366
+epoch 1920/2000: loss: 21.9984
+Generate data: 1.25312
+P and BP: 7.18621
+epoch 1921/2000: loss: 21.809
+Generate data: 1.24133
+P and BP: 7.22141
+epoch 1922/2000: loss: 22.0644
+Generate data: 1.2136
+P and BP: 7.21281
+epoch 1923/2000: loss: 21.8414
+Generate data: 1.25005
+P and BP: 7.51299
+epoch 1924/2000: loss: 22.3094
+Generate data: 1.31775
+P and BP: 7.35974
+epoch 1925/2000: loss: 21.8859
+Generate data: 1.22148
+P and BP: 7.20534
+epoch 1926/2000: loss: 22.0098
+Generate data: 1.23172
+P and BP: 7.20634
+epoch 1927/2000: loss: 22.1002
+Generate data: 1.1981
+P and BP: 7.24528
+epoch 1928/2000: loss: 21.7249
+Generate data: 1.19664
+P and BP: 7.22024
+epoch 1929/2000: loss: 21.8517
+Generate data: 1.19082
+P and BP: 7.37405
+epoch 1930/2000: loss: 22.3018
+Generate data: 1.19108
+P and BP: 7.30278
+epoch 1931/2000: loss: 22.3223
+Generate data: 1.25039
+P and BP: 7.23934
+epoch 1932/2000: loss: 21.8006
+Generate data: 1.18023
+P and BP: 7.20384
+epoch 1933/2000: loss: 22.288
+Generate data: 1.17742
+P and BP: 7.20827
+epoch 1934/2000: loss: 21.5851
+Generate data: 1.20844
+P and BP: 7.37168
+epoch 1935/2000: loss: 21.7454
+Generate data: 1.17038
+P and BP: 7.27216
+epoch 1936/2000: loss: 21.9344
+Generate data: 1.2212
+P and BP: 7.26122
+epoch 1937/2000: loss: 22.0993
+Generate data: 1.20785
+P and BP: 7.2891
+epoch 1938/2000: loss: 22.1614
+Generate data: 1.16131
+P and BP: 7.27636
+epoch 1939/2000: loss: 22.3981
+Generate data: 1.191
+P and BP: 7.29992
+epoch 1940/2000: loss: 22.3469
+Generate data: 1.18984
+P and BP: 7.29031
+epoch 1941/2000: loss: 21.7746
+Generate data: 1.15398
+P and BP: 7.27326
+epoch 1942/2000: loss: 21.7335
+Generate data: 1.18627
+P and BP: 7.27153
+epoch 1943/2000: loss: 22.6868
+Generate data: 1.15323
+P and BP: 7.27581
+epoch 1944/2000: loss: 21.8539
+Generate data: 1.15322
+P and BP: 7.24611
+epoch 1945/2000: loss: 21.9964
+Generate data: 1.15591
+P and BP: 7.2449
+epoch 1946/2000: loss: 21.8205
+Generate data: 1.15894
+P and BP: 7.23886
+epoch 1947/2000: loss: 21.9059
+Generate data: 1.20111
+P and BP: 7.27632
+epoch 1948/2000: loss: 21.7431
+Generate data: 1.16249
+P and BP: 7.22518
+epoch 1949/2000: loss: 22.1317
+Generate data: 1.19076
+P and BP: 7.21894
+epoch 1950/2000: loss: 22.0947
+Generate data: 1.17014
+P and BP: 7.31684
+epoch 1951/2000: loss: 22.0531
+Generate data: 1.24203
+P and BP: 7.26444
+epoch 1952/2000: loss: 22.0337
+Generate data: 1.17548
+P and BP: 7.28798
+epoch 1953/2000: loss: 22.1852
+Generate data: 1.20464
+P and BP: 7.26012
+epoch 1954/2000: loss: 22.2535
+Generate data: 1.20976
+P and BP: 7.24675
+epoch 1955/2000: loss: 22.0797
+Generate data: 1.17912
+P and BP: 7.24034
+epoch 1956/2000: loss: 22.1211
+Generate data: 1.17858
+P and BP: 7.26366
+epoch 1957/2000: loss: 22.2897
+Generate data: 1.20822
+P and BP: 7.26224
+epoch 1958/2000: loss: 22.1259
+Generate data: 1.18688
+P and BP: 7.26448
+epoch 1959/2000: loss: 22.0376
+Generate data: 1.18736
+P and BP: 7.24974
+epoch 1960/2000: loss: 21.9438
+Generate data: 1.21464
+P and BP: 7.37844
+epoch 1961/2000: loss: 21.8319
+Generate data: 1.22752
+P and BP: 7.24011
+epoch 1962/2000: loss: 22.047
+Generate data: 1.18439
+P and BP: 7.2592
+epoch 1963/2000: loss: 21.7863
+Generate data: 1.18506
+P and BP: 7.2818
+epoch 1964/2000: loss: 22.1057
+Generate data: 1.20791
+P and BP: 7.24919
+epoch 1965/2000: loss: 21.9579
+Generate data: 1.22757
+P and BP: 7.1976
+epoch 1966/2000: loss: 22.0824
+Generate data: 1.23777
+P and BP: 7.31702
+epoch 1967/2000: loss: 21.9815
+Generate data: 1.23465
+P and BP: 7.2262
+epoch 1968/2000: loss: 22.1371
+Generate data: 1.22915
+P and BP: 7.24017
+epoch 1969/2000: loss: 22.1891
+Generate data: 1.23135
+P and BP: 7.22828
+epoch 1970/2000: loss: 22.3736
+Generate data: 1.22297
+P and BP: 7.22318
+epoch 1971/2000: loss: 22.2232
+Generate data: 1.22648
+P and BP: 7.20949
+epoch 1972/2000: loss: 21.9356
+Generate data: 1.21232
+P and BP: 7.342
+epoch 1973/2000: loss: 22.0914
+Generate data: 1.25792
+P and BP: 7.42528
+epoch 1974/2000: loss: 21.3755
+Generate data: 1.30465
+P and BP: 7.83538
+epoch 1975/2000: loss: 22.0542
+Generate data: 1.32896
+P and BP: 7.84263
+epoch 1976/2000: loss: 21.787
+Generate data: 1.34713
+P and BP: 7.80237
+epoch 1977/2000: loss: 21.6125
+Generate data: 1.32591
+P and BP: 7.84476
+epoch 1978/2000: loss: 21.7901
+Generate data: 1.35916
+P and BP: 7.85686
+epoch 1979/2000: loss: 21.9625
+Generate data: 1.35576
+P and BP: 7.83642
+epoch 1980/2000: loss: 21.8817
+Generate data: 1.33295
+P and BP: 7.86173
+epoch 1981/2000: loss: 21.84
+Generate data: 1.33571
+P and BP: 7.85478
+epoch 1982/2000: loss: 21.771
+Generate data: 1.351
+P and BP: 7.80647
+epoch 1983/2000: loss: 22.2065
+Generate data: 1.34454
+P and BP: 7.83145
+epoch 1984/2000: loss: 21.8761
+Generate data: 1.35489
+P and BP: 7.81261
+epoch 1985/2000: loss: 21.7618
+Generate data: 1.35784
+P and BP: 7.82758
+epoch 1986/2000: loss: 21.8577
+Generate data: 1.32243
+P and BP: 7.84732
+epoch 1987/2000: loss: 22.2265
+Generate data: 1.33219
+P and BP: 7.84117
+epoch 1988/2000: loss: 21.7162
+Generate data: 1.3265
+P and BP: 7.842
+epoch 1989/2000: loss: 21.9894
+Generate data: 1.33268
+P and BP: 7.80572
+epoch 1990/2000: loss: 22.4362
+Generate data: 1.35266
+P and BP: 7.82269
+epoch 1991/2000: loss: 22.4919
+Generate data: 1.33041
+P and BP: 7.84427
+epoch 1992/2000: loss: 22.1104
+Generate data: 1.32846
+P and BP: 7.83636
+epoch 1993/2000: loss: 21.4769
+Generate data: 1.3339
+P and BP: 7.85663
+epoch 1994/2000: loss: 22.1788
+Generate data: 1.34531
+P and BP: 7.82315
+epoch 1995/2000: loss: 22.3109
+Generate data: 1.34578
+P and BP: 7.8169
+epoch 1996/2000: loss: 21.7939
+Generate data: 1.32471
+P and BP: 7.84388
+epoch 1997/2000: loss: 21.7173
+Generate data: 1.3405
+P and BP: 7.83748
+epoch 1998/2000: loss: 21.6626
+Generate data: 1.33037
+P and BP: 7.83873
+epoch 1999/2000: loss: 21.7271
+Training done! Time cost: 8484.2
+Testing!
+Current Acc: 0.963945
+Mission complete!
