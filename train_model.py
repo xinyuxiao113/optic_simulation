@@ -16,11 +16,13 @@ def MSE(a,b):
 def Acc(a,b):
     return torch.sum(a==b).item() / a.numel()
 
-def test_model(fiber, comp, tx, rx, N):
+def test_model(fiber, comp, tx, rx, N, power=50):
     '''
     Test model Acc
     '''
     k = int((config.Nch - 1)/2)  # number of central channel
+    tx.power = torch.ones(config.Nch) * power
+    rx.power = torch.ones(config.Nch) * power
     data_batch, symbol_batch, bit_batch = tx.data(batch=N)
     y = fiber(data_batch)        # y: batch x Nch x Nfft
     x = comp(y[:,k:k+1,:])       # x: batch x 1 x Nfft

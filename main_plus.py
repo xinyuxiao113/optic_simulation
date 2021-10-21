@@ -16,6 +16,6 @@ width_lis = [40,80,120]
 depth_lis = [2,3,4]
 for width in width_lis:
     for depth in depth_lis:
-        save_path = f'ckpt-W{width}-D{depth}/'
-        out_path = f'out-W{width}-D{depth}/'
+        save_path = f'ckpt-set/ckpt-W{width}-D{depth}/'
+        out_path = f'out-set/out-W{width}-D{depth}/'
         train(Epochs=600,batch=64,lr=0.001,name=name,save_path=save_path,out_path=out_path,power_range=[50,60],width=width,depth=depth)
