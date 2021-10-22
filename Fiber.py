@@ -1,9 +1,31 @@
 import torch
 import torch.nn as nn
+from torch.nn import Conv1d
 import torch.nn.functional as F
 import numpy as np
 import config
 from torch.fft import fft, ifft
+#from complex_layers import Meta_block
+
+
+def apply_complex(fr, fi, input, dtype = torch.complex64):
+    return (fr(input.real)-fi(input.imag)).type(dtype) \
+            + 1j*(fr(input.imag)+fi(input.real)).type(dtype)
+
+class complex_conv1d(nn.Module):
+    '''
+    complex con1d mapping
+    y = conv1d(W, x) + b
+    W \in C^{}
+    '''
+    def __init__(self,in_channels, out_channels, kernel_size=3, stride=1, padding = 0, padding_mode='circular',
+                 dilation=1, groups=1, bias=True):
+        super(complex_conv1d, self).__init__()
+        self.conv_r = Conv1d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias,padding_mode=padding_mode)
+        self.conv_i = Conv1d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias,padding_mode=padding_mode)
+        
+    def forward(self,input):    
+        return apply_complex(self.conv_r, self.conv_i, input)
 
     
 class complex_linear(nn.Module):
@@ -63,7 +85,6 @@ class Meta_block(nn.Module):
         
         return u + self.Hi
         #return u
-
 
 class Fiber(nn.Module):
 
