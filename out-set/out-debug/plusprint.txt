@@ -1,0 +1,12 @@
+Training Start!
+epoch 0/100: loss: 182.811
+epoch 1/100: loss: 187.149
+epoch 2/100: loss: 172.29
+epoch 3/100: loss: 189.006
+epoch 4/100: loss: 166.263
+epoch 5/100: loss: 161.966
+epoch 6/100: loss: 181.845
+epoch 7/100: loss: 175.883
+epoch 8/100: loss: 158.555
+epoch 9/100: loss: 168.93
+epoch 10/100: loss: 162.953

@@ -21,11 +21,12 @@ class Rx(nn.Module):
 
         self.symbol_rate = config.symbol_rate # symbol rate 10[Gb/s]
         self.power = config.power             # power of Tx [mW]
-        self.lam   = 1550                     # cenrtal wavelength [nm]
-        self.spac = 0.4                       # channel spacing [nm]
-        self.duty  = 1                        # duty cycle  [0,1]  
-        self.roll = 0.2                       # pulse roll-off [0,1]
-        self.pulse = self.pulse_shape()       # pulse 
+        self.lam   = config.lam               # cenrtal wavelength [nm]
+        self.spac = config.channel_space      # channel spacing [nm]
+        self.duty  = config.duty              # duty cycle    
+        self.roll = config.roll               # pulse roll-off
+        self.pulse = self.one_pulse()      # pulse shape
+
         self.fil_ker = self.generate_filter() # filter
         self.norm = torch.sum(self.pulse ** 2) 
         
@@ -44,8 +45,11 @@ class Rx(nn.Module):
         self.lam_set = torch.tensor([self.lam])  # channel wavelength set
         for i in range(1,self.Nch):
             self.lam_set = torch.cat([self.lam_set,torch.tensor([self.lam + self.spac * i])])
-        
-    def pulse_shape(self):
+    
+    def set_power(self,data):
+        self.power = torch.tensor(data)
+
+    def one_pulse(self):
         '''
         generate a pulse function: Raise Cosin
         '''
@@ -57,7 +61,7 @@ class Rx(nn.Module):
         hperiod = self.duty * self.Nt - 2 * nl
         elpulse[nl + self.Nt: nr + self.Nt] = 0.5*(1 + torch.cos(np.pi/(hperiod)*(ncos-nl+0.5)))
         elpulse[0:self.Nt] = torch.flip(elpulse[self.Nt:2*self.Nt+1],[0])
-        return elpulse
+        return elpulse + (0j)
     
     def generate_filter(self):
         '''
@@ -65,7 +69,7 @@ class Rx(nn.Module):
         '''
         Nt = self.Nt
         Nfft = self.Nsymb * Nt
-        H = torch.zeros(self.Nsymb, Nfft)
+        H = torch.zeros(self.Nsymb, Nfft) + (0j)
 
         H[0, Nfft-Nt:Nfft] = self.pulse[0:Nt].conj()
         H[0, 0:Nt] = self.pulse[Nt:2*Nt].conj()

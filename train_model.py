@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import config
 from Transmitter import Tx
 from Receiver import Rx
-from Fiber import Fiber,Amplifier
+from Fiber import Fiber
 import os
 
 def MSE(a,b):

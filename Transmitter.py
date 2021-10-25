@@ -19,10 +19,10 @@ class Tx(nn.Module):
 
         self.symbol_rate = config.symbol_rate # symbol rate 10[Gb/s]
         self.power = config.power             # power of Tx [mW]
-        self.lam   = 1550                     # cenrtal wavelength [nm]
-        self.spac = 0.4                       # channel spacing [nm]
-        self.duty  = 1                        # duty cycle    
-        self.roll = 0.4                       # pulse roll-off
+        self.lam   = config.lam               # cenrtal wavelength [nm]
+        self.spac = config.channel_space      # channel spacing [nm]
+        self.duty  = config.duty              # duty cycle    
+        self.roll = config.roll               # pulse roll-off
         self.pulse = self.one_pulse()         # pulse shape
         
 
@@ -33,6 +33,8 @@ class Tx(nn.Module):
             self.lam_set = torch.cat([self.lam_set,torch.tensor([self.lam + self.spac * i])])
 
 
+    def set_power(self,data):
+        self.power = torch.tensor(data)
 
     def pattern(self):
         '''
@@ -92,6 +94,8 @@ class Tx(nn.Module):
     def wdm_signal_sample(self):
         '''
             sample a wdm signal
+            Out put:
+            E, symbol_stream, bit_stream
         '''
         Nfft = self.Nsymb*self.Nt
         Nch = self.Nch
@@ -108,6 +112,8 @@ class Tx(nn.Module):
         '''
             sample a batch of wdm signal
             data_batch: batch x Nch x Nfft
+            Out put:
+            data_batch, symbol_batch, bit_batch
         '''
         data_batch = torch.zeros(batch,self.Nch,self.Nfft) + (0j)
         symbol_batch = torch.zeros(batch,self.Nch,self.Nsymb) + (0j)

@@ -1,95 +1,21 @@
 import torch
+from torch.cuda import init
 import torch.nn as nn
 from torch.nn import Conv1d
 import torch.nn.functional as F
 import numpy as np
+from complexPyTorch.complexLayers import ComplexLinear
 import config
 from torch.fft import fft, ifft
-#from complex_layers import Meta_block
+from complex_layers import Meta_block,complex_linear
 
-
-def apply_complex(fr, fi, input, dtype = torch.complex64):
-    return (fr(input.real)-fi(input.imag)).type(dtype) \
-            + 1j*(fr(input.imag)+fi(input.real)).type(dtype)
-
-class complex_conv1d(nn.Module):
-    '''
-    complex con1d mapping
-    y = conv1d(W, x) + b
-    W \in C^{}
-    '''
-    def __init__(self,in_channels, out_channels, kernel_size=3, stride=1, padding = 0, padding_mode='circular',
-                 dilation=1, groups=1, bias=True):
-        super(complex_conv1d, self).__init__()
-        self.conv_r = Conv1d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias,padding_mode=padding_mode)
-        self.conv_i = Conv1d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias,padding_mode=padding_mode)
-        
-    def forward(self,input):    
-        return apply_complex(self.conv_r, self.conv_i, input)
-
-    
-class complex_linear(nn.Module):
-    '''
-    Complex linear mapping:
-    y = W x + b
-    W \in C^{n x m}
-    b \in C^{m}
-    near zero initilization
-    '''
-    def __init__(self,input_dim,output_dim):
-        super(complex_linear,self).__init__()
-        self.input_dim = input_dim
-        self.output_dim = output_dim
-        w = torch.randn(self.output_dim, self.input_dim)/100
-        v = torch.randn(self.output_dim, self.input_dim)/100
-        b0 = torch.randn(self.output_dim)/100
-        b1 = torch.randn(self.output_dim)/100
-        self.weight = nn.Parameter(torch.complex(w,v))
-        self.bias = nn.Parameter(torch.complex(b0,b1))
-    
-    def forward(self,x):
-        return F.linear(x,self.weight,self.bias)
-
-
-class Meta_block(nn.Module):
-    '''
-    Two layer complex network:
-    width: a positive integer
-    meta_type: 'filter' or 'scale'
-
-    '''
-    def __init__(self, meta_type='filter', width=config.meta_width, depth=config.meta_depth, Hi=None):
-        super(Meta_block,self).__init__()
-        self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-        self.meta_type = meta_type
-        self.width = width
-        self.depth= depth
-        self.Hi = Hi.to(self.device)
-        self.fc0 = complex_linear(config.Nfft, self.width)
-        self.net = nn.ModuleList([complex_linear(self.width,self.width) for i in range(self.depth)])
-        if meta_type == 'filter':
-            self.fc1 = complex_linear(self.width,config.Nfft)
-        else:
-            self.fc1 = complex_linear(self.width,1)
-    
-    def activation(self,x):
-        return F.leaky_relu(x.real,negative_slope=0.01) + F.leaky_relu(x.imag,negative_slope=0.01)*(1j)
-
-    def forward(self,u):
-        u = self.activation(self.fc0(u))
-        for net in self.net:
-            u = self.activation(net(u))
-        u = self.fc1(u)
-        if self.meta_type == 'scale':
-            u = torch.abs(u)**2
-        
-        return u + self.Hi
-        #return u
 
 class Fiber(nn.Module):
-
+    '''
+    Fiber model. SSFM Algorithm.
+    '''
     def __init__(self,lam_set=None,length=1e5,alphaB=0.2,n2=2.7e-20,disp=17,dz=100,Nch=1,
-    generate_noise=False,is_trained=False,meta='0',meta_width=60, meta_depth=2):
+    generate_noise=False,noise_level=config.noise_level,is_trained=False,meta='0',meta_width=60, meta_depth=2):
         super(Fiber,self).__init__()
         ## field parameter
         self.Nsymb = config.Nsymb  # number ofs symbols
@@ -98,7 +24,7 @@ class Fiber(nn.Module):
         self.Nch = Nch             # number of channels
         
         self.generate_noise = generate_noise         # generate noise or not 
-        self.noise_level = config.noise_level        # noise level
+        self.noise_level = noise_level        # noise level
         self.meta = meta                             # meta or not
         self.is_trained = is_trained                 # trian or not
         self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
@@ -106,14 +32,14 @@ class Fiber(nn.Module):
         ## fiber parameters 
         self.length = length         # length [m]
         self.alphaB = alphaB         # attenuation [dB/km]
-        self.aeff = 80               # effective area [um^2] (1 um = 1e-6 m)
+        self.aeff = config.Aeff      # effective area [um^2] (1 um = 1e-6 m)
         self.n2 = n2                 # nonlinear index [m^2/W]
-        self.lamb  = 1550            # wavelength [nm]
+        self.lamb  = config.lam           # wavelength [nm]
         self.lam_set = lam_set
-        self.disp = disp             # dispersion [ps/nm/km] 
-        self.slope = 0               # slope [ps/nm^2/km] 
-        self.dphimax = 3E-3          # maximum nonlinear phase rotation per step
-        self.dzmax   = 2E4           # maximum SSFM step 
+        self.disp = disp              # dispersion [ps/nm/km] 
+        self.slope = config.slope     # slope [ps/nm^2/km] 
+        self.dphimax = config.dphimax # maximum nonlinear phase rotation per step
+        self.dzmax   = config.dzmax   # maximum SSFM step 
         
         
         ############################# CONVERSIONS #############################
@@ -127,7 +53,7 @@ class Fiber(nn.Module):
         self.alphalin = self.alphaB * (np.log(10)*1e-4)
 
         # Frequancies
-        self.FN = torch.fft.fftshift(torch.arange(self.Nfft) - 0.5*self.Nfft)/self.Nsymb
+        self.FN = torch.fft.fftshift(torch.arange(self.Nfft) - 0.5*self.Nfft) / self.Nsymb
         
         # calculate effective length [m]
         if self.alphalin == 0:
@@ -173,21 +99,21 @@ class Fiber(nn.Module):
 
         if self.is_trained:
             if self.meta == 'scale':
-                self.H_trained = nn.ModuleList([Meta_block(width=meta_width, depth=meta_depth, meta_type='filter',Hi=self.H) for i in range(self.K)])
-                self.scales = nn.ModuleList([Meta_block(width=meta_width, depth=meta_depth, meta_type='scale',Hi=torch.ones(1)) for i in range(self.K)])
+                self.H_trained = nn.ModuleList([Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             elif self.meta == 'plus':
-                self.H_trained = nn.ModuleList([Meta_block(width=meta_width, depth=meta_depth, meta_type='filter',Hi=self.H) for i in range(self.K)])
-                self.other_channel = nn.ModuleList([Meta_block(width=meta_width, depth=meta_depth, meta_type='scale',Hi=torch.zeros(1)) for i in range(self.K)])
+                self.H_trained = nn.ModuleList([Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.other_channel = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             elif self.meta == 'scale+plus':
-                self.H_trained = nn.ModuleList([Meta_block(width=meta_width,depth=meta_depth,meta_type='filter',Hi=self.H) for i in range(self.K)])
-                self.scales = nn.ModuleList([Meta_block(width=meta_width,depth=meta_depth,meta_type='scale',Hi=torch.ones(1)) for i in range(self.K)])
-                self.other_channel = nn.ModuleList([Meta_block(width=meta_width,depth=meta_depth,meta_type='scale',Hi=torch.zeros(1)) for i in range(self.K)])
+                self.H_trained = nn.ModuleList([Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+                self.other_channel = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             elif self.meta == 'normal':
                 self.H_trained = nn.ParameterList([nn.Parameter(self.H) for i in range(self.K)])     # trained filter in linear step
                 self.scales = nn.ParameterList([nn.Parameter(torch.ones(1)) for i in range(self.K)]) # trained scales in nl step
             elif self.meta == 'shared':
-                self.H_trained = Meta_block(width=meta_width,depth=meta_depth,meta_type='filter',Hi=self.H)
-                self.other_channel = Meta_block(width=meta_width,depth=meta_depth,meta_type='scale',Hi=torch.zeros(1))
+                self.H_trained = Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H)
+                self.other_channel = Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1))
             else:
                 raise(ValueError)
         else:
@@ -221,7 +147,7 @@ class Fiber(nn.Module):
                 u = u * torch.exp(-(1j) * self.scales[step](u) * self.gam * power * leff)
             elif self.meta == 'plus':
                 u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel[step](u)) * leff)
-            elif self.meta == 'scale+plus':
+            elif self.meta == 'scale + plus':
                 u = u * torch.exp(-(1j) * self.scales[step](u) *  self.gam * (power + self.other_channel[step](u)) * leff)
             elif self.meta == 'normal':
                 u = u * torch.exp(-(1j) * self.scales[step] * self.gam * power * leff)  
@@ -241,10 +167,11 @@ class Fiber(nn.Module):
             u = self.lin_step(u,step=step)
             u = u * np.exp(-0.5 * self.alphalin * self.dz)
             if self.generate_noise:
-                noise = self.noise_level/np.sqrt(2) * torch.randn(u.shape) + self.noise_level * torch.randn(u.shape)*(1j)/np.sqrt(2)
+                noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + self.noise_level * torch.randn(u.shape)*(1j))
                 noise = noise.to(self.device)
                 u = u + noise
         return u
+
 
 class Amplifier(nn.Module):
 
