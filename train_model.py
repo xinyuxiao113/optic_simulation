@@ -78,22 +78,19 @@ def train(Epochs, batch, name, lr=0.0001, save_path='ckpt/',
     for epoch in range(start_num, Epochs):
 
         # Generate data
-        T1 = time.time()
         optimizer.zero_grad()
 
         # random power range
-        tx.power = torch.ones(config.Nch)*power_range[0] + (power_range[1] - power_range[0]) * torch.rand(config.Nch)
+        tx.power = torch.ones(config.Nch)*power_range[0] + (power_range[1] - power_range[0]) * torch.rand(1)
         x,_,_ = tx.data(batch=batch)   # sample a batch   x: batch x Nch x Nfft
-        T2 = time.time()
-        
+
         # Propagation and Back propagation
-        T3 = time.time()
         y = fiber(x)        # y: batch x Nch x Nfft
         z = comp(y[:,k:k+1,:])
         loss = MSE(z, x[:,k:k+1,:])
         loss.backward()
         optimizer.step()
-        T4 = time.time()
+
 
         with open(print_file, 'a') as f:
             print('epoch %d/%d: loss: %g' % (epoch, Epochs, loss.item()), file=f)

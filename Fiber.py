@@ -7,7 +7,7 @@ import numpy as np
 from complexPyTorch.complexLayers import ComplexLinear
 import config
 from torch.fft import fft, ifft
-from complex_layers import Meta_block,complex_linear
+from complex_layers import FNN,CNN,complex_linear
 
 
 class Fiber(nn.Module):
@@ -98,45 +98,52 @@ class Fiber(nn.Module):
         self.H = self.H.to(self.device)
 
         if self.is_trained:
-            if self.meta == 'scale':
-                self.H_trained = nn.ModuleList([Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
-                self.scales = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+            if self.meta == 'scale' :
+                self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             elif self.meta == 'plus':
-                self.H_trained = nn.ModuleList([Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
-                self.other_channel = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+                self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.other_channel = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             elif self.meta == 'scale+plus':
-                self.H_trained = nn.ModuleList([Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
-                self.scales = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
-                self.other_channel = nn.ModuleList([Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+                self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+                self.other_channel = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             elif self.meta == 'normal':
                 self.H_trained = nn.ParameterList([nn.Parameter(self.H) for i in range(self.K)])     # trained filter in linear step
                 self.scales = nn.ParameterList([nn.Parameter(torch.ones(1)) for i in range(self.K)]) # trained scales in nl step
             elif self.meta == 'shared':
-                self.H_trained = Meta_block(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H)
-                self.other_channel = Meta_block(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1))
+                self.H_trained = FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H)
+                self.other_channel = FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1))
+            elif self.meta == 'RFNN':
+                self.H_trained = nn.ModuleList([FNN(2*self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             else:
                 raise(ValueError)
         else:
             pass
 
-    def lin_step(self,u,step=0):
+    def lin_step(self,u,v,step=0):
         '''
         Linear step
+        u: curent state
+        v: current state + history state
         '''
         if self.is_trained:
-            if (self.meta == 'scale') or (self.meta == 'plus') or (self.meta == 'scale+plus'):
-                u = ifft(fft(u,dim=-1) * self.H_trained[step](u), dim=-1)
+            if (self.meta == 'scale') or (self.meta == 'plus') or (self.meta == 'scale+plus') or (self.meta == 'RFNN'):
+                u = ifft(fft(u,dim=-1) * self.H_trained[step](v), dim=-1)
             elif self.meta == 'normal':
                 u = ifft(fft(u,dim=-1) * self.H_trained[step], dim=-1)
             elif self.meta == 'shared':
-                u = ifft(fft(u,dim=-1) * self.H_trained(u), dim=-1)
+                u = ifft(fft(u,dim=-1) * self.H_trained(v), dim=-1)
         else:
             u = ifft(fft(u,dim=-1) * self.H, dim=-1)
         return u
     
-    def nl_step(self,u,step=0):
+    def nl_step(self,u,v,step=0):
         '''
         Nonlinear step
+        u: curent state
+        v: current state + history state
         '''
         power = abs(u)**2
         power = 2*torch.sum(power,dim=-2).unsqueeze(-2) - power
@@ -144,15 +151,15 @@ class Fiber(nn.Module):
 
         if self.is_trained:
             if self.meta == 'scale':
-                u = u * torch.exp(-(1j) * self.scales[step](u) * self.gam * power * leff)
+                u = u * torch.exp(-(1j) * self.scales[step](v) * self.gam * power * leff)
             elif self.meta == 'plus':
-                u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel[step](u)) * leff)
+                u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel[step](v)) * leff)
             elif self.meta == 'scale + plus':
-                u = u * torch.exp(-(1j) * self.scales[step](u) *  self.gam * (power + self.other_channel[step](u)) * leff)
+                u = u * torch.exp(-(1j) * self.scales[step](v) *  self.gam * (power + self.other_channel[step](v)) * leff)
             elif self.meta == 'normal':
                 u = u * torch.exp(-(1j) * self.scales[step] * self.gam * power * leff)  
             elif self.meta == 'shared':
-                u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel(u)) * leff)
+                u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel(v)) * leff)
         else:
             u = u * torch.exp(-(1j) * self.gam * power * leff)
         return u
@@ -162,10 +169,21 @@ class Fiber(nn.Module):
         '''
         SSFM algorithm
         '''
+        temp = torch.zeros_like(u) + 0j
         for step in range(self.K):
-            u = self.nl_step(u,step=step)
-            u = self.lin_step(u,step=step)
+
+            if self.meta == 'RFNN':
+                v = torch.cat([u,temp],axis=1)
+            else:
+                v = u
+
+            # 记录 u
+            temp = u
+            
+            u = self.nl_step(u,v,step=step)
+            u = self.lin_step(u,v,step=step)
             u = u * np.exp(-0.5 * self.alphalin * self.dz)
+
             if self.generate_noise:
                 noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + self.noise_level * torch.randn(u.shape)*(1j))
                 noise = noise.to(self.device)

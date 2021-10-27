@@ -63,7 +63,7 @@ class FNN(nn.Module):
     Fully connected complex network:
     width: a positive integer
     '''
-    def __init__(self, input_features,out_features, width=config.meta_width, depth=config.meta_depth, init_value=None, to_real=False):
+    def __init__(self, input_features,out_features, width=config.meta_width, depth=config.meta_depth, init_value=torch.zeros(1), to_real=False):
         super(FNN,self).__init__()
         self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
         self.width = width
@@ -85,72 +85,15 @@ class FNN(nn.Module):
         return u + self.init_value
         #return u
 
-class RFNN(nn.Module):
-    '''
-    Fully connected complex network:
-    width: a positive integer
-    '''
-    def __init__(self, input_features,out_features, width=config.meta_width, depth=config.meta_depth, init_value=None, to_real=False):
-        super(RFNN,self).__init__()
-        self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-        self.width = width
-        self.depth= depth
-        self.init_value = init_value.to(self.device)
-        self.to_real = to_real
-        self.fc0 = complex_linear(input_features, self.width)
-        self.net = nn.ModuleList([complex_linear(self.width,self.width) for i in range(self.depth)])
-        self.fc1 = complex_linear(self.width,out_features)
-        self.activation = complex_leakyRelu
-
-    def forward(self,u):
-        u = self.activation(self.fc0(u))
-        for net in self.net:
-            u = self.activation(net(u))
-        u = self.fc1(u)
-        if self.to_real:
-            u = torch.abs(u)**2
-        return u + self.init_value
 
 
 class CNN(nn.Module):
     '''
-    Two layer complex network:
-    width: a positive integer
-    meta_type: 'filter' or 'scale'
+    need to complete
 
     '''
-    def __init__(self, input_features,out_features, width=config.meta_width, depth=config.meta_depth, init_value=None, to_real=False):
+    def __init__(self, input_features,out_features, width=config.meta_width, depth=config.meta_depth, init_value=torch.zeros(1), to_real=False):
         super(CNN,self).__init__()
-        self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-        self.width = width
-        self.depth= depth
-        self.init_value = init_value.to(self.device)
-        self.to_real = to_real
-        self.fc0 = complex_linear(input_features, self.width)
-        self.net = nn.ModuleList([complex_linear(self.width,self.width) for i in range(self.depth)])
-        self.fc1 = complex_linear(self.width,out_features)
-        self.activation = complex_leakyRelu
-
-    def forward(self,u):
-        u = self.activation(self.fc0(u))
-        for net in self.net:
-            u = self.activation(net(u))
-        u = self.fc1(u)
-        if self.to_real:
-            u = torch.abs(u)**2
-        return u + self.init_value
-        #return u
-
-
-class RCNN(nn.Module):
-    '''
-    Two layer complex network:
-    width: a positive integer
-    meta_type: 'filter' or 'scale'
-
-    '''
-    def __init__(self, input_features,out_features, width=config.meta_width, depth=config.meta_depth, init_value=None, to_real=False):
-        super(RCNN,self).__init__()
         self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
         self.width = width
         self.depth= depth

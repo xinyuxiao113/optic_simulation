@@ -23,7 +23,7 @@ Nfft = Nsymb * Nt
 
 
 # Fiber parameters
-power = torch.tensor([50,50,50])    # power [mW]   train power: 50
+power = torch.ones(3)*50               # power [mW]   train power: 50
 span = 1                            # span number 
 symbol_rate = 56                    # [G Hz]    
 noise_level = 0.002                 # noise level
