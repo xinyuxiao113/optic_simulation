@@ -14,4 +14,4 @@ from train_model import train, test_model
 name = 'Meta-2'
 save_path = 'ckpt-set/ckpt-test/'
 out_path = 'out-set/out-test/'
-train(Epochs=600,batch=64,lr=0.001,name=name,save_path=save_path,out_path=out_path,power_range=[50,60],width=80,depth=3)
+train(Epochs=600,batch=64,lr=0.001,name=name,save_path=save_path,out_path=out_path,power_range=[50,50],width=80,depth=3)

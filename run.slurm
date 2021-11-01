@@ -14,4 +14,4 @@
 # 随着 Job 的提交和执行，slurm 会帮助用户在申请的节点上挨个执行下述命令
 module add cuda/9.0           # 载入 CUDA 9.0 模块
 module add anaconda           # 载入 anaconda 模块
-python main_normal.py            # 运行 python 程序
+python main.py            # 运行 python 程序

@@ -25,7 +25,7 @@ Nfft = Nsymb * Nt
 # Fiber parameters
 power = torch.ones(3)*50               # power [mW]   train power: 50
 span = 1                            # span number 
-symbol_rate = 56                    # [G Hz]    
+symbol_rate = 10                    # [G Hz]    
 noise_level = 0.002                 # noise level
 Aeff = 80                           # effective area [um^2] (1 um = 1e-6 m)
 slope = 0                           # slope [ps/nm^2/km] 
