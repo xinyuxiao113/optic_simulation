@@ -98,26 +98,27 @@ class Fiber(nn.Module):
         self.H = self.H.to(self.device)
 
         if self.is_trained:
-            if self.meta == 'scale' :
-                self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
-                self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
-            elif self.meta == 'plus':
+            if self.meta == 'Meta-1' :
                 self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
                 self.other_channel = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
-            elif self.meta == 'scale+plus':
+            elif self.meta == 'Meta-2':
+                self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+            elif self.meta == 'Meta-12':
                 self.H_trained = nn.ModuleList([FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
                 self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
                 self.other_channel = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
-            elif self.meta == 'normal':
+            elif self.meta == 'NN-DBP':
                 self.H_trained = nn.ParameterList([nn.Parameter(self.H) for i in range(self.K)])     # trained filter in linear step
                 self.scales = nn.ParameterList([nn.Parameter(torch.ones(1)) for i in range(self.K)]) # trained scales in nl step
-            elif self.meta == 'shared':
+            elif self.meta == 'Meta-3':
                 self.H_trained = FNN(self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H)
                 self.other_channel = FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1))
             elif self.meta == 'RFNN':
-                self.H_trained = nn.ModuleList([FNN(2*self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
-                self.scales = nn.ModuleList([FNN(self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
+                self.H_trained = nn.ModuleList([FNN(2 * self.Nfft, self.Nfft, meta_width, meta_depth,init_value=self.H) for i in range(self.K)])
+                self.scales = nn.ModuleList([FNN(2 * self.Nfft,1,meta_width, meta_depth,to_real=True,init_value=torch.ones(1)) for i in range(self.K)])
             else:
+                print(f'No such meta type named {self.meta}')
                 raise(ValueError)
         else:
             pass
@@ -129,13 +130,22 @@ class Fiber(nn.Module):
         v: current state + history state
         '''
         if self.is_trained:
-            if (self.meta == 'scale') or (self.meta == 'plus') or (self.meta == 'scale+plus') or (self.meta == 'RFNN'):
+            '''
+            Trained DBP
+            '''
+            if (self.meta == 'Meta-1') or (self.meta == 'Meta-2') or (self.meta == 'Meta-12') or (self.meta == 'RFNN'):
                 u = ifft(fft(u,dim=-1) * self.H_trained[step](v), dim=-1)
-            elif self.meta == 'normal':
+            elif self.meta == 'NN-DBP':
                 u = ifft(fft(u,dim=-1) * self.H_trained[step], dim=-1)
-            elif self.meta == 'shared':
+            elif self.meta == 'Meta-3':
                 u = ifft(fft(u,dim=-1) * self.H_trained(v), dim=-1)
+            else:
+                print(f'No such meta type named {self.meta}')
+                raise(ValueError)
         else:
+            '''
+            Normal SSFM linear step
+            '''
             u = ifft(fft(u,dim=-1) * self.H, dim=-1)
         return u
     
@@ -150,17 +160,26 @@ class Fiber(nn.Module):
         leff = (1 - np.exp(- self.alphalin * self.dz)) / self.alphalin
 
         if self.is_trained:
-            if self.meta == 'scale':
+            '''
+            Trained DBP
+            '''
+            if self.meta == 'Meta-2':
                 u = u * torch.exp(-(1j) * self.scales[step](v) * self.gam * power * leff)
-            elif self.meta == 'plus':
+            elif self.meta == 'Meta-1':
                 u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel[step](v)) * leff)
-            elif self.meta == 'scale + plus':
+            elif self.meta == 'Meta-12':
                 u = u * torch.exp(-(1j) * self.scales[step](v) *  self.gam * (power + self.other_channel[step](v)) * leff)
-            elif self.meta == 'normal':
+            elif self.meta == 'NN-DBP':
                 u = u * torch.exp(-(1j) * self.scales[step] * self.gam * power * leff)  
-            elif self.meta == 'shared':
+            elif self.meta == 'Meta-3':
                 u = u * torch.exp(-(1j) *  self.gam * (power + self.other_channel(v)) * leff)
+            else:
+                print(f'No such meta type named {self.meta}')
+                raise(ValueError)
         else:
+            '''
+            Normal SSFM nonlinear step
+            '''
             u = u * torch.exp(-(1j) * self.gam * power * leff)
         return u
     
@@ -173,13 +192,13 @@ class Fiber(nn.Module):
         for step in range(self.K):
 
             if self.meta == 'RFNN':
-                v = torch.cat([u,temp],axis=1)
+                v = torch.cat([u,temp],axis=-1)
             else:
                 v = u
 
             # 记录 u
             temp = u
-            
+
             u = self.nl_step(u,v,step=step)
             u = self.lin_step(u,v,step=step)
             u = u * np.exp(-0.5 * self.alphalin * self.dz)

@@ -33,7 +33,7 @@ def test_model(fiber, comp, tx, rx, N, power=50):
 
 
 def train(Epochs, batch, name, lr=0.0001, save_path='ckpt/',
- out_path='out/', test_num=100, power_range=[50,50],width=80,depth=3):
+ out_path='out/', test_num=100, power_range=[50,50],power_diverge = False,width=80,depth=3):
     '''
     Traing and save a model
     '''
@@ -81,7 +81,11 @@ def train(Epochs, batch, name, lr=0.0001, save_path='ckpt/',
         optimizer.zero_grad()
 
         # random power range
-        tx.power = torch.ones(config.Nch)*power_range[0] + (power_range[1] - power_range[0]) * torch.rand(1)
+        if power_diverge:
+            tx.power = torch.ones(config.Nch)*power_range[0] + (power_range[1] - power_range[0]) * torch.rand(config.Nch)
+        else:
+            tx.power = torch.ones(config.Nch)*power_range[0] + (power_range[1] - power_range[0]) * torch.rand(1)
+        
         x,_,_ = tx.data(batch=batch)   # sample a batch   x: batch x Nch x Nfft
 
         # Propagation and Back propagation

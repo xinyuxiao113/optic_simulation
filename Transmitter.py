@@ -38,14 +38,20 @@ class Tx(nn.Module):
 
     def pattern(self):
         '''
-        generate a random 0-1 sequence
+        Generate a random 0-1 sequence
+        output:
+            1 dim tensor: [Nbit]
         '''
         return (torch.rand(self.Nbit)>0.5) * 1.0 
     
 
     def one_pulse(self):
         '''
-        generate a pulse function: Raise Cosin
+        Generate a pulse function: Raise Cosin
+        Input:
+            None
+        Output:
+            1 dim tensor: [2*Nt]
         '''
         nl = round(0.5 * (1 - self.roll) * self.duty * self.Nt)
         nr = round(self.duty * self.Nt) - nl
@@ -59,8 +65,12 @@ class Tx(nn.Module):
 
     def modulation(self,pat):
         '''
-        digital modulation: OOK, QAM
+        Digital modulation: OOK, QAM
         {0,1}^(Nbit) --> C^(Nsymb)
+        Input:
+            1 dim tensor with each element equal to 0 or 1.
+        Output:
+
         '''
         # OOK modulation
         if self.modulation_formate == 'OOK':
@@ -77,7 +87,7 @@ class Tx(nn.Module):
 
     def pulse_shaping(self, symbol_stream):
         '''
-        translate a complex symbol stream to analog signal
+        Translate a complex symbol stream to analog signal
         C^{Nsymb} --> C^{Nfft}
         '''
         Nt = self.Nt
