@@ -7,8 +7,11 @@ import torch.nn.functional as F
 import config
 from Transmitter import Tx
 from Receiver import Rx
-from Fiber import Amplifier, Fiber
+from Fiber import Amplifier, Fiber, WSS
 import os
+import torch.nn as nn
+from collections import OrderedDict
+
 
 def MSE(a,b):
     return torch.abs(a - b).pow(2).mean()
@@ -16,7 +19,7 @@ def MSE(a,b):
 def Acc(a,b):
     return torch.sum(a==b).item() / a.numel()
 
-def test_model(fiber, comp, tx, rx, N, power=50):
+def test_model(channel_model, comp, tx, rx, N, power=50):
     '''
     Test model Acc
     '''
@@ -24,21 +27,19 @@ def test_model(fiber, comp, tx, rx, N, power=50):
     tx.power = torch.ones(config.Nch) * power
     rx.power = torch.ones(config.Nch) * power
     data_batch, symbol_batch, bit_batch = tx.data(batch=N)
-    y = data_batch
-    for i in range(config.span):
-        y = fiber(y)        # y: batch x Nch x Nfft
-
-    z = y[:,k:k+1,:]
-    for i in range(config.span):
-        z = comp(z)       # x: batch x 1 x Nfft
-    z = z.squeeze(1)
+    y = channel_model(data_batch)
+    z = comp(y)       # x: batch x 1 x Nfft
+    if z.shape[1] > 1:
+        z = z[:,config.k,:]
+    else:
+        z = z[:,0,:]
     bit_predict = rx.receiver(z, Nch=k)
     acc = Acc(bit_batch[:,k,:], bit_predict)
     return acc
 
 
-def train(Epochs, batch, model_name, lr=0.0001, save_path='ckpt/',
- out_path='out/', test_num=100, power_range=[50,50],power_diverge = False,width=80,depth=3):
+def train(model_name, Epochs=config.Epochs,batch=config.batch,lr=config.lr, power_range=config.power_range,power_diverge = config.power_diverge,
+save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=config.meta_width,depth=config.meta_depth):
     '''
     Traing and save a model
     '''
@@ -46,18 +47,10 @@ def train(Epochs, batch, model_name, lr=0.0001, save_path='ckpt/',
     ## Initializing the system
     
     k = config.k              # number of central channel
-    tx = Tx()                 # transmitter
-    rx = Rx()                 # receiver
+    tx = config.tx            # transmitter
+    rx = config.rx            # receiver
     # fiber channel
-    gerbio = config.alphaB * config.fiber_length / 1e3
-    if config.distributed_noise:
-        fiber = Fiber(tx.lam_set,config.fiber_length,config.alphaB,config.n2,config.disp,config.dz,config.Nch,config.generate_noise) 
-        amplifier = Amplifier(config.fiber_length, gerbio, False, config.noise_level)
-    else:
-        fiber = Fiber(tx.lam_set,config.fiber_length,config.alphaB,config.n2,config.disp,config.dz,config.Nch,False) 
-        amplifier = Amplifier(config.fiber_length, gerbio, config.generate_noise, config.noise_level)
-    
-        
+    channel_model = config.channel_model
 
     ## Load model or create model
     if not os.path.exists(save_path):
@@ -75,17 +68,19 @@ def train(Epochs, batch, model_name, lr=0.0001, save_path='ckpt/',
         start_num = torch.load(model_file)['epoch'] + 1
     except:
         start_num = 0
-        ## 如果采用放大器，就不需要在DBP处做补偿
-        # comp = Fiber(tx.lam_set[k:k+1],config.fiber_length,-config.alphaB,-config.n2,-config.disp,dz=1e4,Nch=1,
-        # meta=model_name,is_trained=True,meta_width=width,meta_depth=depth)
-        comp = Fiber(tx.lam_set[k:k+1],config.fiber_length,1e-4,-config.n2,-config.disp,dz=2.5e4,Nch=1,
+        ## 如果采用放大器，就不需要在DBP处做alphaB的补偿
+        def dbp_block():
+            return Fiber(tx.lam_set[k:k+1],config.fiber_length,1e-8,-config.n2,-config.disp,dz=config.DBP_dz,Nch=1,
         meta=model_name,is_trained=True,meta_width=width,meta_depth=depth)
+
+        # Sequential model
+        comp = nn.Sequential(OrderedDict([(f'DBP Block {i}', dbp_block()) for i in range(config.span)]))
     
     ## use gpu
     use_gpu = torch.cuda.is_available()
     if use_gpu:
         comp = comp.cuda()
-        fiber = fiber.cuda()
+        channel_model = channel_model.cuda()
 
     ## Training
     t0 = time.time()
@@ -108,14 +103,8 @@ def train(Epochs, batch, model_name, lr=0.0001, save_path='ckpt/',
         x,_,_ = tx.data(batch=batch)   # sample a batch   x: batch x Nch x Nfft
 
         # Propagation and Back propagation
-        y = x
-        for i in range(config.span):
-            y = fiber(y)        # y: batch x Nch x Nfft
-            y = amplifier(y)
-        
-        z = y[:,k:k+1,:]
-        for i in range(config.span):
-            z = comp(z)
+        y = channel_model(x)
+        z = comp(y[:,k:k+1,:])
         loss = MSE(z, x[:,k:k+1,:])
         loss.backward()
         optimizer.step()
@@ -141,10 +130,42 @@ def train(Epochs, batch, model_name, lr=0.0001, save_path='ckpt/',
         print('Training done! Time cost: %g' % (t1-t0), file=f)
         print('Testing!', file=f)
     
-    acc = test_model(fiber, comp, tx, rx, N=test_num)
+    acc = test_model(channel_model, comp, tx, rx, N=test_num)
     with open(print_file, 'a') as f:
         print('Current Acc: %g' % acc, file=f)
         print('Mission complete!', file=f)
     torch.save({'epoch':epoch, 'loss':loss.item(), 'model':comp, 'acc':acc},model_file)
     return
+
+
+def get_model(name, model_path):
+    train_model_names = ['NN-DBP','Meta-1','Meta-2','Meta-3']
+    wss = WSS()
+    k = config.k
+
+    if config.EDFA:
+        alpha_dbp = 1e-8
+    else:
+        alpha_dbp = - config.alphaB
+
+    if name == 'no comp':
+        return wss
+    elif name == 'DO-DBP':
+        comp = Fiber(config.lam_set[k:k+1], config.fiber_length, alpha_dbp, n2=0, disp=-config.disp, dz=config.fiber_length, Nch=1)
+        model = nn.Sequential(OrderedDict([(f'CD {i}', comp) for i in range(config.span)]))
+        return nn.Sequential(wss, model)
+    elif name == 'SC-DBP':
+        comp = Fiber(config.lam_set[k:k+1], config.fiber_length, alpha_dbp, n2=-config.n2, disp=-config.disp, dz=config.dz, Nch=1)
+        model = nn.Sequential(OrderedDict([(f'SC-DBP {i}', comp) for i in range(config.span)]))
+        return nn.Sequential(wss, model)
+    elif name == 'full DBP':
+        comp = Fiber(config.lam_set, config.fiber_length, alpha_dbp, n2=-config.n2, disp=-config.disp, dz=1e4, Nch=config.Nch)
+        model = nn.Sequential(OrderedDict([(f'full DBP {i}', comp) for i in range(config.span)]))
+        return nn.Sequential(model)
+    elif name in train_model_names:
+        model = torch.load(model_path + name + '_best.pt',map_location=torch.device('cpu'))['model']
+        return nn.Sequential(wss, model)
+    else:
+        print(f'No model names {name}!')
+        raise(ValueError)
     

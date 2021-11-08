@@ -22,9 +22,14 @@ elif modulation_formate == 'OOK':
     Nsymb = Nbit
 Nfft = Nsymb * Nt
 
+lam_set = torch.tensor([]) 
+for i in range(-k,k+1):
+    lam_set = torch.cat([lam_set,torch.tensor([lam + channel_space * i])])
+
 
 # Fiber parameters
-distributed_noise = False
+EDFA = True
+power_diverge = False
 fiber_length = 1e5                  # fiber length [m]
 span = 10                           # span number 
 alphaB = 0.2                        # attenuation [dB/km]
@@ -38,9 +43,20 @@ Aeff = 80                           # effective area [um^2] (1 um = 1e-6 m)
 slope = 0                           # slope [ps/nm^2/km] 
 dphimax = 3E-3                      # maximum nonlinear phase rotation per step
 dzmax   = 2E4                       # maximum SSFM step 
-generate_noise = 'n'              # noise type: 'n' or 'n*u' or False, default False
+generate_noise = 'n'                # noise type: 'n' or 'n*u' or False, default False
+gerbio = alphaB*fiber_length/1e3    # EDFA 放大参数
 
-# meta net parameter
-meta_width = 60
-meta_depth = 2
+# Trainning parameter
+save_path = 'ckpt-set/test'
+out_path = 'out-set/test'
+power_range = [1,1]
+meta_width = 80
+meta_depth = 3
+Epochs = 600
+batch = 64
+lr = 0.001
+
+# Testing parameters
+test_num = 100
+
 

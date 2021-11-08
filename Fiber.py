@@ -245,3 +245,10 @@ class Amplifier(nn.Module):
             raise(ValueError)
             
         return u*self.gain + noise
+
+class WSS(nn.Module):
+    def __init__(self):
+        super(WSS,self).__init__()
+    
+    def forward(self,u):
+        return torch.index_select(u, dim=-2, index=torch.tensor([config.k]))

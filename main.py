@@ -11,9 +11,10 @@ from Fiber import Fiber,Amplifier
 from train_model import train, test_model
 
 # model name: 'Meta-1' (plus term), 'Meta-2' (scale), 'Meta-3'(shared), NN-DBP
-save_path = 'ckpt-set/ckpt-EDFA/'
-out_path = 'out-set/out-EDFA/'
-train(Epochs=600,batch=64,lr=1e-3,model_name='NN-DBP',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
-train(Epochs=600,batch=64,lr=1e-3,model_name='Meta-1',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
-train(Epochs=600,batch=64,lr=1e-3,model_name='Meta-2',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
-train(Epochs=600,batch=64,lr=1e-3,model_name='Meta-3',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
+save_path = 'ckpt-set/ckpt-EDFA-2stps/'
+out_path = 'out-set/out-EDFA-2stps/'
+
+train(config.Epochs,config.batch,config.lr,model_name='NN-DBP',save_path=save_path,out_path=out_path,power_range=config.power_range,width=config.meta_width,depth=config.meta_depth)
+train(config.Epochs,config.batch,config.lr,model_name='Meta-1',save_path=save_path,out_path=out_path,power_range=config.power_range,width=config.meta_width,depth=config.meta_depth)
+train(config.Epochs,config.batch,config.lr,model_name='Meta-2',save_path=save_path,out_path=out_path,power_range=config.power_range,width=config.meta_width,depth=config.meta_depth)
+train(config.Epochs,config.batch,config.lr,model_name='Meta-3',save_path=save_path,out_path=out_path,power_range=config.power_range,width=config.meta_width,depth=config.meta_depth)
