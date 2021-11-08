@@ -4,7 +4,7 @@ from torch.nn import Conv1d
 import torch.nn.functional as F
 import numpy as np
 import config
-from torch.fft import fft, ifft
+
 
 def complex_leakyRelu(input):
     return F.leaky_relu(input.real,negative_slope=0.01) + F.leaky_relu(input.imag,negative_slope=0.01)*(1j)

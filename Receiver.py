@@ -1,22 +1,22 @@
 import torch
 import torch.nn as nn
 import numpy as np
-import matplotlib.pyplot as plt
 import config
 
 class Rx(nn.Module):
     '''
     Receiver Module
     '''
-    def __init__(self):
+    def __init__(self, Nbit=config.Nbit, Nsymb=config.Nsymb, Nt=config.Nt, Nch=config.Nch, sample_rate=config.sample_rate):
         super(Rx,self).__init__()
         self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
        ## filed parameter
-        self.Nbit = config.Nbit              # number of bits
-        self.Nsymb = config.Nsymb            # number of symbols
-        self.Nt = config.Nt                  # number of samples / symbol
-        self.Nch = config.Nch                # number of channels 
+        self.Nbit = Nbit              # number of bits
+        self.Nsymb = Nsymb            # number of symbols
+        self.Nt = Nt                  # number of samples / symbol
+        self.Nch = Nch                # number of channels 
         self.Nfft = self.Nt * self.Nsymb      
+        self.sample_rate = sample_rate
         self.modulation_formate = config.modulation_formate 
 
         self.symbol_rate = config.symbol_rate # symbol rate 10[Gb/s]
@@ -61,13 +61,15 @@ class Rx(nn.Module):
         hperiod = self.duty * self.Nt - 2 * nl
         elpulse[nl + self.Nt: nr + self.Nt] = 0.5*(1 + torch.cos(np.pi/(hperiod)*(ncos-nl+0.5)))
         elpulse[0:self.Nt] = torch.flip(elpulse[self.Nt:2*self.Nt+1],[0])
+        h = int(self.Nt / self.sample_rate)
+        elpulse = elpulse[::h]
         return elpulse + (0j)
     
     def generate_filter(self):
         '''
         Generate the filter kernel H: C^{ Nsymb x Nfft }
         '''
-        Nt = self.Nt
+        Nt = self.sample_rate
         Nfft = self.Nsymb * Nt
         H = torch.zeros(self.Nsymb, Nfft) + (0j)
 
@@ -142,6 +144,7 @@ class Rx(nn.Module):
         return x_bit
     
     def show_symbol(self,I,symbol_stream,size=5):
+        import matplotlib.pyplot as plt
         x = I.real
         y = I.imag
         symbol_set = [-1+1j, 1+1j, -1-1j, 1-1j]

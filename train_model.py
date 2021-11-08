@@ -5,9 +5,7 @@ import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
 import config
-from Transmitter import Tx
-from Receiver import Rx
-from Fiber import Amplifier, Fiber, WSS
+from Fiber import Amplifier, Fiber, WSS, Sampler
 import os
 import torch.nn as nn
 from collections import OrderedDict
@@ -19,11 +17,11 @@ def MSE(a,b):
 def Acc(a,b):
     return torch.sum(a==b).item() / a.numel()
 
-def test_model(channel_model, comp, tx, rx, N, power=50):
+def test_model(channel_model, comp, tx, rx, N, power=config.power_range[0]):
     '''
     Test model Acc
     '''
-    k = int((config.Nch - 1)/2)  # number of central channel
+    k = config.k                                # number of central channel
     tx.power = torch.ones(config.Nch) * power
     rx.power = torch.ones(config.Nch) * power
     data_batch, symbol_batch, bit_batch = tx.data(batch=N)
@@ -44,22 +42,10 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
     Traing and save a model
     '''
 
-    ## Initializing the system
-    
+    ## Initializing the system: load model or create model 
     k = config.k              # number of central channel
-    tx = config.tx            # transmitter
-    rx = config.rx            # receiver
-    # fiber channel
-    channel_model = config.channel_model
-
-    ## Load model or create model
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    if not os.path.exists(out_path):
-        os.makedirs(out_path) 
+    from fiber_system import tx,rx,channel_model, sampler, wss
     
-    os.system(f'cp config.py {save_path}config.py')
-
     model_file = save_path + model_name + '_best.pt'   # model path
     loss_file = save_path + model_name +'_losspath.pt' # loss path
     print_file = out_path + model_name + 'print.txt'
@@ -69,12 +55,14 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
     except:
         start_num = 0
         ## 如果采用放大器，就不需要在DBP处做alphaB的补偿
-        def dbp_block():
-            return Fiber(tx.lam_set[k:k+1],config.fiber_length,1e-8,-config.n2,-config.disp,dz=config.DBP_dz,Nch=1,
-        meta=model_name,is_trained=True,meta_width=width,meta_depth=depth)
-
+        if config.EDFA:
+            DBP = Fiber(tx.lam_set[k:k+1],config.fiber_length * config.span,1e-8,-config.n2,-config.disp,dz=config.DBP_dz,Nch=1,
+            meta=model_name,is_trained=True,meta_width=width,meta_depth=depth, Nt=config.sample_rate)
+        else:
+            DBP = Fiber(tx.lam_set[k:k+1],config.fiber_length * config.span,-config.alphaB,-config.n2,-config.disp,dz=config.DBP_dz,Nch=1,
+            meta=model_name,is_trained=True,meta_width=width,meta_depth=depth, Nt=config.sample_rate)
         # Sequential model
-        comp = nn.Sequential(OrderedDict([(f'DBP Block {i}', dbp_block()) for i in range(config.span)]))
+        comp = nn.Sequential(wss, sampler, DBP)
     
     ## use gpu
     use_gpu = torch.cuda.is_available()
@@ -86,6 +74,7 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
     t0 = time.time()
     with open(print_file, 'a') as f:
         print('Training Start!', file=f) 
+        print(f'Setting = {config.setting}, sample rate = {config.sample_rate}', file=f)
     optimizer = optim.Adam(params=comp.parameters(),lr=lr)
     train_loss_path = []
 
@@ -104,8 +93,11 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
 
         # Propagation and Back propagation
         y = channel_model(x)
-        z = comp(y[:,k:k+1,:])
-        loss = MSE(z, x[:,k:k+1,:])
+        z = comp(y)
+
+        x = wss(x)
+        x = sampler(x)
+        loss = MSE(z, x)
         loss.backward()
         optimizer.step()
 
@@ -140,31 +132,33 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
 
 def get_model(name, model_path):
     train_model_names = ['NN-DBP','Meta-1','Meta-2','Meta-3']
+    sampler = Sampler()
     wss = WSS()
     k = config.k
-
+    dev = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     if config.EDFA:
         alpha_dbp = 1e-8
     else:
         alpha_dbp = - config.alphaB
 
     if name == 'no comp':
-        return wss
+        return nn.Sequential(wss, sampler).to(dev)
     elif name == 'DO-DBP':
-        comp = Fiber(config.lam_set[k:k+1], config.fiber_length, alpha_dbp, n2=0, disp=-config.disp, dz=config.fiber_length, Nch=1)
+        comp = Fiber(config.lam_set[k:k+1], config.fiber_length, alpha_dbp, n2=0, disp=-config.disp, dz=config.fiber_length, Nch=1, Nt=config.sample_rate)
         model = nn.Sequential(OrderedDict([(f'CD {i}', comp) for i in range(config.span)]))
-        return nn.Sequential(wss, model)
+        return nn.Sequential(wss, sampler, model).to(dev)
     elif name == 'SC-DBP':
-        comp = Fiber(config.lam_set[k:k+1], config.fiber_length, alpha_dbp, n2=-config.n2, disp=-config.disp, dz=config.dz, Nch=1)
+        comp = Fiber(config.lam_set[k:k+1], config.fiber_length, alpha_dbp, n2=-config.n2, disp=-config.disp, dz=config.dz, Nch=1, Nt=config.sample_rate)
         model = nn.Sequential(OrderedDict([(f'SC-DBP {i}', comp) for i in range(config.span)]))
-        return nn.Sequential(wss, model)
+        return nn.Sequential(wss, sampler, model).to(dev)
     elif name == 'full DBP':
-        comp = Fiber(config.lam_set, config.fiber_length, alpha_dbp, n2=-config.n2, disp=-config.disp, dz=1e4, Nch=config.Nch)
+        comp = Fiber(config.lam_set, config.fiber_length, alpha_dbp, n2=-config.n2, disp=-config.disp, dz=5e2, Nch=config.Nch, Nt=config.sample_rate)
         model = nn.Sequential(OrderedDict([(f'full DBP {i}', comp) for i in range(config.span)]))
-        return nn.Sequential(model)
+        return nn.Sequential(sampler, model).to(dev)
     elif name in train_model_names:
-        model = torch.load(model_path + name + '_best.pt',map_location=torch.device('cpu'))['model']
-        return nn.Sequential(wss, model)
+        model = torch.load(model_path + name + '_best.pt',map_location=torch.device(dev))['model']
+        return model
+        # return nn.Sequential(wss, sampler, model[2])
     else:
         print(f'No model names {name}!')
         raise(ValueError)

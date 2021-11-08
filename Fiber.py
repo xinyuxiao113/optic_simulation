@@ -4,7 +4,6 @@ import torch.nn as nn
 from torch.nn import Conv1d
 import torch.nn.functional as F
 import numpy as np
-from complexPyTorch.complexLayers import ComplexLinear
 import config
 from torch.fft import fft, ifft
 from complex_layers import FNN,CNN,complex_linear
@@ -14,14 +13,15 @@ class Fiber(nn.Module):
     '''
     Fiber model. SSFM Algorithm.
     '''
-    def __init__(self,lam_set=None,length=1e5,alphaB=0.2,n2=2.7e-20,disp=17,dz=100,Nch=1,
-    generate_noise=False,noise_level=config.noise_level,is_trained=False,meta=False,meta_width=60, meta_depth=2):
+    def __init__(self,lam_set=None,length=config.fiber_length,alphaB=config.alphaB,n2=config.n2,disp=config.disp,dz=config.dz,Nch=config.Nch,
+    generate_noise=False,noise_level=config.noise_level,is_trained=False,meta=False,
+    meta_width=60, meta_depth=2, Nsymb=config.Nsymb, Nt = config.Nt):
         super(Fiber,self).__init__()
         ## field parameter
-        self.Nsymb = config.Nsymb  # number ofs symbols
-        self.Nt = config.Nt        # number of samples every symbol
-        self.Nfft = config.Nfft    # dims of input
-        self.Nch = Nch             # number of channels
+        self.Nsymb = Nsymb            # number ofs symbols
+        self.Nt = Nt                  # number of samples every symbol
+        self.Nfft = self.Nsymb * self.Nt     # dims of input
+        self.Nch = Nch                       # number of channels
         
         self.generate_noise = generate_noise         # generate noise or not 
         self.noise_level = noise_level        # noise level
@@ -204,11 +204,11 @@ class Fiber(nn.Module):
             u = u * np.exp(-0.5 * self.alphalin * self.dz)
 
             if self.generate_noise == 'n':
-                noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+                noise = np.sqrt(self.dz) * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
                 noise = noise.to(self.device)
                 u = u + noise
             elif self.generate_noise == 'n*u':
-                noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+                noise = np.sqrt(self.dz) * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
                 noise = noise.to(self.device)
                 u = u + noise * u
             elif self.generate_noise == False:
@@ -231,11 +231,11 @@ class Amplifier(nn.Module):
     
     def forward(self,u):
         if self.generate_noise == 'n':
-                noise = 1e-2* self.length * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+                noise = np.sqrt(self.length) * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
                 noise = noise.to(self.device)
                 u = u + noise
         elif self.generate_noise == 'n*u':
-            noise = 1e-2* self.length * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+            noise = np.sqrt(self.length*1.0) * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
             noise = noise.to(self.device)
             u = u + noise * u
         elif self.generate_noise == False:
@@ -249,6 +249,26 @@ class Amplifier(nn.Module):
 class WSS(nn.Module):
     def __init__(self):
         super(WSS,self).__init__()
-    
     def forward(self,u):
-        return torch.index_select(u, dim=-2, index=torch.tensor([config.k]))
+        '''
+        u: batch x Nch x Nfft  or Nch x Nfft
+        '''
+        index = torch.tensor([config.k]).to(u.device)
+        return torch.index_select(u, dim=-2, index=index)
+
+
+class Sampler(nn.Module):
+    def __init__(self, Nsymb = config.Nsymb, Nt = config.sample_rate):
+        super(Sampler,self).__init__()
+        self.Nsymb = Nsymb
+        self.Nt = Nt
+    def forward(self,u):
+        '''
+        u: batch x Nch x Nfft
+        [0:Nfft-1]
+
+        '''
+        Nfft = u.shape[-1]
+        step = int(Nfft / self.Nsymb / self.Nt)
+        index = torch.arange(Nfft)[::step].to(u.device)
+        return torch.index_select(u, dim=-1, index=index)

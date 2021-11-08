@@ -7,14 +7,14 @@ import torch.nn.functional as F
 import config
 from Transmitter import Tx
 from Receiver import Rx
-from Fiber import Amplifier, Fiber
+from Fiber import Amplifier, Fiber, Sampler, WSS
 import os
 import torch.nn as nn
 from collections import OrderedDict
 
 # channel model
-tx = Tx()                 # transmitter
-rx = Rx()                 # receiver
+tx = Tx()                       # transmitter
+rx = Rx()  # receiver
 
 
 if config.EDFA:
@@ -26,4 +26,6 @@ else:
 
 fiber_block = nn.Sequential(OrderedDict([('fiber',fiber),('amp',amplifier)]))
 channel_model = nn.Sequential(OrderedDict([(f'Block {i}',fiber_block) for i in range(config.span)]))
+wss = WSS()
+sampler = Sampler()
 
