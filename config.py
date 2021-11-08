@@ -38,7 +38,7 @@ disp = 17                           # dispersion [ps/nm/km]
 dz = 1e2                            # SSFM step size
 power = torch.ones(3)*1.0           # power [mW]   train power: 50
 symbol_rate = 56                    # [G Hz]    
-noise_level = 1e-3                  # noise level
+noise_level = 1e-4                  # noise level
 Aeff = 80                           # effective area [um^2] (1 um = 1e-6 m)
 slope = 0                           # slope [ps/nm^2/km] 
 dphimax = 3E-3                      # maximum nonlinear phase rotation per step
