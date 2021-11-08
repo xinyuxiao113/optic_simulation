@@ -5,8 +5,6 @@ import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
 import config
-from Transmitter import Tx
-from Receiver import Rx
 from Fiber import Amplifier, Fiber, WSS
 import os
 import torch.nn as nn
@@ -44,15 +42,9 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
     Traing and save a model
     '''
 
-    ## Initializing the system
-    
+    ## Initializing the system: load model or create model 
     k = config.k              # number of central channel
-    tx = config.tx            # transmitter
-    rx = config.rx            # receiver
-    # fiber channel
-    channel_model = config.channel_model
-
-    ## Load model or create model
+    from fiber_system import tx,rx,channel_model
     if not os.path.exists(save_path):
         os.makedirs(save_path)
     if not os.path.exists(out_path):
