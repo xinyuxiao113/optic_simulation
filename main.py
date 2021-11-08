@@ -11,7 +11,9 @@ from Fiber import Fiber,Amplifier
 from train_model import train, test_model
 
 # model name: 'Meta-1' (plus term), 'Meta-2' (scale), 'Meta-3'(shared), NN-DBP
-name = 'NN-DBP'
-save_path = 'ckpt-set/ckpt-test-S10/'
-out_path = 'out-set/out-test-S10/'
-train(Epochs=600,batch=64,lr=0.001,name=name,save_path=save_path,out_path=out_path,power_range=[50,50],width=80,depth=3)
+save_path = 'ckpt-set/ckpt-EDFA/'
+out_path = 'out-set/out-EDFA/'
+train(Epochs=600,batch=64,lr=1e-3,model_name='NN-DBP',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
+train(Epochs=600,batch=64,lr=1e-3,model_name='Meta-1',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
+train(Epochs=600,batch=64,lr=1e-3,model_name='Meta-2',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)
+train(Epochs=600,batch=64,lr=1e-3,model_name='Meta-3',save_path=save_path,out_path=out_path,power_range=[1,1],width=80,depth=3)

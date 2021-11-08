@@ -15,7 +15,7 @@ class Fiber(nn.Module):
     Fiber model. SSFM Algorithm.
     '''
     def __init__(self,lam_set=None,length=1e5,alphaB=0.2,n2=2.7e-20,disp=17,dz=100,Nch=1,
-    generate_noise=False,noise_level=config.noise_level,is_trained=False,meta='0',meta_width=60, meta_depth=2):
+    generate_noise=False,noise_level=config.noise_level,is_trained=False,meta=False,meta_width=60, meta_depth=2):
         super(Fiber,self).__init__()
         ## field parameter
         self.Nsymb = config.Nsymb  # number ofs symbols
@@ -203,18 +203,45 @@ class Fiber(nn.Module):
             u = self.lin_step(u,v,step=step)
             u = u * np.exp(-0.5 * self.alphalin * self.dz)
 
-            if self.generate_noise:
-                noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + self.noise_level * torch.randn(u.shape)*(1j))
+            if self.generate_noise == 'n':
+                noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
                 noise = noise.to(self.device)
                 u = u + noise
+            elif self.generate_noise == 'n*u':
+                noise = 1e-2* self.dz * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+                noise = noise.to(self.device)
+                u = u + noise * u
+            elif self.generate_noise == False:
+                pass
+            else:
+                print(f'No such noise type named {self.generate_noise}')
+                raise(ValueError)
         return u
 
 
 class Amplifier(nn.Module):
 
-    def __init__(self,gerbio):
+    def __init__(self,length, gerbio, generate_noise, noise_level):
         super(Amplifier,self).__init__()
         self.gain = np.sqrt(10**(0.1*gerbio))
+        self.generate_noise = generate_noise
+        self.noise_level = noise_level
+        self.length = length
+        self.device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     
     def forward(self,u):
-        return u*self.gain
+        if self.generate_noise == 'n':
+                noise = 1e-2* self.length * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+                noise = noise.to(self.device)
+                u = u + noise
+        elif self.generate_noise == 'n*u':
+            noise = 1e-2* self.length * self.noise_level / np.sqrt(2) * (torch.randn(u.shape) + torch.randn(u.shape)*(1j))
+            noise = noise.to(self.device)
+            u = u + noise * u
+        elif self.generate_noise == False:
+            noise = 0
+        else:
+            print(f'No such noise type named {self.generate_noise}')
+            raise(ValueError)
+            
+        return u*self.gain + noise
