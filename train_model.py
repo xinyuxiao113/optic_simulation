@@ -44,16 +44,7 @@ save_path='ckpt-set/', out_path='out-set/', test_num=config.test_num, width=conf
 
     ## Initializing the system: load model or create model 
     k = config.k              # number of central channel
-<<<<<<< HEAD
     from fiber_system import tx,rx,channel_model, sampler, wss
-=======
-    from fiber_system import tx,rx,channel_model
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    if not os.path.exists(out_path):
-        os.makedirs(out_path) 
->>>>>>> 0a4121b10ce88db38a1b02eb39addcbb12eb3a55
-    
     model_file = save_path + model_name + '_best.pt'   # model path
     loss_file = save_path + model_name +'_losspath.pt' # loss path
     print_file = out_path + model_name + 'print.txt'
